@@ -16,7 +16,8 @@ EXIF and GPS removed, phone rotation applied first):
     images/kitchen-testimonials/full/<client>-01.webp   .../low/...
 
 It also writes gallery-tiles.html: one ready gallery tile per project folder, to paste into
-the gallery grid in index.html (replacing the PLACEHOLDER tiles). Add the area to each tile.
+the gallery grid in index.html (replacing the PLACEHOLDER tiles). The first six get the layout
+classes the grid expects (feature, tall, two small, two wide). Replace AREA in each tile.
 """
 import os
 import re
@@ -77,16 +78,13 @@ def main():
         if not made:
             continue
         full = ','.join(f'images/kitchen/full/{m}' for m in made)
-        tiles.append(f'''        <!-- {d}: replace AREA (area only, never a street) -->
-        <div class="gal-tile" data-set="{full}"
-          data-label="Kitchen renovation in AREA">
-          <img src="images/kitchen/low/{made[0]}"
-            alt="Kitchen renovation completed by A&amp;G Renovations in AREA, London" class="gal-img"
-            loading="lazy" decoding="async" width="600" height="800">
-          <div class="gal-overlay"><span>View Project</span></div>
-
-          <div class="gal-place">AREA</div>
-        </div>
+        cls = ['tile-feature', 'tile-tall', '', '', 'tile-wide', 'tile-wide'][len(tiles)] if len(tiles) < 6 else ''
+        count = f'\n          <span class="tile-count">{len(made)} photos</span>' if len(made) > 1 else ''
+        tiles.append(f'''        <!-- {d}: replace AREA with the area only (e.g. Fulham), never a street -->
+        <button type="button" class="tile {cls}" data-images="{full}" data-caption="Kitchen in AREA">
+          <img src="images/kitchen/low/{made[0]}" alt="Kitchen renovation by A&amp;G Renovations in AREA, London" loading="lazy" decoding="async" width="800" height="600">
+          <span class="tile-cap">Kitchen in AREA</span>{count}
+        </button>
 ''')
     if tiles:
         with open('gallery-tiles.html', 'w', encoding='utf-8') as fh:

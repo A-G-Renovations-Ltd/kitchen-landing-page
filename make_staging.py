@@ -41,12 +41,21 @@ for bad in ('googletagmanager.com/gtm.js', 'clarity.ms/tag', 'gtag/js?id=', 'hoo
 
 with open(os.path.join(target, 'index.html'), 'w', encoding='utf-8') as fh:
     fh.write(s)
-for d in ('dist', 'images', 'src'):
-    shutil.copytree(d, os.path.join(target, d), dirs_exist_ok=True)
-for f in ('logo.jpeg', 'package.json', 'package-lock.json', '.gitignore'):
+for d in ('css', 'images'):
+    dst = os.path.join(target, d)
+    if os.path.isdir(dst):
+        shutil.rmtree(dst)          # mirror exactly, so deleted images disappear from staging too
+    shutil.copytree(d, dst)
+for f in ('logo.jpeg', '.gitignore'):
     shutil.copy2(f, os.path.join(target, f))
 with open(os.path.join(target, 'robots.txt'), 'w') as fh:
     fh.write('User-agent: *\nDisallow: /\n')
-if os.path.exists(os.path.join(target, 'CNAME')):
-    os.remove(os.path.join(target, 'CNAME'))
+for leftover in ('CNAME', 'package.json', 'package-lock.json'):
+    p = os.path.join(target, leftover)
+    if os.path.exists(p):
+        os.remove(p)
+for leftover in ('dist', 'src'):
+    p = os.path.join(target, leftover)
+    if os.path.isdir(p):
+        shutil.rmtree(p)
 print(f'Staging copy written to {os.path.abspath(target)}')
