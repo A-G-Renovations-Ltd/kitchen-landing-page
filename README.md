@@ -29,23 +29,35 @@ No build step: plain HTML and one CSS file. Edit, then push.
   the original fields.
 - **Conversion:** the Ads form conversion fires only on a confirmed 2xx from Zapier. On failure the visitor
   sees a "call us" message and nothing is counted.
-- **Extra GA4 events** for funnel analysis: `form_step` (step 1 and 2 answers), `included_select` (which part
-  of the kitchen drawing was tapped), `gallery_open`, `cta_click` (with location).
+- **Extra GA4 events** for funnel analysis: `form_step` (step 1 and 2 answers), `contract_toggle` (the
+  comparison switch), `included_select` and `included_tour` (the kitchen tour), `gallery_open`, `cta_click`.
+- **Interactive pieces:** the trades comparison switches itself to the A&G view once when it scrolls into view;
+  the kitchen drawing draws itself in once, then plays through the seven parts like stories (pausable, with
+  arrows, and tap-to-advance on mobile); the process line fills as you scroll. All of it stays still for
+  visitors who have reduced motion switched on.
 - **What's included:** the kitchen drawing is original line art (no photo), so it works permanently.
 
 ## Before the first launch
 
 1. **No placeholders left.** In PowerShell: `(Select-String -Path index.html -Pattern "PLACEHOLDER").Count`
-   must return `0`. They are in the 6 gallery tiles and the 3 review cards. The hero already uses a real photo.
+   must return `0`. The only placeholders left are the 6 gallery tiles.
 2. **Confirmed with Andrius (Nov 2026):** kitchen fitters are in-house; the 10-15% matching-service line applies
    to kitchens; no response-time promise anywhere on the page; no standard duration in the timeline FAQ. The
    included scope and the four popular additions follow the October brand catalogue.
-3. **Review figures checked live that day**: the page shows Google 5.0 from 60 and Trustpilot 4.7 from 48 (the
-   October catalogue figures), in the hero and the reviews section.
-4. **Every review card** is a real kitchen review, word for word, with the client's permission for photos.
-5. **Areas are area-level only** on gallery captions and alt text, never a street.
-6. **Test the live form once before the kitchen campaign starts**, with "TEST" in the message, and confirm it
+3. **Review figures checked live that day**: the page shows Google 5.0 from 60 and Trustpilot 4.7 from 48, in the
+   hero proof row and the reviews section.
+4. **Client photo permission** confirmed for Kimberly Dennis (hero photo and review card), Stevie Downard and
+   Helen, E14.
+5. **Hidden review card (Mindaugas K.)** stays hidden unless it's confirmed the reviewer is a client and not the
+   former A&G coordinator. To show it, delete the word `hidden` on that `<article>` in the reviews section.
+6. **Areas are area-level only** on gallery captions and alt text, never a street.
+7. **Test the live form once before the kitchen campaign starts**, with "TEST" in the message, and confirm it
    reaches the CRM labelled as a kitchen enquiry.
+
+## Reviews on the page
+
+Review text is quoted word for word from Google. Where "…" appears, a passage was left out: staff names other than
+Andrius, and Helen's mention of the platform she booked through. Keep to that rule when adding reviews.
 
 ## Adding photos and reviews
 
