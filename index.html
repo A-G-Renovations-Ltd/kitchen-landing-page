@@ -22,7 +22,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700;9..40,800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/kitchen.css?v=4">
+  <link rel="stylesheet" href="css/kitchen.css?v=5">
 
   <!-- TRACKING:START Microsoft Clarity (marketing@ account; swap the ID for a kitchen-only project if you create one) -->
   <script type="text/javascript">
@@ -168,6 +168,7 @@
 </head>
 
 <body>
+  <svg class="thread" aria-hidden="true"><defs><linearGradient id="thread-grad" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="0" y2="1000"></linearGradient></defs><path class="thread-path"/><g class="blooms"></g><circle class="thread-pen" r="3.5"/></svg>
   <a class="skip" href="#main">Skip to content</a>
 
   <header class="site-header">
@@ -211,13 +212,22 @@
             </div>
           </div>
           <figure class="hero-media">
-            <picture>
-              <source media="(max-width: 960px)" srcset="images/kitchen/hero/kitchen-hero-landscape.webp" width="1600" height="1200">
-              <img src="images/kitchen/hero/kitchen-hero-portrait.webp" alt="A completed A&amp;G kitchen with dark shaker-style units, brass cup handles, under-cabinet lighting and a marble-effect splashback" width="1200" height="1600" fetchpriority="high" decoding="async">
-            </picture>
-            <div class="award-chip">
-              <span class="seal"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 2.5 14.2 5l3.3-.4.6 3.3 2.9 1.7-1.4 3 1.4 3-2.9 1.7-.6 3.3-3.3-.4L12 21.5 9.8 19l-3.3.4-.6-3.3L3 14.4l1.4-3L3 8.6l2.9-1.7.6-3.3 3.3.4L12 2.5Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><path d="m8.8 12.2 2.2 2.2 4.2-4.6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
-              <span><b>Kitchen &amp; Bathroom Installation Firm of the Year</b><span>Prestige Awards 2026/27, London &amp; South East England</span></span>
+            <div class="arch">
+              <picture>
+                <source media="(max-width: 960px)" srcset="images/kitchen/hero/kitchen-hero-landscape.webp" width="1600" height="1200">
+                <img src="images/kitchen/hero/kitchen-hero-portrait.webp" alt="A completed A&amp;G kitchen with dark shaker-style units, brass cup handles, under-cabinet lighting and a marble-effect splashback" width="1200" height="1600" fetchpriority="high" decoding="async">
+              </picture>
+            </div>
+            <span class="arch-line" aria-hidden="true"></span>
+            <div class="award-seal" role="img" aria-label="Kitchen and Bathroom Installation Firm of the Year, Prestige Awards 2026/27, London and South East England">
+              <svg viewBox="0 0 140 140" aria-hidden="true">
+                <defs><path id="seal-ring" d="M70,70 m-53,0 a53,53 0 1,1 106,0 a53,53 0 1,1 -106,0"/></defs>
+                <circle class="seal-bg" cx="70" cy="70" r="69"/>
+                <circle class="seal-line" cx="70" cy="70" r="41"/>
+                <text class="seal-text"><textPath href="#seal-ring" textLength="328" lengthAdjust="spacing">Firm of the Year ✦ Prestige Awards 2026/27 ✦ </textPath></text>
+                <g class="seal-words"><text x="70" y="62">Kitchen &amp;</text><text x="70" y="75">Bathroom</text><text x="70" y="88">Installation</text></g>
+                <path class="seal-icon" d="M70 54l4.2 8.5 9.3 1.4-6.7 6.6 1.6 9.3-8.4-4.4-8.4 4.4 1.6-9.3-6.7-6.6 9.3-1.4z"/>
+              </svg>
             </div>
             <figcaption class="hero-quote">
               <span class="hq-top"><span class="avatar" style="background:#e8467c" aria-hidden="true">K</span><span class="stars" aria-hidden="true"><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></span></span>
@@ -407,21 +417,96 @@
           </figure>
         </div>
         <p class="included-bookend"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true"><circle cx="9" cy="9" r="7" stroke="currentColor" stroke-width="1.8"/><path d="m6 9.3 2 2 4-4.3" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg><span>At the end, silicone sealing and finishing, a final clean and quality checks, then a walk-through before handover.</span></p>
-        <div class="upgrades">
-          <div>
-            <h3>Popular additions</h3>
-            <p>Many homeowners add these to improve how the kitchen works and looks. Each is an optional add-on with its own individual cost.</p>
-          </div>
-          <ul class="upgrade-list">
-            <li>Integrated appliances installation</li>
-            <li>Under-cabinet LED lighting</li>
-            <li>Premium splashback or feature panel</li>
-            <li>Advanced electrical layout and switch grid</li>
-          </ul>
+      </div>
+    </section>
+
+    <!-- POPULAR ADDITIONS + FREE 3D DESIGN -->
+    <section class="section extras" id="extras" aria-labelledby="extras-h">
+      <div class="wrap">
+        <div class="section-head">
+          <h2 class="h2" id="extras-h">Popular additions</h2>
+          <p class="lead">The extras homeowners ask for most. Each is optional and has its own individual cost, so you
+            only add what you want.</p>
         </div>
-        <p class="design-note">Need a design? We can arrange a free design appointment with one of our kitchen
-          suppliers, whose designers create a full 3D design of your kitchen before anything is ordered. Already have
-          a designer? We work from their design.</p>
+        <div class="extras-grid">
+          <article class="extra" data-extra="integrated">
+            <div class="extra-art"><svg class="art art-integrated" viewBox="0 0 260 160" aria-hidden="true">
+  <rect class="a-wall" x="0" y="0" width="260" height="160"/>
+  <rect class="a-top" x="18" y="34" width="224" height="10" rx="2"/>
+  <g class="a-cab"><rect x="26" y="44" width="68" height="96"/><path d="M34 54h52M34 88h52M34 122h52"/></g>
+  <g class="a-appl"><rect x="96" y="44" width="70" height="96"/><path class="a-panel" d="M104 52h54"/><path d="M106 66h50M106 82h50M106 98h50M106 114h50" class="a-rack"/><circle cx="150" cy="52" r="2.4" class="a-led"/></g>
+  <g class="a-door"><rect x="96" y="44" width="70" height="96"/><path d="M104 54h54" class="a-handle"/></g>
+  <g class="a-cab"><rect x="168" y="44" width="66" height="96"/><path d="M200 44v96"/><path d="M190 56v14M210 56v14" class="a-handle"/></g>
+  <path class="a-floor" d="M10 140h240"/>
+</svg></div>
+            <h3>Integrated appliances installation</h3>
+            <p>Fridge, dishwasher and more built in behind matching doors, so the run of units stays clean.</p>
+          </article>
+          <article class="extra" data-extra="led">
+            <div class="extra-art"><svg class="art art-led" viewBox="0 0 260 160" aria-hidden="true">
+  <rect class="a-wall" x="0" y="0" width="260" height="160"/>
+  <polygon class="a-glow" points="34,58 226,58 246,118 14,118"/>
+  <g class="a-cab"><rect x="30" y="14" width="200" height="40"/><path d="M80 14v40M130 14v40M180 14v40"/><path d="M72 40v8M88 40v8M172 40v8M188 40v8" class="a-handle"/></g>
+  <path class="a-strip" d="M36 56h188"/>
+  <path class="a-rays" d="M60 62l-6 18M100 62l-3 18M140 62v18M180 62l3 18M220 62l6 18"/>
+  <rect class="a-top" x="10" y="118" width="240" height="10" rx="2"/>
+  <g class="a-obj"><path d="M60 118v-16h18v16"/><path d="M78 106h6v8h-6"/><path d="M170 118c0-12 24-12 24 0"/><path d="M182 106v-6"/></g>
+  <path class="a-floor" d="M10 140h240"/>
+</svg></div>
+            <h3>Under-cabinet LED lighting</h3>
+            <p>A warm line of light along the worktop, wired in as part of your kitchen.</p>
+          </article>
+          <article class="extra" data-extra="splash">
+            <div class="extra-art"><svg class="art art-splash" viewBox="0 0 260 160" aria-hidden="true">
+  <rect class="a-wall" x="0" y="0" width="260" height="160"/>
+  <rect class="a-slab" x="30" y="14" width="200" height="96" rx="2"/>
+  <path class="a-vein" pathLength="1" d="M30 40c30 6 44 22 70 18s40-30 70-22 40 30 60 26"/>
+  <path class="a-vein thin" pathLength="1" d="M30 78c24-10 46 4 64 0s28-24 52-20 30 24 54 18 22-14 30-10"/>
+  <path class="a-vein thin" pathLength="1" d="M120 14c-4 20 10 30 6 52s-16 26-10 44"/>
+  <rect class="a-top" x="10" y="110" width="240" height="10" rx="2"/>
+  <g class="a-obj"><path d="M98 110h64"/><ellipse cx="114" cy="106" rx="11" ry="2.5"/><ellipse cx="146" cy="106" rx="11" ry="2.5"/></g>
+  <path class="a-floor" d="M10 140h240"/>
+</svg></div>
+            <h3>Premium splashback or feature panel</h3>
+            <p>A statement surface behind the hob or sink that pulls the room together.</p>
+          </article>
+          <article class="extra" data-extra="switch">
+            <div class="extra-art"><svg class="art art-switch" viewBox="0 0 260 160" aria-hidden="true">
+  <rect class="a-wall" x="0" y="0" width="260" height="160"/>
+  <path class="a-cord" d="M190 0v40"/>
+  <circle class="a-bulbglow" cx="190" cy="66" r="34"/>
+  <path class="a-shade" d="M168 62c0-18 44-18 44 0z"/>
+  <path class="a-bulb" d="M184 62c0 8 12 8 12 0"/>
+  <rect class="a-plate" x="40" y="44" width="96" height="70" rx="8"/>
+  <g class="a-sw">
+    <rect x="52" y="56" width="20" height="20" rx="3"/><rect x="78" y="56" width="20" height="20" rx="3"/><rect x="104" y="56" width="20" height="20" rx="3"/>
+    <rect x="52" y="82" width="20" height="20" rx="3"/><rect x="78" y="82" width="20" height="20" rx="3"/><rect x="104" y="82" width="20" height="20" rx="3"/>
+  </g>
+  <g class="a-rock">
+    <path d="M56 63h12" style="--k:0"/><path d="M82 63h12" style="--k:1"/><path d="M108 63h12" style="--k:2"/>
+    <path d="M56 89h12" style="--k:3"/><path d="M82 89h12" style="--k:4"/><path d="M108 89h12" style="--k:5"/>
+  </g>
+  <path class="a-floor" d="M10 140h240"/>
+</svg></div>
+            <h3>Advanced electrical layout and switch grid</h3>
+            <p>Extra sockets, lighting circuits and a switch grid that put power and light where you use them.</p>
+          </article>
+        </div>
+        <div class="d3">
+          <div class="d3-art"><svg class="iso" viewBox="-183 -140 438 391" role="img" aria-label="A 3D line model of a kitchen with an island, assembling piece by piece"><path class="iso-grid" d="M0.0 0.0L-167.3 96.6M19.9 11.5L-147.4 108.1M39.8 23.0L-127.5 119.6M59.8 34.5L-107.6 131.1M79.7 46.0L-87.6 142.6M99.6 57.5L-67.7 154.1M119.5 69.0L-47.8 165.6M139.4 80.5L-27.9 177.1M159.3 92.0L-8.0 188.6M179.3 103.5L12.0 200.1M199.2 115.0L31.9 211.6M219.1 126.5L51.8 223.1M239.0 138.0L71.7 234.6M0.0 0.0L239.0 138.0M-19.9 11.5L219.1 149.5M-39.8 23.0L199.2 161.0M-59.8 34.5L179.3 172.5M-79.7 46.0L159.3 184.0M-99.6 57.5L139.4 195.5M-119.5 69.0L119.5 207.0M-139.4 80.5L99.6 218.5M-159.3 92.0L79.7 230.0"/><path class="iso-wall" d="M0.0 0.0L0.0 -124.2M0.0 -124.2L239.0 13.8M0.0 -124.2L-167.3 -27.6"/><g class="iso-b iso-cab" style="--i:0"><polygon class="f-top" points="0.0,-40.5 183.2,65.3 159.3,79.1 -23.9,-26.7"/><polygon class="f-y" points="-23.9,13.8 159.3,119.6 159.3,79.1 -23.9,-26.7"/><polygon class="f-x" points="183.2,105.8 159.3,119.6 159.3,79.1 183.2,65.3"/><path class="iso-door" d="M-1.0 25.2L-1.0 -11.6M21.9 38.4L21.9 1.6M44.8 51.6L44.8 14.8M67.7 64.9L67.7 28.1M90.6 78.1L90.6 41.3M113.5 91.3L113.5 54.5M136.4 104.5L136.4 67.7"/><path class="iso-handle" d="M-16.4 -16.8L-8.5 -12.2M6.5 -3.6L14.4 1.0M29.4 9.6L37.3 14.2M52.3 22.8L60.3 27.4M75.2 36.1L83.2 40.7M98.1 49.3L106.1 53.9M121.0 62.5L129.0 67.1M143.9 75.7L151.9 80.3"/></g><g class="iso-b iso-top" style="--i:1"><polygon class="f-top" points="0.0,-43.7 183.2,62.1 157.0,77.3 -26.3,-28.5"/><polygon class="f-y" points="-26.3,-25.3 157.0,80.5 157.0,77.3 -26.3,-28.5"/><polygon class="f-x" points="183.2,65.3 157.0,80.5 157.0,77.3 183.2,62.1"/></g><g class="iso-b iso-cab" style="--i:2"><polygon class="f-top" points="10.0,-93.1 77.7,-54.0 63.3,-45.8 -4.4,-84.9"/><polygon class="f-y" points="-4.4,-52.7 63.3,-13.6 63.3,-45.8 -4.4,-84.9"/><polygon class="f-x" points="77.7,-21.9 63.3,-13.6 63.3,-45.8 77.7,-54.0"/><path class="iso-door" d="M18.2 -41.5L18.2 -70.0M40.8 -28.4L40.8 -57.0"/><path class="iso-handle" d="M2.9 -54.0L10.9 -49.4M25.5 -40.9L33.5 -36.3M48.1 -27.9L56.0 -23.3"/></g><g class="iso-b iso-appl" style="--i:3"><polygon class="f-top" points="81.7,-54.1 109.5,-38.0 92.8,-28.3 64.9,-44.4"/><polygon class="f-y" points="64.9,-14.5 92.8,1.6 92.8,-28.3 64.9,-44.4"/><polygon class="f-x" points="109.5,-8.0 92.8,1.6 92.8,-28.3 109.5,-38.0"/></g><g class="iso-b iso-cab" style="--i:4"><polygon class="f-top" points="113.5,-33.3 181.3,5.8 166.9,14.0 99.2,-25.1"/><polygon class="f-y" points="99.2,7.1 166.9,46.2 166.9,14.0 99.2,-25.1"/><polygon class="f-x" points="181.3,37.9 166.9,46.2 166.9,14.0 181.3,5.8"/><path class="iso-door" d="M121.8 18.3L121.8 -10.2M144.3 31.4L144.3 2.8"/><path class="iso-handle" d="M106.5 5.8L114.5 10.4M129.1 18.9L137.0 23.5M151.6 31.9L159.6 36.5"/></g><g class="iso-b iso-cab" style="--i:5"><polygon class="f-top" points="-23.9,-26.7 0.0,-12.9 -99.6,44.6 -123.5,30.8"/><polygon class="f-y" points="-123.5,71.3 -99.6,85.1 -99.6,44.6 -123.5,30.8"/><polygon class="f-x" points="0.0,27.6 -99.6,85.1 -99.6,44.6 0.0,-12.9"/><path class="iso-door" d="M-24.9 40.1L-24.9 3.3M-49.8 54.5L-49.8 17.7M-74.7 68.9L-74.7 32.1"/><path class="iso-handle" d="M-8.5 -2.5L-16.4 2.1M-33.4 11.9L-41.3 16.5M-58.3 26.3L-66.2 30.9M-83.2 40.7L-91.1 45.3"/></g><g class="iso-b iso-top" style="--i:6"><polygon class="f-top" points="-23.9,-29.9 2.4,-14.7 -97.2,42.8 -123.5,27.6"/><polygon class="f-y" points="-123.5,30.8 -97.2,46.0 -97.2,42.8 -123.5,27.6"/><polygon class="f-x" points="2.4,-11.5 -97.2,46.0 -97.2,42.8 2.4,-14.7"/></g><g class="iso-b iso-cab" style="--i:7"><polygon class="f-top" points="-2.0,38.9 73.7,82.6 39.8,102.1 -35.9,58.4"/><polygon class="f-y" points="-35.9,98.9 39.8,142.6 39.8,102.1 -35.9,58.4"/><polygon class="f-x" points="73.7,123.0 39.8,142.6 39.8,102.1 73.7,82.6"/><path class="iso-door" d="M-10.6 111.6L-10.6 74.8M14.6 126.2L14.6 89.4"/><path class="iso-handle" d="M-27.2 68.9L-19.3 73.5M-2.0 83.5L6.0 88.1M23.2 98.1L31.2 102.7"/></g><g class="iso-b iso-top" style="--i:8"><polygon class="f-top" points="-2.0,31.1 81.7,79.3 39.8,103.5 -43.8,55.2"/><polygon class="f-y" points="-43.8,58.4 39.8,106.7 39.8,103.5 -43.8,55.2"/><polygon class="f-x" points="81.7,82.6 39.8,106.7 39.8,103.5 81.7,79.3"/></g><g class="iso-b iso-appl" style="--i:9"><polygon class="f-top" points="183.2,4.6 211.1,20.7 186.4,35.0 158.5,18.9"/><polygon class="f-y" points="158.5,120.1 186.4,136.2 186.4,35.0 158.5,18.9"/><polygon class="f-x" points="211.1,121.9 186.4,136.2 186.4,35.0 211.1,20.7"/><path class="iso-door" d=""/><path class="iso-handle" d="M168.5 30.1L176.5 34.7"/></g></svg></div>
+          <div class="d3-copy">
+            <h3>Free 3D kitchen design, arranged by us</h3>
+            <p>No design yet? We can book you a free appointment with one of our kitchen suppliers. Their designer
+              creates a full 3D design of your kitchen, and nothing is ordered until you're happy with it.</p>
+            <ol class="d3-steps">
+              <li><span class="n">1</span>We book your free design appointment</li>
+              <li><span class="n">2</span>A supplier's designer creates your 3D design</li>
+              <li><span class="n">3</span>We order everything once you're happy</li>
+            </ol>
+            <p class="d3-note">Already have a designer? We work from their design.</p>
+            <a class="btn btn-primary" href="#enquiry" data-cta="design">Book a free site visit</a>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -1167,6 +1252,121 @@
       window.addEventListener('scroll', () => { if (!ticking) { ticking = true; requestAnimationFrame(update); } }, { passive: true });
       window.addEventListener('resize', update);
       update();
+    })();
+
+    /* ---------------- popular additions + 3D design: play once when seen, tap to replay ---------------- */
+    (function () {
+      const cards = Array.from(document.querySelectorAll('.extra'));
+      const d3 = document.querySelector('.d3');
+      if (reduceMotion || !('IntersectionObserver' in window)) {
+        cards.forEach(c => c.classList.add('is-on')); d3.classList.add('is-on'); return;
+      }
+      const io = new IntersectionObserver(es => es.forEach(en => {
+        if (!en.isIntersecting) return;
+        io.unobserve(en.target);
+        if (en.target === d3) { d3.classList.add('is-on'); return; }
+        const i = cards.indexOf(en.target);
+        setTimeout(() => en.target.classList.add('is-on'), 180 * (i % 4));
+      }), { threshold: 0.5 });
+      cards.forEach(c => io.observe(c)); io.observe(d3);
+      cards.forEach(c => c.addEventListener('click', () => {
+        c.classList.remove('is-on'); void c.offsetWidth;
+        setTimeout(() => c.classList.add('is-on'), 60);
+        track('extra_tap', { extra: c.dataset.extra });
+      }));
+    })();
+
+    /* ---------------- the drawing thread: one line through the whole page ---------------- */
+    (function () {
+      const svg = document.querySelector('.thread');
+      const path = svg.querySelector('.thread-path');
+      const pen = svg.querySelector('.thread-pen');
+      const grad = svg.querySelector('#thread-grad');
+      const blooms = svg.querySelector('.blooms');
+      const SKETCH = {
+        dimension: '<path d="M4 30H56M4 22V38M56 22V38M11 25 4 30l7 5M49 25l7 5-7 5"/>',
+        pendant: '<path d="M30 0V30"/><path d="M12 50C12 34 48 34 48 50Z"/><path d="M25 50C25 57 35 57 35 50"/>',
+        handle: '<path d="M8 22H52"/><path d="M14 22C14 40 46 40 46 22"/><circle cx="14" cy="22" r="2.2"/><circle cx="46" cy="22" r="2.2"/>',
+        pencil: '<path d="M20 58 44 12l7 4-24 46Z"/><path d="M20 58l-3 9 10-5"/><path d="M40 20l7 4"/>',
+        key: '<circle cx="30" cy="14" r="9"/><path d="M30 23V62M30 46H39M30 55H37"/>',
+        star: '<path d="M30 6l7 15 16 2-12 11 3 16-14-8-14 8 3-16L7 23l16-2Z"/>'
+      };
+      const PLAN = [['contract', 'dimension', 0.32], ['included', 'pendant', 0.12], ['extras', 'handle', 0.3],
+                    ['kitchens', 'pencil', 0.35], ['process', 'key', 0.8], ['reviews', 'star', 0.25]];
+      let L = 0, lens = [], ys = [], xs = [], marks = [], raf = 0;
+
+      function build() {
+        const W = document.documentElement.clientWidth;
+        const H = document.documentElement.scrollHeight;
+        svg.setAttribute('width', W); svg.setAttribute('height', H); svg.style.height = H + 'px';
+        const gutter = (W - Math.min(1200, W)) / 2;
+        const wide = gutter >= 70;
+        const xL = wide ? gutter / 2 : 9, xR = wide ? W - gutter / 2 : 9;
+        const secs = Array.from(document.querySelectorAll('main > section'));
+        const sides = { contract: 'L', included: 'R', extras: 'R', kitchens: 'L', process: 'L', reviews: 'R', enquiry: 'R', faq: 'L' };
+        let d = '', prevX = null, prevY = null, stops = '';
+        secs.forEach((sec, i) => {
+          const top = sec.offsetTop, bot = top + sec.offsetHeight;
+          const x = wide ? ((sides[sec.id] || 'L') === 'L' ? xL : xR) : xL;
+          const y1 = top + (i === 0 ? 40 : 60), y2 = bot - 60;
+          if (prevX === null) d += 'M' + x + ' ' + y1;
+          else if (prevX === x) d += 'L' + x + ' ' + y1;
+          else d += 'C' + prevX + ' ' + (prevY + 70) + ' ' + x + ' ' + (y1 - 70) + ' ' + x + ' ' + y1;
+          // a gentle S-curve on the way down, so it reads as drawn rather than ruled
+          const span = y2 - y1, amp = wide ? Math.min(14, gutter / 8) : 0;
+          if (amp && span > 300) {
+            const m = y1 + span / 2;
+            d += 'C' + (x + amp) + ' ' + (y1 + span * 0.2) + ' ' + (x + amp) + ' ' + (m - span * 0.1) + ' ' + x + ' ' + m;
+            d += 'C' + (x - amp) + ' ' + (m + span * 0.1) + ' ' + (x - amp) + ' ' + (y2 - span * 0.2) + ' ' + x + ' ' + y2;
+          } else d += 'L' + x + ' ' + y2;
+          prevX = x; prevY = y2;
+          const dark = sec.classList.contains('on-dark');
+          const col = dark ? 'stop-color="#dcb878" stop-opacity=".75"' : 'stop-color="#2d6a4f" stop-opacity=".42"';
+          stops += '<stop offset="' + (top / H) + '" ' + col + '/><stop offset="' + (bot / H) + '" ' + col + '/>';
+          sec.dataset.threadX = x;
+        });
+        grad.setAttribute('y2', H); grad.innerHTML = stops;
+        path.setAttribute('d', d);
+        L = path.getTotalLength();
+        lens = []; ys = []; xs = [];
+        for (let l = 0; l <= L; l += 12) { const pt = path.getPointAtLength(l); lens.push(l); ys.push(pt.y); xs.push(pt.x); }
+        path.style.strokeDasharray = L;
+        // sketches that bloom from the line, only where the margin has room
+        blooms.innerHTML = ''; marks = [];
+        if (gutter >= 100) {
+          const scale = Math.min(1, (gutter - 30) / 60);
+          PLAN.forEach(([id, kind, at]) => {
+            const sec = document.getElementById(id); if (!sec) return;
+            const y = sec.offsetTop + sec.offsetHeight * at, x = Number(sec.dataset.threadX);
+            const g = document.createElementNS('http://www.w3.org/2000/svg', 'g');
+            g.setAttribute('class', 'bloom ' + (sec.classList.contains('on-dark') ? 'dark' : 'light'));
+            g.setAttribute('transform', 'translate(' + (x - 30 * scale) + ' ' + y + ') scale(' + scale + ')');
+            g.innerHTML = SKETCH[kind];
+            g.querySelectorAll('*').forEach(el => el.setAttribute('pathLength', '1'));
+            blooms.appendChild(g); marks.push([y, g]);
+          });
+        }
+        update();
+      }
+      function update() {
+        raf = 0;
+        if (!L) return;
+        const target = reduceMotion ? Infinity : window.scrollY + window.innerHeight * 0.72;
+        let lo = 0, hi = ys.length - 1;
+        while (lo < hi) { const mid = (lo + hi) >> 1; if (ys[mid] < target) lo = mid + 1; else hi = mid; }
+        const len = target === Infinity ? L : lens[lo];
+        path.style.strokeDashoffset = Math.max(0, L - len);
+        pen.setAttribute('cx', xs[lo]); pen.setAttribute('cy', ys[lo]);
+        pen.style.opacity = (reduceMotion || lo >= ys.length - 1) ? 0 : 1;
+        marks.forEach(([y, g]) => g.classList.toggle('on', target >= y + 30));
+      }
+      let t = 0;
+      const rebuild = () => { clearTimeout(t); t = setTimeout(build, 120); };
+      window.addEventListener('scroll', () => { if (!raf) raf = requestAnimationFrame(update); }, { passive: true });
+      window.addEventListener('resize', rebuild);
+      window.addEventListener('load', build);
+      if ('ResizeObserver' in window) new ResizeObserver(rebuild).observe(document.querySelector('main'));
+      build();
     })();
 
     /* ---------------- lightbox ---------------- */

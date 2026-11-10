@@ -31,11 +31,20 @@ No build step: plain HTML and one CSS file. Edit, then push.
   sees a "call us" message and nothing is counted.
 - **Extra GA4 events** for funnel analysis: `form_step` (step 1 and 2 answers), `contract_toggle` (the
   comparison switch), `included_select` and `included_tour` (the kitchen tour), `gallery_open`, `cta_click`.
+- **Extra GA4 event:** `extra_tap` (which addition was tapped).
 - **Interactive pieces:** the trades comparison switches itself to the A&G view once when it scrolls into view;
   the kitchen drawing draws itself in once, then plays through the seven parts like stories (pausable, with
   arrows, and tap-to-advance on mobile); the process line fills as you scroll. All of it stays still for
   visitors who have reduced motion switched on.
 - **What's included:** the kitchen drawing is original line art (no photo), so it works permanently.
+- **The drawing line:** one fine line runs down the page margins and draws itself as the visitor scrolls (green on
+  light sections, brass on dark ones), with small kitchen sketches blooming from it on wide screens. On phones it
+  is a thin progress line down the left edge. It is built by a script from the section positions, so it adapts
+  when sections change; give any new section an `id` and add it to the `sides` list in the thread script to choose
+  which margin it runs down.
+- **Popular additions:** its own section, with four illustrations that act out each addition once when seen
+  (tap a card to replay) and a 3D kitchen that assembles itself beside the free design offer.
+- **Hero:** the photo reveals itself in an arched frame on load, with the award seal and Kimberly's quote.
 
 ## Before the first launch
 
