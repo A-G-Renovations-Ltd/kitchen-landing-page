@@ -39,7 +39,7 @@ No build step: plain HTML and one CSS file. Edit, then push.
 - **What's included:** the kitchen drawing is original line art (no photo), so it works permanently.
 - **The drawing line:** one fine line runs down the page margins and draws itself as the visitor scrolls (green on
   light sections, brass on dark ones), with small kitchen sketches blooming from it on wide screens. On phones it
-  is a thin progress line down the left edge. It is built by a script from the section positions, so it adapts
+  weaves inside the page's edge padding and sweeps across between sections, never under text. It is built by a script from the section positions, so it adapts
   when sections change; give any new section an `id` and add it to the `sides` list in the thread script to choose
   which margin it runs down.
 - **Popular additions:** its own section, with four illustrations that act out each addition once when seen
