@@ -48,18 +48,19 @@ No build step: plain HTML and one CSS file. Edit, then push.
 
 ## Before the first launch
 
-1. **No placeholders left.** In PowerShell: `(Select-String -Path index.html -Pattern "PLACEHOLDER").Count`
-   must return `0`. It already does.
+1. **Placeholders:** none left. `(Select-String -Path index.html -Pattern "PLACEHOLDER").Count` returns `0`.
 2. **Confirmed with Andrius (Nov 2026):** kitchen fitters are in-house; the 10-15% matching-service line applies
-   to kitchens; no response-time promise anywhere on the page; no standard duration in the timeline FAQ. The
-   included scope and the four popular additions follow the October brand catalogue.
-3. **Review figures checked live that day**: the page shows Google 5.0 from 60 and Trustpilot 4.7 from 48, in the
-   hero proof row and the reviews section.
-4. **Client photo permission** confirmed for Kimberly Dennis (hero photo and review card), Stevie Downard and
-   Helen, E14.
+   to kitchens; no response-time promise anywhere; no standard duration in the timeline FAQ. The included scope
+   and the four popular additions follow the October brand catalogue. Homes are the main market.
+3. **Review figures checked live that day**: Google 5.0 from 60 and Trustpilot 4.7 from 48 (hero trust row and
+   reviews section).
+4. **Photo rights and permission:** the reviewers (Kimberly Dennis, Stevie Downard, Helen) have agreed to their
+   photos being used; A&G has the right to use the professionally shot Ealing, Islington and FAQ photos (the FAQ
+   photo has a `CONFIRM` comment in the code).
 5. **Hidden review card (Mindaugas K.)** stays hidden unless it's confirmed the reviewer is a client and not the
-   former A&G coordinator. To show it, delete the word `hidden` on that `<article>` in the reviews section.
-6. **Areas are area-level only** on gallery captions and alt text, never a street.
+   former A&G coordinator. To show it, delete the word `hidden` on that `<article>`.
+6. **Review links:** each review currently opens the Google reviews list; swap in each review's own share link
+   under its `REVIEW LINK` comment if you want them to open the exact review.
 7. **Test the live form once before the kitchen campaign starts**, with "TEST" in the message, and confirm it
    reaches the CRM labelled as a kitchen enquiry.
 
@@ -81,8 +82,9 @@ Every "Book a free site visit" button, the header button, the mobile booking bar
 ## Adding kitchen projects
 
 The gallery shows one tile per project, as on the bathroom page: the cover photo, the project name, a short line
-and the photo count. Tapping a tile opens that project's photos only. Current projects: Kensal (9 photos),
-Croydon (6) and Little Venice (5). The Installation step in "How your kitchen comes together" also shows an
+and the photo count. Tapping a tile opens that project's photos only. Current projects, in gallery order: Ealing (7 photos), Kensal (9),
+Islington (2), Croydon (6), Little Venice (5) and a grey herringbone kitchen (2; area unknown, so it is titled by
+style). Areas only, never streets or postcodes. The Installation step in "How your kitchen comes together" also shows an
 on-site photo of one of our fitters (`images/kitchens/on-site/`), which opens full size when tapped.
 
 Photos are served as AVIF (about half the size of JPEG at the same visible quality) with WebP as the fallback,
