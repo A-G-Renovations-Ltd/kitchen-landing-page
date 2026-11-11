@@ -640,6 +640,37 @@ ul, ol { padding: 0; list-style: none; }
 .cred-mark .num { font-size: 28px; font-weight: 700; letter-spacing: -0.02em; color: var(--forest); }
 .cred b { font-size: 16px; line-height: 1.3; }
 .cred span { font-size: 14.5px; line-height: 1.45; color: var(--muted); }
+.creds-h { margin-top: 44px; font-size: 22px; font-weight: 600; letter-spacing: -0.015em; }
+.creds-h + .creds { margin-top: 16px; }
+/* Partner logos: five across on wide screens; logos keep their shape and never overflow the card. */
+.creds.partners { grid-template-columns: repeat(5, minmax(0, 1fr)); }
+.cred-mark img.logo { height: 48px; width: auto; max-width: 100%; object-fit: contain; object-position: left center; }
+@media (max-width: 1000px) {
+  .creds.partners { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .creds.partners .cred:last-child { grid-column: span 2; }
+}
+
+/* Direct-booking note in the closing banner, as on the bathroom page. */
+.direct-box {
+  margin-top: 24px; max-width: 560px; display: flex; gap: 14px; align-items: flex-start;
+  padding: 18px 20px; border-radius: 16px; border: 1px solid rgba(255, 255, 255, 0.25); background: rgba(255, 255, 255, 0.1);
+}
+.direct-pound { font-size: 30px; line-height: 1; font-weight: 600; color: var(--brass-light); flex-shrink: 0; }
+.closing .direct-box p { margin-top: 0; font-size: 16.5px; line-height: 1.6; color: rgba(255, 255, 255, 0.88); max-width: none; }
+.direct-box strong { color: var(--white); }
+
+/* Headline accent: the key phrase in brand green with a soft highlighter bar (not an underline, so it never
+   reads as a link). On dark sections the phrase turns mint with a brass bar. */
+.accent {
+  font-style: normal; color: var(--forest);
+  background-image: linear-gradient(rgba(149, 213, 178, 0.55), rgba(149, 213, 178, 0.55));
+  background-repeat: no-repeat; background-position: 0 88%; background-size: 100% 0.22em;
+  -webkit-box-decoration-break: clone; box-decoration-break: clone; padding: 0 0.04em;
+}
+.on-dark .accent, .closing .accent {
+  color: var(--mint);
+  background-image: linear-gradient(rgba(220, 184, 120, 0.45), rgba(220, 184, 120, 0.45));
+}
 
 @media (max-width: 1000px) {
   .account-grid { grid-template-columns: 1fr; }
@@ -1260,3 +1291,52 @@ a.rbody:focus-visible, .hq-link:focus-visible { outline: 3px solid var(--forest)
 .kd .hs.is-active circle.core { fill: var(--white); }
 .kd .hs circle.pulse { stroke: #a87c3f; }
 .kd .hs:focus-visible circle.ring { stroke: var(--forest); }
+
+
+/* ================================================================ v19 */
+/* Cookie consent: compact card bottom-left on desktop, bottom sheet on phones */
+.cc { position: fixed; z-index: 80; left: 20px; bottom: 20px; width: min(420px, calc(100vw - 40px)); }
+.cc[hidden] { display: none; }
+.cc-card {
+  background: var(--white); border: 1px solid var(--stone); border-radius: 20px; padding: 20px 20px 18px;
+  box-shadow: 0 30px 60px -30px rgba(28, 43, 38, 0.45), 0 4px 14px rgba(28, 43, 38, 0.08);
+}
+.cc-title { font-size: 16px; font-weight: 700; color: var(--ink); margin-bottom: 6px; }
+.cc-text { font-size: 14.5px; line-height: 1.5; color: var(--ink-soft); }
+.cc-text a { color: var(--forest); font-weight: 600; }
+.cc-actions { display: flex; align-items: center; gap: 16px; margin-top: 16px; flex-wrap: wrap; }
+.cc-accept { flex: 1 1 auto; justify-content: center; min-width: 150px; }
+.cc-link { background: none; border: 0; padding: 6px 2px; font: inherit; font-size: 13.5px; color: var(--muted); text-decoration: underline; text-underline-offset: 3px; cursor: pointer; }
+.cc-link:hover { color: var(--ink-soft); }
+.cc-row { display: flex; gap: 14px; align-items: center; justify-content: space-between; padding: 12px 0; border-top: 1px solid var(--stone); cursor: pointer; }
+.cc-row:first-of-type { cursor: default; }
+.cc-label { display: block; }
+.cc-label b { display: block; font-size: 14.5px; color: var(--ink); }
+.cc-desc { display: block; margin-top: 2px; font-size: 13px; line-height: 1.45; color: var(--muted); }
+.cc-always { font-size: 12.5px; font-weight: 600; color: var(--forest); white-space: nowrap; }
+.cc-switch {
+  -webkit-appearance: none; appearance: none; flex-shrink: 0; position: relative; width: 44px; height: 26px; margin: 0;
+  border-radius: 999px; background: #cfd6d2; cursor: pointer; transition: background-color .2s ease;
+}
+.cc-switch::after {
+  content: ''; position: absolute; top: 3px; left: 3px; width: 20px; height: 20px; border-radius: 50%;
+  background: var(--white); box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25); transition: transform .2s ease;
+}
+.cc-switch:checked { background: var(--forest); }
+.cc-switch:checked::after { transform: translateX(18px); }
+.cc-switch:focus-visible, .cc-link:focus-visible, .cc-save:focus-visible { outline: 3px solid var(--forest); outline-offset: 2px; }
+.cc-save {
+  background: none; border: 1px solid var(--stone); border-radius: 999px; padding: 11px 16px; font: inherit; font-size: 14px;
+  font-weight: 600; color: var(--ink-soft); cursor: pointer;
+}
+.cc-save:hover { border-color: var(--ink-soft); }
+body.cc-open .sticky-book { visibility: hidden; }
+.footer .link-btn { background: none; border: 0; padding: 0; font: inherit; color: rgba(255, 255, 255, 0.8); text-decoration: underline; cursor: pointer; }
+@media (max-width: 560px) {
+  .cc { left: 10px; right: 10px; bottom: 10px; width: auto; }
+  .cc-card { padding: 16px 16px 14px; border-radius: 18px; }
+  .cc-text { font-size: 14px; }
+}
+@media (prefers-reduced-motion: reduce) { .cc-switch, .cc-switch::after { transition: none; } }
+/* keep the banner clear of the hero form on desktop */
+@media (min-width: 561px) { .cc { left: auto; right: 20px; } }

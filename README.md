@@ -61,7 +61,11 @@ No build step: plain HTML and one CSS file. Edit, then push.
    former A&G coordinator. To show it, delete the word `hidden` on that `<article>`.
 6. **Review links:** each review currently opens the Google reviews list; swap in each review's own share link
    under its `REVIEW LINK` comment if you want them to open the exact review.
-7. **Test the live form once before the kitchen campaign starts**, with "TEST" in the message, and confirm it
+7. **Partner statuses current:** Magnet Approved Installer, B&Q Approved Installer, Howdens and Kutchenhaus supply
+   partners and Easy Bathrooms Simply Install, all taken from the October 2026 catalogue.
+8. **Cookie consent:** the page loads Google Tag Manager, Google Analytics, Google Ads and Clarity with no consent
+   banner (the bathroom page is the same). Decide with Andrius whether to add one with Google Consent Mode.
+9. **Test the live form once before the kitchen campaign starts**, with "TEST" in the message, and confirm it
    reaches the CRM labelled as a kitchen enquiry.
 
 ## Reviews on the page
@@ -78,6 +82,11 @@ card and each review card have one).
 
 Every "Book a free site visit" button, the header button, the mobile booking bar and the hero options all go to
 `#book`, the form card itself, so on phones visitors land on the form rather than the intro text above it.
+
+## Sharing and browser tab
+
+`favicon-32.png` and `apple-touch-icon.png` give the page its tab and home-screen icon (the crest).
+`images/og-image.jpg` (1200 x 630) is the preview image shown when the link is shared on WhatsApp, LinkedIn, etc.
 
 ## Adding kitchen projects
 

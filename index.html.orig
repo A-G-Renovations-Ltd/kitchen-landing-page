@@ -1,0 +1,1496 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+
+<head>
+  <!-- TRACKING:START Google Tag Manager -->
+  <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-KGSBLMTC');</script>
+  <!-- TRACKING:END -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kitchen Renovation London | A&amp;G Renovations (Est. 2014)</title>
+  <meta name="description"
+    content="Complete kitchen renovations for homes across Greater London, from strip-out to final finish. In-house fitters, every specialist trade coordinated, 12-month labour guarantee. Book a free site visit.">
+  <link rel="canonical" href="https://kitchen.ag-renovations.co.uk/">
+  <meta name="theme-color" content="#24483a">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700;9..40,800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/kitchen.css?v=14">
+
+  <!-- TRACKING:START Microsoft Clarity (marketing@ account; swap the ID for a kitchen-only project if you create one) -->
+  <script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "z7a9bycib9");
+  </script>
+  <!-- TRACKING:END -->
+
+  <!-- TRACKING:START Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-JP1K1CL1BF"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-JP1K1CL1BF');
+    gtag('config', 'AW-17907613995');
+  </script>
+  <!-- TRACKING:END -->
+
+  <!-- Schema. No street address: the registered office is never published. -->
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "A&G Renovations Ltd",
+  "image": "https://kitchen.ag-renovations.co.uk/logo.jpeg",
+  "description": "Kitchen, bathroom and full home renovations for London homeowners since 2014.",
+  "url": "https://ag-renovations.co.uk",
+  "telephone": "+442036218527",
+  "email": "sales@ag-renovations.co.uk",
+  "address": { "@type": "PostalAddress", "addressLocality": "London", "addressCountry": "GB" },
+  "openingHoursSpecification": [{
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+    "opens": "08:00",
+    "closes": "19:00"
+  }],
+  "areaServed": { "@type": "Place", "name": "Greater London" },
+  "award": "Kitchen & Bathroom Installation Firm of the Year, London & South East England, Prestige Awards 2026/27"
+}
+</script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Kitchen Renovation",
+  "provider": { "@type": "LocalBusiness", "name": "A&G Renovations Ltd" },
+  "areaServed": { "@type": "Place", "name": "Greater London" },
+  "description": "Complete kitchen renovations across Greater London, from strip-out to final finish. 12-month labour guarantee, free site visit."
+}
+</script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long does a kitchen renovation take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It depends on the size of the kitchen and the scope of work, so we don't quote a standard figure. Before work starts you receive a work programme plan, so you know the timeline from day one. Stone worktops are templated once the cabinets are installed, then cut off-site and fitted, which adds a short wait. Your estimator will talk you through timings at the free site visit."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much does a kitchen renovation cost in London?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Every kitchen is different, so we don't publish set prices. The cost depends on the size of the room, any layout changes, the units, worktops and appliances you choose, and the electrical and plumbing work involved. After one of our estimators has visited your home, you receive a clear, itemised proposal, so you know exactly what you are paying for before committing to anything."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you design the kitchen?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Your kitchen is designed by a qualified kitchen designer. If you already have one, we work from their design. If not, we can arrange a free design appointment with one of our kitchen suppliers, whose designers create a full 3D design of your kitchen before anything is ordered. We then take care of supply and installation end to end."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need to supply my own units, worktops and appliances?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. If you'd like, we handle it all: we order everything on your behalf, check deliveries, store materials securely until your start date, and deal with any damaged items, exchanges and returns. You choose what you want and we take care of the rest."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you offer fit-only kitchen installation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. We only take on complete kitchen renovations: strip-out, electrics, plumbing, cabinets, worktops, splashback, tiling, flooring and appliances, managed as one project with one point of contact. That is how we can stand behind the finished kitchen as a whole, not just one part of it."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is the work guaranteed?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. All workmanship is covered by a 12-month guarantee against faulty labour as standard on every project. If anything falls short of your expectations within the first year, we will return and put it right at no additional cost to you. Materials are covered by their manufacturers' warranties, and the work is backed by our £5M Public Liability Insurance."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you use subcontractors or your own team?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Both. Our kitchen fitters are employed by A&G and work on our projects only, so the same team is in your home from strip-out to handover. Specialist trades are different: electrical work is carried out by NICEIC certified electricians, gas work by Gas Safe registered engineers and stone worktops by specialist stonemasons, all partners we work with regularly. We coordinate them, so you deal with one point of contact throughout."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you charge a fee for quoting, or use a matching service?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. The site visit and the written proposal are free, and there is no obligation to proceed. If you contact us directly there is also no agency or matching-platform commission in your quote. Those platforms are free for you to use because they charge the builder a percentage of every job won, and that cost has to be recovered somewhere. Our direct quotes are typically 10-15% lower than the same project priced through a matching service, because the commission is not there to pass on."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What areas of London do you cover?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We cover Greater London inside the M25. If you are unsure whether we reach you, call 020 3621 8527 or fill in the enquiry form and we will confirm."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens after I submit an enquiry?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A member of our admin team will get in touch to arrange a free site visit at a time that suits you. One of our estimators will come to your home, take precise measurements, listen to your plans, and answer every question. A clear, itemised proposal is then prepared and sent to you for review, with no obligation to proceed."
+      }
+    }
+  ]
+}
+</script>
+</head>
+
+<body>
+  <svg class="thread" aria-hidden="true"><defs><linearGradient id="thread-grad" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="0" y2="1000"></linearGradient></defs><path class="thread-path"/><g class="blooms"></g><circle class="thread-pen" r="3.5"/></svg>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="#top" aria-label="A&amp;G Renovations, back to top">
+        <img src="logo.jpeg" alt="" width="44" height="44">
+        <span><b>A&amp;G Renovations</b><small>Est. London 2014</small></span>
+      </a>
+      <nav class="nav" aria-label="Page sections">
+        <a href="#kitchens">Our kitchens</a>
+        <a href="#included">What's included</a>
+        <a href="#process">How it works</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#faq">Questions</a>
+      </nav>
+      <a class="header-phone" href="tel:02036218527">020 3621 8527</a>
+      <a class="btn btn-primary header-cta" href="#book" data-cta="header"><span class="lg">Book a free site visit</span><span class="sm">Free site visit</span></a>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- HERO -->
+    <section class="hero" id="top">
+      <div class="wrap">
+        <div class="hero-grid">
+          <div class="hero-copy">
+            <h1 class="h1">Your whole kitchen, handled by one accountable team.</h1>
+            <p class="hero-sub">Complete kitchen renovations for homes across Greater London since 2014. Our in-house fitters take
+              the room from strip-out to final finish, we coordinate every specialist trade, and the labour is
+              guaranteed for 12 months.</p>
+            <div class="starter">
+              <p class="starter-title">Book a free site visit</p>
+              <p class="starter-q" id="starter-q">Where are you with your kitchen?</p>
+              <div class="starter-options" role="group" aria-labelledby="starter-q">
+            <button type="button" class="choice" data-stage="Just starting to plan" aria-pressed="false"><span>Just starting to plan</span><svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M7.5 4.5 13 10l-5.5 5.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+            <button type="button" class="choice" data-stage="Working on a design" aria-pressed="false"><span>Working on a design</span><svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M7.5 4.5 13 10l-5.5 5.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+            <button type="button" class="choice" data-stage="Design ready, need it built" aria-pressed="false"><span>Design ready, need it built</span><svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M7.5 4.5 13 10l-5.5 5.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+              </div>
+              <p class="starter-note">Takes about a minute. No obligation.</p>
+            </div>
+          </div>
+          <figure class="hero-media">
+            <div class="arch">
+              <picture>
+                <source media="(max-width: 960px)" type="image/avif" sizes="100vw" srcset="images/kitchen/hero/kitchen-hero-landscape-800.avif 800w, images/kitchen/hero/kitchen-hero-landscape-1200.avif 1200w, images/kitchen/hero/kitchen-hero-landscape-1600.avif 1600w">
+                <source media="(max-width: 960px)" type="image/webp" sizes="100vw" srcset="images/kitchen/hero/kitchen-hero-landscape-800.webp 800w, images/kitchen/hero/kitchen-hero-landscape-1200.webp 1200w, images/kitchen/hero/kitchen-hero-landscape-1600.webp 1600w">
+                <source type="image/avif" sizes="520px" srcset="images/kitchen/hero/kitchen-hero-portrait-600.avif 600w, images/kitchen/hero/kitchen-hero-portrait-900.avif 900w, images/kitchen/hero/kitchen-hero-portrait-1200.avif 1200w">
+                <img src="images/kitchen/hero/kitchen-hero-portrait-900.webp" srcset="images/kitchen/hero/kitchen-hero-portrait-600.webp 600w, images/kitchen/hero/kitchen-hero-portrait-900.webp 900w, images/kitchen/hero/kitchen-hero-portrait-1200.webp 1200w" sizes="520px" alt="A completed A&amp;G kitchen with dark shaker-style units, brass cup handles, under-cabinet lighting and a marble-effect splashback" width="1200" height="1600" fetchpriority="high" decoding="async">
+              </picture>
+            </div>
+            <span class="arch-line" aria-hidden="true"></span>
+            <div class="award-seal" role="img" aria-label="Prestige Awards 2026/27: Kitchen and Bathroom Installation Firm of the Year, London and South East England">
+              <svg viewBox="0 0 160 160" aria-hidden="true">
+                <defs>
+                  <path id="seal-ring" d="M80,80 m-61,0 a61,61 0 1,1 122,0 a61,61 0 1,1 -122,0"/>
+                  <linearGradient id="g-foil" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7d5a14"/><stop offset=".25" stop-color="#d6ac52"/><stop offset=".45" stop-color="#f7e3a1"/><stop offset=".62" stop-color="#c1923a"/><stop offset=".8" stop-color="#ecd18a"/><stop offset="1" stop-color="#8a6419"/></linearGradient>
+                  <linearGradient id="g-band" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e2bd68"/><stop offset=".4" stop-color="#f6e2a2"/><stop offset=".7" stop-color="#d9b25d"/><stop offset="1" stop-color="#ebcf86"/></linearGradient>
+                  <radialGradient id="g-face" cx=".38" cy=".32" r=".8"><stop offset="0" stop-color="#fdf4d6"/><stop offset=".6" stop-color="#f0d791"/><stop offset="1" stop-color="#ddb866"/></radialGradient>
+                </defs>
+                <polygon points="159.50,80.00 156.13,83.32 159.20,86.93 155.55,89.95 158.29,93.81 154.39,96.49 156.79,100.58 152.67,102.91 154.71,107.19 150.40,109.16 152.05,113.60 147.59,115.19 148.85,119.75 144.27,120.94 145.12,125.60 140.45,126.39 140.90,131.10 136.18,131.48 136.21,136.21 131.48,136.18 131.10,140.90 126.39,140.45 125.60,145.12 120.94,144.27 119.75,148.85 115.19,147.59 113.60,152.05 109.16,150.40 107.19,154.71 102.91,152.67 100.58,156.79 96.49,154.39 93.81,158.29 89.95,155.55 86.93,159.20 83.32,156.13 80.00,159.50 76.68,156.13 73.07,159.20 70.05,155.55 66.19,158.29 63.51,154.39 59.42,156.79 57.09,152.67 52.81,154.71 50.84,150.40 46.40,152.05 44.81,147.59 40.25,148.85 39.06,144.27 34.40,145.12 33.61,140.45 28.90,140.90 28.52,136.18 23.79,136.21 23.82,131.48 19.10,131.10 19.55,126.39 14.88,125.60 15.73,120.94 11.15,119.75 12.41,115.19 7.95,113.60 9.60,109.16 5.29,107.19 7.33,102.91 3.21,100.58 5.61,96.49 1.71,93.81 4.45,89.95 0.80,86.93 3.87,83.32 0.50,80.00 3.87,76.68 0.80,73.07 4.45,70.05 1.71,66.19 5.61,63.51 3.21,59.42 7.33,57.09 5.29,52.81 9.60,50.84 7.95,46.40 12.41,44.81 11.15,40.25 15.73,39.06 14.88,34.40 19.55,33.61 19.10,28.90 23.82,28.52 23.79,23.79 28.52,23.82 28.90,19.10 33.61,19.55 34.40,14.88 39.06,15.73 40.25,11.15 44.81,12.41 46.40,7.95 50.84,9.60 52.81,5.29 57.09,7.33 59.42,3.21 63.51,5.61 66.19,1.71 70.05,4.45 73.07,0.80 76.68,3.87 80.00,0.50 83.32,3.87 86.93,0.80 89.95,4.45 93.81,1.71 96.49,5.61 100.58,3.21 102.91,7.33 107.19,5.29 109.16,9.60 113.60,7.95 115.19,12.41 119.75,11.15 120.94,15.73 125.60,14.88 126.39,19.55 131.10,19.10 131.48,23.82 136.21,23.79 136.18,28.52 140.90,28.90 140.45,33.61 145.12,34.40 144.27,39.06 148.85,40.25 147.59,44.81 152.05,46.40 150.40,50.84 154.71,52.81 152.67,57.09 156.79,59.42 154.39,63.51 158.29,66.19 155.55,70.05 159.20,73.07 156.13,76.68" fill="url(#g-foil)"/>
+                <circle cx="80" cy="80" r="73.5" fill="url(#g-band)"/>
+                <circle class="sg-rule" cx="80" cy="80" r="73.5"/>
+                <circle class="sg-rule thin" cx="80" cy="80" r="70.5"/>
+                <circle cx="80" cy="80" r="48.5" fill="url(#g-face)"/>
+                <circle class="sg-rule" cx="80" cy="80" r="48.5"/>
+                <circle class="sg-rule thin" cx="80" cy="80" r="51.5"/>
+                <text class="sg-ring hl" transform="translate(0 .8)"><textPath href="#seal-ring" textLength="378" lengthAdjust="spacing">Kitchen &amp; Bathroom Installation ✦ Prestige Awards 2026/27 ✦ </textPath></text>
+                <text class="sg-ring"><textPath href="#seal-ring" textLength="378" lengthAdjust="spacing">Kitchen &amp; Bathroom Installation ✦ Prestige Awards 2026/27 ✦ </textPath></text>
+                <g transform="translate(0 .8)"><g class="seal-laurel hl" transform="translate(0 -2.5)"><path class="lr-stem" d="M78.2 74.4A17.5 17.5 0 0 1 65.5 47.2"/><ellipse cx="75.8" cy="76.7" rx="3.9" ry="1.7" transform="rotate(230 75.8 76.7)"/><ellipse cx="70.0" cy="74.4" rx="3.9" ry="1.7" transform="rotate(248 70.0 74.4)"/><ellipse cx="72.5" cy="70.1" rx="3.9" ry="1.7" transform="rotate(172 72.5 70.1)"/><ellipse cx="65.1" cy="70.4" rx="3.9" ry="1.7" transform="rotate(266 65.1 70.4)"/><ellipse cx="68.8" cy="67.1" rx="3.9" ry="1.7" transform="rotate(190 68.8 67.1)"/><ellipse cx="61.6" cy="65.2" rx="3.9" ry="1.7" transform="rotate(284 61.6 65.2)"/><ellipse cx="66.2" cy="63.1" rx="3.9" ry="1.7" transform="rotate(208 66.2 63.1)"/><ellipse cx="60.0" cy="59.1" rx="3.9" ry="1.7" transform="rotate(302 60.0 59.1)"/><ellipse cx="65.0" cy="58.6" rx="3.9" ry="1.7" transform="rotate(226 65.0 58.6)"/><ellipse cx="60.3" cy="52.8" rx="3.9" ry="1.7" transform="rotate(320 60.3 52.8)"/><ellipse cx="65.2" cy="53.9" rx="3.9" ry="1.7" transform="rotate(244 65.2 53.9)"/><ellipse cx="62.3" cy="47.6" rx="3.9" ry="1.7" transform="rotate(336 62.3 47.6)"/><ellipse cx="66.7" cy="49.9" rx="3.9" ry="1.7" transform="rotate(260 66.7 49.9)"/><path class="lr-stem" d="M81.8 74.4A17.5 17.5 0 0 0 94.5 47.2"/><ellipse cx="84.2" cy="76.7" rx="3.9" ry="1.7" transform="rotate(-50 84.2 76.7)"/><ellipse cx="90.0" cy="74.4" rx="3.9" ry="1.7" transform="rotate(-68 90.0 74.4)"/><ellipse cx="87.5" cy="70.1" rx="3.9" ry="1.7" transform="rotate(8 87.5 70.1)"/><ellipse cx="94.9" cy="70.4" rx="3.9" ry="1.7" transform="rotate(-86 94.9 70.4)"/><ellipse cx="91.2" cy="67.1" rx="3.9" ry="1.7" transform="rotate(-10 91.2 67.1)"/><ellipse cx="98.4" cy="65.2" rx="3.9" ry="1.7" transform="rotate(-104 98.4 65.2)"/><ellipse cx="93.8" cy="63.1" rx="3.9" ry="1.7" transform="rotate(-28 93.8 63.1)"/><ellipse cx="100.0" cy="59.1" rx="3.9" ry="1.7" transform="rotate(-122 100.0 59.1)"/><ellipse cx="95.0" cy="58.6" rx="3.9" ry="1.7" transform="rotate(-46 95.0 58.6)"/><ellipse cx="99.7" cy="52.8" rx="3.9" ry="1.7" transform="rotate(-140 99.7 52.8)"/><ellipse cx="94.8" cy="53.9" rx="3.9" ry="1.7" transform="rotate(-64 94.8 53.9)"/><ellipse cx="97.7" cy="47.6" rx="3.9" ry="1.7" transform="rotate(-156 97.7 47.6)"/><ellipse cx="93.3" cy="49.9" rx="3.9" ry="1.7" transform="rotate(-80 93.3 49.9)"/></g><g class="seal-trophy hl" transform="translate(70.4 44) scale(.8)"><path d="M7 2.5h10v6a5 5 0 0 1-10 0Z"/><path class="tr-line" d="M7 4.5H4.6a2.6 2.6 0 0 0 0 5.2H7.4M17 4.5h2.4a2.6 2.6 0 0 1 0 5.2h-2.8"/><rect x="11" y="13.3" width="2" height="3.6" rx=".4"/><path d="M8.6 16.8h6.8l.9 2.6H7.7Z"/><rect x="6.8" y="19.4" width="10.4" height="2.2" rx=".6"/></g></g>
+                <g class="seal-laurel" transform="translate(0 -2.5)"><path class="lr-stem" d="M78.2 74.4A17.5 17.5 0 0 1 65.5 47.2"/><ellipse cx="75.8" cy="76.7" rx="3.9" ry="1.7" transform="rotate(230 75.8 76.7)"/><ellipse cx="70.0" cy="74.4" rx="3.9" ry="1.7" transform="rotate(248 70.0 74.4)"/><ellipse cx="72.5" cy="70.1" rx="3.9" ry="1.7" transform="rotate(172 72.5 70.1)"/><ellipse cx="65.1" cy="70.4" rx="3.9" ry="1.7" transform="rotate(266 65.1 70.4)"/><ellipse cx="68.8" cy="67.1" rx="3.9" ry="1.7" transform="rotate(190 68.8 67.1)"/><ellipse cx="61.6" cy="65.2" rx="3.9" ry="1.7" transform="rotate(284 61.6 65.2)"/><ellipse cx="66.2" cy="63.1" rx="3.9" ry="1.7" transform="rotate(208 66.2 63.1)"/><ellipse cx="60.0" cy="59.1" rx="3.9" ry="1.7" transform="rotate(302 60.0 59.1)"/><ellipse cx="65.0" cy="58.6" rx="3.9" ry="1.7" transform="rotate(226 65.0 58.6)"/><ellipse cx="60.3" cy="52.8" rx="3.9" ry="1.7" transform="rotate(320 60.3 52.8)"/><ellipse cx="65.2" cy="53.9" rx="3.9" ry="1.7" transform="rotate(244 65.2 53.9)"/><ellipse cx="62.3" cy="47.6" rx="3.9" ry="1.7" transform="rotate(336 62.3 47.6)"/><ellipse cx="66.7" cy="49.9" rx="3.9" ry="1.7" transform="rotate(260 66.7 49.9)"/><path class="lr-stem" d="M81.8 74.4A17.5 17.5 0 0 0 94.5 47.2"/><ellipse cx="84.2" cy="76.7" rx="3.9" ry="1.7" transform="rotate(-50 84.2 76.7)"/><ellipse cx="90.0" cy="74.4" rx="3.9" ry="1.7" transform="rotate(-68 90.0 74.4)"/><ellipse cx="87.5" cy="70.1" rx="3.9" ry="1.7" transform="rotate(8 87.5 70.1)"/><ellipse cx="94.9" cy="70.4" rx="3.9" ry="1.7" transform="rotate(-86 94.9 70.4)"/><ellipse cx="91.2" cy="67.1" rx="3.9" ry="1.7" transform="rotate(-10 91.2 67.1)"/><ellipse cx="98.4" cy="65.2" rx="3.9" ry="1.7" transform="rotate(-104 98.4 65.2)"/><ellipse cx="93.8" cy="63.1" rx="3.9" ry="1.7" transform="rotate(-28 93.8 63.1)"/><ellipse cx="100.0" cy="59.1" rx="3.9" ry="1.7" transform="rotate(-122 100.0 59.1)"/><ellipse cx="95.0" cy="58.6" rx="3.9" ry="1.7" transform="rotate(-46 95.0 58.6)"/><ellipse cx="99.7" cy="52.8" rx="3.9" ry="1.7" transform="rotate(-140 99.7 52.8)"/><ellipse cx="94.8" cy="53.9" rx="3.9" ry="1.7" transform="rotate(-64 94.8 53.9)"/><ellipse cx="97.7" cy="47.6" rx="3.9" ry="1.7" transform="rotate(-156 97.7 47.6)"/><ellipse cx="93.3" cy="49.9" rx="3.9" ry="1.7" transform="rotate(-80 93.3 49.9)"/></g>
+                <g class="seal-trophy" transform="translate(70.4 44) scale(.8)"><path d="M7 2.5h10v6a5 5 0 0 1-10 0Z"/><path class="tr-line" d="M7 4.5H4.6a2.6 2.6 0 0 0 0 5.2H7.4M17 4.5h2.4a2.6 2.6 0 0 1 0 5.2h-2.8"/><rect x="11" y="13.3" width="2" height="3.6" rx=".4"/><path d="M8.6 16.8h6.8l.9 2.6H7.7Z"/><rect x="6.8" y="19.4" width="10.4" height="2.2" rx=".6"/></g>
+                <text class="sg-big hl" x="80" y="94.8">Firm of</text><text class="sg-big hl" x="80" y="112.8">the Year</text>
+                <text class="sg-big" x="80" y="94">Firm of</text><text class="sg-big" x="80" y="112">the Year</text>
+              </svg>
+            </div>
+            <figcaption class="hero-quote">
+              <!-- REVIEW LINK: replace href with the review's own share link from Google Maps (open the review, Share, Copy link) -->
+              <a class="hq-link" href="https://www.google.com/search?q=A%26G+Renovations+London#lrd=0x47d8a7d1e8748481:0xd0985427ab3e41e4,3" target="_blank" rel="noopener" data-cta="hero-review" aria-label="Read Kimberly Dennis's full review on Google (opens in a new tab)">
+                <span class="hq-top"><span class="avatar" style="background:#e8467c" aria-hidden="true">K</span><span class="stars" aria-hidden="true"><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></span></span>
+                <span class="hq-text">&ldquo;We are absolutely over the moon with our kitchen renovation. The customer experience was fantastic from start to finish&hellip;&rdquo;</span>
+                <span class="hq-by"><svg class="g-logo" viewBox="0 0 48 48" aria-hidden="true"><path fill="#FFC107" d="M43.6 20.1H42V20H24v8h11.3C33.7 32.7 29.2 36 24 36c-6.6 0-12-5.4-12-12s5.4-12 12-12c3.1 0 5.8 1.2 8 3l5.7-5.7C34 6.1 29.3 4 24 4 13 4 4 13 4 24s9 20 20 20 20-9 20-20c0-1.3-.1-2.6-.4-3.9z"/><path fill="#FF3D00" d="m6.3 14.7 6.6 4.8C14.7 15.1 19 12 24 12c3.1 0 5.8 1.2 8 3l5.7-5.7C34 6.1 29.3 4 24 4 16.3 4 9.7 8.3 6.3 14.7z"/><path fill="#4CAF50" d="M24 44c5.2 0 9.9-2 13.4-5.2l-6.2-5.2C29.2 35.1 26.7 36 24 36c-5.2 0-9.6-3.3-11.3-7.9l-6.5 5C9.5 39.6 16.2 44 24 44z"/><path fill="#1976D2" d="M43.6 20.1H42V20H24v8h11.3c-.8 2.2-2.2 4.2-4.1 5.6l6.2 5.2C37 39.2 44 34 44 24c0-1.3-.1-2.6-.4-3.9z"/></svg><span><b>Kimberly Dennis</b>, Google review. Her kitchen is pictured.</span></span>
+                <span class="hq-more">Read the full review on Google<svg class="i-ext" width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+              </a>
+            </figcaption>
+          </figure>
+        </div>
+        <ul class="proof" aria-label="Why homeowners choose A&amp;G">
+          <li><a class="pf pf-link" href="https://www.google.com/search?q=A%26G+Renovations+London#lrd=0x47d8a7d1e8748481:0xd0985427ab3e41e4,3" target="_blank" rel="noopener" data-cta="proof-google">
+            <span class="pf-value"><svg class="g-logo" viewBox="0 0 48 48" aria-hidden="true"><path fill="#FFC107" d="M43.6 20.1H42V20H24v8h11.3C33.7 32.7 29.2 36 24 36c-6.6 0-12-5.4-12-12s5.4-12 12-12c3.1 0 5.8 1.2 8 3l5.7-5.7C34 6.1 29.3 4 24 4 13 4 4 13 4 24s9 20 20 20 20-9 20-20c0-1.3-.1-2.6-.4-3.9z"/><path fill="#FF3D00" d="m6.3 14.7 6.6 4.8C14.7 15.1 19 12 24 12c3.1 0 5.8 1.2 8 3l5.7-5.7C34 6.1 29.3 4 24 4 16.3 4 9.7 8.3 6.3 14.7z"/><path fill="#4CAF50" d="M24 44c5.2 0 9.9-2 13.4-5.2l-6.2-5.2C29.2 35.1 26.7 36 24 36c-5.2 0-9.6-3.3-11.3-7.9l-6.5 5C9.5 39.6 16.2 44 24 44z"/><path fill="#1976D2" d="M43.6 20.1H42V20H24v8h11.3c-.8 2.2-2.2 4.2-4.1 5.6l6.2 5.2C37 39.2 44 34 44 24c0-1.3-.1-2.6-.4-3.9z"/></svg><b>5.0</b><span class="stars" aria-hidden="true"><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></span></span><span class="pf-label">60 Google reviews</span></a></li>
+          <li class="pf"><span class="pf-value"><img class="pf-logo" src="images/optimized/marks/bifis.webp" alt="BIFIS" width="529" height="144" loading="lazy" decoding="async"><b>member</b></span><span class="pf-label">British Institute of Fitted Interiors Specialists</span></li>
+          <li class="pf"><span class="pf-value"><b>12 months</b></span><span class="pf-label">Labour guarantee on all workmanship</span></li>
+          <li class="pf"><span class="pf-value"><b>£5M</b></span><span class="pf-label">Public liability insurance on every project</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ONE CONTRACT: interactive comparison -->
+    <section class="section contract" id="contract" data-mode="alone" aria-labelledby="contract-h">
+      <div class="wrap">
+        <div class="section-head">
+          <h2 class="h2" id="contract-h">Up to seven trades in one room. One team runs it.</h2>
+          <p class="lead">A new kitchen brings together a fitter, an electrician, a plumber, often a gas engineer and a
+            stonemason, plus tiling and flooring, all in a set order. Booked separately, every gap between them is
+            yours to manage.</p>
+        </div>
+        <div class="switch" role="tablist" aria-label="Compare two ways to renovate a kitchen">
+          <button type="button" role="tab" data-mode="alone" aria-selected="true" aria-controls="contract-stage">Booking trades yourself</button>
+          <button type="button" role="tab" data-mode="ag" aria-selected="false" aria-controls="contract-stage">One contract with A&amp;G</button>
+        </div>
+        <div class="contract-grid">
+          <div class="stage" id="contract-stage" data-mode="alone" role="tabpanel">
+            <svg class="wires" aria-hidden="true"></svg>
+            <div class="nodes" aria-hidden="true">
+              <span class="node you">You</span>
+              <span class="node coord">Your A&amp;G project coordinator</span>
+              <span class="node trade t1" style="--i:1">Kitchen fitter</span>
+              <span class="node trade t2" style="--i:2">Electrician</span>
+              <span class="node trade t3" style="--i:3">Plumber</span>
+              <span class="node trade t4" style="--i:4">Gas engineer</span>
+              <span class="node trade t5" style="--i:5">Stonemason</span>
+              <span class="node trade t6" style="--i:6">Tiler</span>
+              <span class="node trade t7" style="--i:7">Flooring fitter</span>
+            </div>
+            <p class="stage-note" aria-live="polite">
+              <span class="note-alone"><b>7</b> separate trades for you to find, schedule and chase</span>
+              <span class="note-ag"><b>1</b> point of contact. We schedule everyone else.</span>
+            </p>
+          </div>
+          <div class="points">
+            <div class="pts pts-alone">
+              <h3>Booking trades yourself</h3>
+              <ul class="route-list">
+                <li><svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true"><path d="M4 9h10" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>You find, check and schedule each trade</li>
+                <li><svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true"><path d="M4 9h10" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>A delay in one trade holds up the next</li>
+                <li><svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true"><path d="M4 9h10" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>Problems between trades have no single owner</li>
+                <li><svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true"><path d="M4 9h10" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>Separate invoices and separate guarantees</li>
+              </ul>
+            </div>
+            <div class="pts pts-ag">
+              <h3>One contract with A&amp;G</h3>
+              <ul class="route-list">
+                <li><svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true"><path d="m3.5 9.5 3.5 3.5 7.5-8" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>One contract and one point of contact for the whole kitchen</li>
+                <li><svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true"><path d="m3.5 9.5 3.5 3.5 7.5-8" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>Fitted by our own in-house fitters</li>
+                <li><svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true"><path d="m3.5 9.5 3.5 3.5 7.5-8" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>Certified electricians, Gas Safe engineers and stonemasons, scheduled by us</li>
+                <li><svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true"><path d="m3.5 9.5 3.5 3.5 7.5-8" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>A project coordinator and a WhatsApp group from day one</li>
+                <li><svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true"><path d="m3.5 9.5 3.5 3.5 7.5-8" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>One 12-month labour guarantee on the finished work</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHAT'S INCLUDED: auto-playing tour of the kitchen drawing -->
+    <section class="section included" id="included" aria-labelledby="included-h">
+      <div class="wrap">
+        <div class="section-head">
+          <h2 class="h2" id="included-h">Everything from strip-out to final finish</h2>
+          <p class="lead">Sit back and watch the kitchen come together, or tap any part to jump straight to it.</p>
+        </div>
+        <p class="included-bookend"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true"><circle cx="9" cy="9" r="7" stroke="currentColor" stroke-width="1.8"/><path d="m6 9.3 2 2 4-4.3" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Before work starts, floor and dust protection go down. Your old kitchen is removed and the waste taken away by our licensed waste carrier.</span></p>
+        <div class="tour" id="tour">
+          <div class="tour-list" role="group" aria-label="Parts of the kitchen">
+            <button type="button" class="part-btn" data-part="units" data-title="Units" data-desc="Supply and installation of your kitchen cabinets, set level and aligned, with doors, drawers and handles adjusted." data-who="Fitted by our in-house fitters" aria-pressed="false"><span class="pn">1</span><span class="t">Units</span></button>
+            <button type="button" class="part-btn" data-part="worktop" data-title="Worktops, sink and taps" data-desc="Worktops, sink and taps installed. Stone worktops in quartz, granite or marble are templated once the cabinets are in, cut off-site and fitted by specialist stonemasons." data-who="Our in-house fitters, with stonemasons we coordinate" aria-pressed="false"><span class="pn">2</span><span class="t">Worktops, sink and taps</span></button>
+            <button type="button" class="part-btn" data-part="electrics" data-title="Electrics" data-desc="Electrical work for your appliances, tested and certified." data-who="NICEIC certified electricians we coordinate" aria-pressed="false"><span class="pn">3</span><span class="t">Electrics</span></button>
+            <button type="button" class="part-btn" data-part="plumbing" data-title="Plumbing and gas" data-desc="Plumbing adjustments for the sink and appliances, and gas work for the hob where needed." data-who="Gas work by Gas Safe registered engineers we coordinate" aria-pressed="false"><span class="pn">4</span><span class="t">Plumbing and gas</span></button>
+            <button type="button" class="part-btn" data-part="appliances" data-title="Appliances and extractor" data-desc="Extractor hood fitted and appliances installed and connected." data-who="Managed by your project coordinator" aria-pressed="false"><span class="pn">5</span><span class="t">Appliances and extractor</span></button>
+            <button type="button" class="part-btn" data-part="splash" data-title="Splashback and tiling" data-desc="Splashback installed and tiling completed around the working area." data-who="Managed by your project coordinator" aria-pressed="false"><span class="pn">6</span><span class="t">Splashback and tiling</span></button>
+            <button type="button" class="part-btn" data-part="floor" data-title="Flooring" data-desc="New flooring laid to finish the room." data-who="Managed by your project coordinator" aria-pressed="false"><span class="pn">7</span><span class="t">Flooring</span></button>
+          </div>
+          <figure class="tour-card">
+            <div class="tour-top">
+              <div class="tour-bars" aria-hidden="true"><span class="bar"><i></i></span><span class="bar"><i></i></span><span class="bar"><i></i></span><span class="bar"><i></i></span><span class="bar"><i></i></span><span class="bar"><i></i></span><span class="bar"><i></i></span></div>
+              <button type="button" class="tour-toggle" aria-label="Pause the tour"><svg class="i-pause" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><rect x="3.5" y="2.5" width="3" height="11" rx="1" fill="currentColor"/><rect x="9.5" y="2.5" width="3" height="11" rx="1" fill="currentColor"/></svg><svg class="i-play" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M4.5 2.8v10.4L13 8z" fill="currentColor"/></svg></button>
+            </div>
+            <div class="tour-art">
+              <svg class="kd" viewBox="0 0 960 600" role="img" aria-labelledby="kd-title">
+  <title id="kd-title">Line drawing of a fitted kitchen. Select a part to see what's included.</title>
+  <defs>
+    <linearGradient id="kd-glow" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f3d79c" stop-opacity=".6"/><stop offset="1" stop-color="#f3d79c" stop-opacity="0"/></linearGradient>
+    <linearGradient id="kd-cone" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f3d79c" stop-opacity=".22"/><stop offset="1" stop-color="#f3d79c" stop-opacity="0"/></linearGradient>
+    <linearGradient id="kd-sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#95d5b2" stop-opacity=".28"/><stop offset="1" stop-color="#95d5b2" stop-opacity=".05"/></linearGradient>
+  </defs>
+  <g class="room" style="--d:0s">
+    <rect pathLength="1" class="ln-soft" x="30" y="30" width="900" height="490"/>
+    <path pathLength="1" class="ln-soft" d="M30 46H930"/>
+    <rect class="sky" x="420" y="92" width="140" height="172" rx="3"/>
+    <rect pathLength="1" class="ln" x="420" y="92" width="140" height="172" rx="3"/>
+    <path pathLength="1" class="ln-soft" d="M490 92V264M420 178H560"/>
+    <path pathLength="1" class="ln" d="M410 270H570"/>
+  </g>
+  <g class="part" data-part="splash" style="--d:.25s">
+    <rect class="fillpart" x="180" y="262" width="720" height="120"/>
+    <path pathLength="1" class="ln-soft" d="M180 300H900M180 327H900M180 354H900M180 300V327M232 300V327M284 300V327M336 300V327M388 300V327M440 300V327M492 300V327M544 300V327M596 300V327M648 300V327M700 300V327M752 300V327M804 300V327M856 300V327M206 327V354M258 327V354M310 327V354M362 327V354M414 327V354M466 327V354M518 327V354M570 327V354M622 327V354M674 327V354M726 327V354M778 327V354M830 327V354M882 327V354M180 354V382M232 354V382M284 354V382M336 354V382M388 354V382M440 354V382M492 354V382M544 354V382M596 354V382M648 354V382M700 354V382M752 354V382M804 354V382M856 354V382"/>
+  </g>
+  <g class="part" data-part="units" style="--d:.1s">
+    <rect pathLength="1" class="ln fillpart" x="60" y="92" width="112" height="408" rx="3"/>
+    <rect pathLength="1" class="ln-soft" x="68" y="100" width="96" height="128" rx="2"/>
+    <rect pathLength="1" class="ln-soft" x="68" y="346" width="96" height="146" rx="2"/>
+    <rect pathLength="1" class="ln fillpart" x="180" y="92" width="220" height="158" rx="3"/>
+    <path pathLength="1" class="ln-soft" d="M253 92V250M326 92V250"/>
+    <rect pathLength="1" class="ln fillpart" x="760" y="92" width="140" height="158" rx="3"/>
+    <path pathLength="1" class="ln-soft" d="M830 92V250"/>
+    <rect pathLength="1" class="ln fillpart" x="180" y="398" width="720" height="102" rx="2"/>
+    <path pathLength="1" class="ln-soft" d="M300 398V500M420 398V500M560 398V500M620 398V500M740 398V500M490 398V500M820 398V500M180 432H300M180 466H300M620 440H740M620 470H740"/>
+    <rect pathLength="1" class="ln-soft" x="60" y="500" width="840" height="16"/>
+    <path class="brass" d="M244 222V240M262 222V240M317 222V240M821 222V240M839 222V240M215 414H265M215 448H265M215 482H265M655 420H705M655 455H705M655 486H705M478 412V432M502 412V432M808 412V432M832 412V432M150 160V196M150 380V420"/>
+  </g>
+  <g class="part" data-part="worktop" style="--d:.45s">
+    <rect pathLength="1" class="ln fillpart stone" x="172" y="382" width="736" height="16" rx="2"/>
+    <rect pathLength="1" class="ln" x="446" y="376" width="88" height="6" rx="2"/>
+    <path pathLength="1" class="ln" d="M490 376V332Q490 314 508 314H520V326"/>
+  </g>
+  <g class="part" data-part="appliances" style="--d:.55s">
+    <rect pathLength="1" class="ln fillpart" x="72" y="238" width="88" height="98" rx="3"/>
+    <rect pathLength="1" class="ln-soft" x="82" y="262" width="68" height="60" rx="3"/>
+    <path pathLength="1" class="ln" d="M84 250H148"/>
+    <rect pathLength="1" class="ln fillpart" x="655" y="46" width="50" height="94"/>
+    <path pathLength="1" class="ln fillpart" d="M612 196 638 140H722L748 196Z"/>
+    <path pathLength="1" class="ln" d="M636 378H664M668 378H696M700 378H728"/>
+    <rect pathLength="1" class="ln-soft" x="563" y="402" width="54" height="94" rx="2"/>
+    <path pathLength="1" class="ln" d="M570 412H610"/>
+  </g>
+  <g class="part" data-part="electrics" style="--d:.65s">
+    <path class="cone" d="M250 54 206 250H294ZM480 54 436 92H524ZM830 54 786 92H874Z"/>
+    <rect class="glowfill" x="186" y="252" width="208" height="70"/>
+    <rect class="glowfill" x="766" y="252" width="128" height="70"/>
+    <path class="glow" d="M186 255H394M766 255H894"/>
+    <rect pathLength="1" class="ln" x="214" y="316" width="30" height="20" rx="3"/>
+    <rect pathLength="1" class="ln" x="836" y="316" width="30" height="20" rx="3"/>
+    <path pathLength="1" class="ln" d="M224 326h2M234 326h2M846 326h2M856 326h2"/>
+    <path pathLength="1" class="ln" d="M238 46a12 8 0 0 0 24 0M468 46a12 8 0 0 0 24 0M818 46a12 8 0 0 0 24 0"/>
+  </g>
+  <g class="part" data-part="plumbing" style="--d:.75s">
+    <path class="dash" d="M482 516V420Q482 410 492 410H500M500 516V430M700 516V400"/>
+    <path pathLength="1" class="ln" d="M486 404v10q0 10 10 10t10-10"/>
+  </g>
+  <g class="part" data-part="floor" style="--d:.85s">
+    <rect class="fillpart wood" x="30" y="516" width="900" height="48"/>
+    <path pathLength="1" class="ln-soft" d="M30 516H930M30 540H930M30 564H930"/>
+    <path pathLength="1" class="ln-soft" d="M110 516V540M290 516V540M470 516V540M650 516V540M830 516V540M200 540V564M380 540V564M560 540V564M740 540V564M900 540V564"/>
+  </g>
+  <g class="hs" data-part="units" transform="translate(290 170)" role="button" tabindex="0" aria-label="Units"><circle class="hit" r="40"/><circle class="pulse" r="14"/><circle class="ring" r="14"/><circle class="core" r="4.5"/></g>
+  <g class="hs" data-part="worktop" transform="translate(340 390)" role="button" tabindex="0" aria-label="Worktops, sink and taps"><circle class="hit" r="40"/><circle class="pulse" r="14"/><circle class="ring" r="14"/><circle class="core" r="4.5"/></g>
+  <g class="hs" data-part="electrics" transform="translate(229 326)" role="button" tabindex="0" aria-label="Electrics"><circle class="hit" r="40"/><circle class="pulse" r="14"/><circle class="ring" r="14"/><circle class="core" r="4.5"/></g>
+  <g class="hs" data-part="plumbing" transform="translate(491 462)" role="button" tabindex="0" aria-label="Plumbing and gas"><circle class="hit" r="40"/><circle class="pulse" r="14"/><circle class="ring" r="14"/><circle class="core" r="4.5"/></g>
+  <g class="hs" data-part="appliances" transform="translate(116 292)" role="button" tabindex="0" aria-label="Appliances and extractor"><circle class="hit" r="40"/><circle class="pulse" r="14"/><circle class="ring" r="14"/><circle class="core" r="4.5"/></g>
+  <g class="hs" data-part="splash" transform="translate(640 341)" role="button" tabindex="0" aria-label="Splashback and tiling"><circle class="hit" r="40"/><circle class="pulse" r="14"/><circle class="ring" r="14"/><circle class="core" r="4.5"/></g>
+  <g class="hs" data-part="floor" transform="translate(760 540)" role="button" tabindex="0" aria-label="Flooring"><circle class="hit" r="40"/><circle class="pulse" r="14"/><circle class="ring" r="14"/><circle class="core" r="4.5"/></g>
+</svg>
+            </div>
+            <div class="tour-cap" aria-live="polite">
+              <div class="cap-text">
+                <span class="cap-step">1 of 7</span>
+                <h3 class="cap-title">Units</h3>
+                <p class="cap-desc">Supply and installation of your kitchen cabinets, set level and aligned, with doors, drawers and handles adjusted.</p>
+                <p class="cap-who"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="8" r="4" stroke="currentColor" stroke-width="2"/><path d="M4 21c1.5-4 4.5-6 8-6s6.5 2 8 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><span>Fitted by our in-house fitters</span></p>
+              </div>
+              <div class="cap-nav">
+                <button type="button" class="cap-prev" aria-label="Previous part"><svg width="18" height="18" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M12.5 4.5 7 10l5.5 5.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+                <button type="button" class="cap-next" aria-label="Next part"><svg width="18" height="18" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M7.5 4.5 13 10l-5.5 5.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+              </div>
+            </div>
+            <figcaption class="tour-note">Illustration of a typical kitchen layout, not a specific A&amp;G project.</figcaption>
+          </figure>
+        </div>
+        <p class="included-bookend"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true"><circle cx="9" cy="9" r="7" stroke="currentColor" stroke-width="1.8"/><path d="m6 9.3 2 2 4-4.3" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg><span>At the end, silicone sealing and finishing, a final clean and quality checks, then a walk-through before handover.</span></p>
+      </div>
+    </section>
+
+    <!-- POPULAR ADDITIONS + FREE 3D DESIGN -->
+    <section class="section extras" id="extras" aria-labelledby="extras-h">
+      <div class="wrap">
+        <div class="section-head">
+          <h2 class="h2" id="extras-h">Popular additions</h2>
+          <p class="lead">The extras homeowners ask for most. Each is optional and has its own individual cost, so you
+            only add what you want.</p>
+        </div>
+        <div class="extras-grid">
+          <article class="extra" data-extra="integrated">
+            <div class="extra-art"><svg class="art art-integrated" viewBox="0 0 260 160" aria-hidden="true">
+  <rect class="a-wall" x="0" y="0" width="260" height="160"/>
+  <rect class="a-top" x="18" y="34" width="224" height="10" rx="2"/>
+  <g class="a-cab"><rect x="26" y="44" width="68" height="96"/><path d="M34 54h52M34 88h52M34 122h52"/></g>
+  <g class="a-appl"><rect x="96" y="44" width="70" height="96"/><path class="a-panel" d="M104 52h54"/><path d="M106 66h50M106 82h50M106 98h50M106 114h50" class="a-rack"/><circle cx="150" cy="52" r="2.4" class="a-led"/></g>
+  <g class="a-door"><rect x="96" y="44" width="70" height="96"/><path d="M104 54h54" class="a-handle"/></g>
+  <g class="a-cab"><rect x="168" y="44" width="66" height="96"/><path d="M200 44v96"/><path d="M190 56v14M210 56v14" class="a-handle"/></g>
+  <path class="a-floor" d="M10 140h240"/>
+</svg></div>
+            <h3>Integrated appliances installation</h3>
+            <p>Fridge, dishwasher and more built in behind matching doors, so the run of units stays clean.</p>
+          </article>
+          <article class="extra" data-extra="led">
+            <div class="extra-art"><svg class="art art-led" viewBox="0 0 260 160" aria-hidden="true">
+  <rect class="a-wall" x="0" y="0" width="260" height="160"/>
+  <polygon class="a-glow" points="34,58 226,58 246,118 14,118"/>
+  <g class="a-cab"><rect x="30" y="14" width="200" height="40"/><path d="M80 14v40M130 14v40M180 14v40"/><path d="M72 40v8M88 40v8M172 40v8M188 40v8" class="a-handle"/></g>
+  <path class="a-strip" d="M36 56h188"/>
+  <path class="a-rays" d="M60 62l-6 18M100 62l-3 18M140 62v18M180 62l3 18M220 62l6 18"/>
+  <rect class="a-top" x="10" y="118" width="240" height="10" rx="2"/>
+  <g class="a-obj"><path d="M60 118v-16h18v16"/><path d="M78 106h6v8h-6"/><path d="M170 118c0-12 24-12 24 0"/><path d="M182 106v-6"/></g>
+  <path class="a-floor" d="M10 140h240"/>
+</svg></div>
+            <h3>Under-cabinet LED lighting</h3>
+            <p>A warm line of light along the worktop, wired in as part of your kitchen.</p>
+          </article>
+          <article class="extra" data-extra="splash">
+            <div class="extra-art"><svg class="art art-splash" viewBox="0 0 260 160" aria-hidden="true">
+  <rect class="a-wall" x="0" y="0" width="260" height="160"/>
+  <rect class="a-slab" x="30" y="14" width="200" height="96" rx="2"/>
+  <path class="a-vein" pathLength="1" d="M30 40c30 6 44 22 70 18s40-30 70-22 40 30 60 26"/>
+  <path class="a-vein thin" pathLength="1" d="M30 78c24-10 46 4 64 0s28-24 52-20 30 24 54 18 22-14 30-10"/>
+  <path class="a-vein thin" pathLength="1" d="M120 14c-4 20 10 30 6 52s-16 26-10 44"/>
+  <rect class="a-top" x="10" y="110" width="240" height="10" rx="2"/>
+  <g class="a-obj"><path d="M98 110h64"/><ellipse cx="114" cy="106" rx="11" ry="2.5"/><ellipse cx="146" cy="106" rx="11" ry="2.5"/></g>
+  <path class="a-floor" d="M10 140h240"/>
+</svg></div>
+            <h3>Premium splashback or feature panel</h3>
+            <p>A statement surface behind the hob or sink that pulls the room together.</p>
+          </article>
+          <article class="extra" data-extra="switch">
+            <div class="extra-art"><svg class="art art-switch" viewBox="0 0 260 160" aria-hidden="true">
+  <rect class="a-wall" x="0" y="0" width="260" height="160"/>
+  <path class="a-cord" d="M190 0v40"/>
+  <circle class="a-bulbglow" cx="190" cy="66" r="34"/>
+  <path class="a-shade" d="M168 62c0-18 44-18 44 0z"/>
+  <path class="a-bulb" d="M184 62c0 8 12 8 12 0"/>
+  <rect class="a-plate" x="40" y="44" width="96" height="70" rx="8"/>
+  <g class="a-sw">
+    <rect x="52" y="56" width="20" height="20" rx="3"/><rect x="78" y="56" width="20" height="20" rx="3"/><rect x="104" y="56" width="20" height="20" rx="3"/>
+    <rect x="52" y="82" width="20" height="20" rx="3"/><rect x="78" y="82" width="20" height="20" rx="3"/><rect x="104" y="82" width="20" height="20" rx="3"/>
+  </g>
+  <g class="a-rock">
+    <path d="M56 63h12" style="--k:0"/><path d="M82 63h12" style="--k:1"/><path d="M108 63h12" style="--k:2"/>
+    <path d="M56 89h12" style="--k:3"/><path d="M82 89h12" style="--k:4"/><path d="M108 89h12" style="--k:5"/>
+  </g>
+  <path class="a-floor" d="M10 140h240"/>
+</svg></div>
+            <h3>Advanced electrical layout and switch grid</h3>
+            <p>Extra sockets, lighting circuits and a switch grid that put power and light where you use them.</p>
+          </article>
+        </div>
+        <div class="d3">
+          <div class="d3-art"><svg class="iso" viewBox="-183 -140 438 391" role="img" aria-label="A 3D line model of a kitchen with an island, assembling piece by piece"><path class="iso-grid" d="M0.0 0.0L-167.3 96.6M19.9 11.5L-147.4 108.1M39.8 23.0L-127.5 119.6M59.8 34.5L-107.6 131.1M79.7 46.0L-87.6 142.6M99.6 57.5L-67.7 154.1M119.5 69.0L-47.8 165.6M139.4 80.5L-27.9 177.1M159.3 92.0L-8.0 188.6M179.3 103.5L12.0 200.1M199.2 115.0L31.9 211.6M219.1 126.5L51.8 223.1M239.0 138.0L71.7 234.6M0.0 0.0L239.0 138.0M-19.9 11.5L219.1 149.5M-39.8 23.0L199.2 161.0M-59.8 34.5L179.3 172.5M-79.7 46.0L159.3 184.0M-99.6 57.5L139.4 195.5M-119.5 69.0L119.5 207.0M-139.4 80.5L99.6 218.5M-159.3 92.0L79.7 230.0"/><path class="iso-wall" d="M0.0 0.0L0.0 -124.2M0.0 -124.2L239.0 13.8M0.0 -124.2L-167.3 -27.6"/><g class="iso-b iso-cab" style="--i:0"><polygon class="f-top" points="0.0,-40.5 183.2,65.3 159.3,79.1 -23.9,-26.7"/><polygon class="f-y" points="-23.9,13.8 159.3,119.6 159.3,79.1 -23.9,-26.7"/><polygon class="f-x" points="183.2,105.8 159.3,119.6 159.3,79.1 183.2,65.3"/><path class="iso-door" d="M-1.0 25.2L-1.0 -11.6M21.9 38.4L21.9 1.6M44.8 51.6L44.8 14.8M67.7 64.9L67.7 28.1M90.6 78.1L90.6 41.3M113.5 91.3L113.5 54.5M136.4 104.5L136.4 67.7"/><path class="iso-handle" d="M-16.4 -16.8L-8.5 -12.2M6.5 -3.6L14.4 1.0M29.4 9.6L37.3 14.2M52.3 22.8L60.3 27.4M75.2 36.1L83.2 40.7M98.1 49.3L106.1 53.9M121.0 62.5L129.0 67.1M143.9 75.7L151.9 80.3"/></g><g class="iso-b iso-top" style="--i:1"><polygon class="f-top" points="0.0,-43.7 183.2,62.1 157.0,77.3 -26.3,-28.5"/><polygon class="f-y" points="-26.3,-25.3 157.0,80.5 157.0,77.3 -26.3,-28.5"/><polygon class="f-x" points="183.2,65.3 157.0,80.5 157.0,77.3 183.2,62.1"/></g><g class="iso-b iso-cab" style="--i:2"><polygon class="f-top" points="10.0,-93.1 77.7,-54.0 63.3,-45.8 -4.4,-84.9"/><polygon class="f-y" points="-4.4,-52.7 63.3,-13.6 63.3,-45.8 -4.4,-84.9"/><polygon class="f-x" points="77.7,-21.9 63.3,-13.6 63.3,-45.8 77.7,-54.0"/><path class="iso-door" d="M18.2 -41.5L18.2 -70.0M40.8 -28.4L40.8 -57.0"/><path class="iso-handle" d="M2.9 -54.0L10.9 -49.4M25.5 -40.9L33.5 -36.3M48.1 -27.9L56.0 -23.3"/></g><g class="iso-b iso-appl" style="--i:3"><polygon class="f-top" points="81.7,-54.1 109.5,-38.0 92.8,-28.3 64.9,-44.4"/><polygon class="f-y" points="64.9,-14.5 92.8,1.6 92.8,-28.3 64.9,-44.4"/><polygon class="f-x" points="109.5,-8.0 92.8,1.6 92.8,-28.3 109.5,-38.0"/></g><g class="iso-b iso-cab" style="--i:4"><polygon class="f-top" points="113.5,-33.3 181.3,5.8 166.9,14.0 99.2,-25.1"/><polygon class="f-y" points="99.2,7.1 166.9,46.2 166.9,14.0 99.2,-25.1"/><polygon class="f-x" points="181.3,37.9 166.9,46.2 166.9,14.0 181.3,5.8"/><path class="iso-door" d="M121.8 18.3L121.8 -10.2M144.3 31.4L144.3 2.8"/><path class="iso-handle" d="M106.5 5.8L114.5 10.4M129.1 18.9L137.0 23.5M151.6 31.9L159.6 36.5"/></g><g class="iso-b iso-cab" style="--i:5"><polygon class="f-top" points="-23.9,-26.7 0.0,-12.9 -99.6,44.6 -123.5,30.8"/><polygon class="f-y" points="-123.5,71.3 -99.6,85.1 -99.6,44.6 -123.5,30.8"/><polygon class="f-x" points="0.0,27.6 -99.6,85.1 -99.6,44.6 0.0,-12.9"/><path class="iso-door" d="M-24.9 40.1L-24.9 3.3M-49.8 54.5L-49.8 17.7M-74.7 68.9L-74.7 32.1"/><path class="iso-handle" d="M-8.5 -2.5L-16.4 2.1M-33.4 11.9L-41.3 16.5M-58.3 26.3L-66.2 30.9M-83.2 40.7L-91.1 45.3"/></g><g class="iso-b iso-top" style="--i:6"><polygon class="f-top" points="-23.9,-29.9 2.4,-14.7 -97.2,42.8 -123.5,27.6"/><polygon class="f-y" points="-123.5,30.8 -97.2,46.0 -97.2,42.8 -123.5,27.6"/><polygon class="f-x" points="2.4,-11.5 -97.2,46.0 -97.2,42.8 2.4,-14.7"/></g><g class="iso-b iso-cab" style="--i:7"><polygon class="f-top" points="-2.0,38.9 73.7,82.6 39.8,102.1 -35.9,58.4"/><polygon class="f-y" points="-35.9,98.9 39.8,142.6 39.8,102.1 -35.9,58.4"/><polygon class="f-x" points="73.7,123.0 39.8,142.6 39.8,102.1 73.7,82.6"/><path class="iso-door" d="M-10.6 111.6L-10.6 74.8M14.6 126.2L14.6 89.4"/><path class="iso-handle" d="M-27.2 68.9L-19.3 73.5M-2.0 83.5L6.0 88.1M23.2 98.1L31.2 102.7"/></g><g class="iso-b iso-top" style="--i:8"><polygon class="f-top" points="-2.0,31.1 81.7,79.3 39.8,103.5 -43.8,55.2"/><polygon class="f-y" points="-43.8,58.4 39.8,106.7 39.8,103.5 -43.8,55.2"/><polygon class="f-x" points="81.7,82.6 39.8,106.7 39.8,103.5 81.7,79.3"/></g><g class="iso-b iso-appl" style="--i:9"><polygon class="f-top" points="183.2,4.6 211.1,20.7 186.4,35.0 158.5,18.9"/><polygon class="f-y" points="158.5,120.1 186.4,136.2 186.4,35.0 158.5,18.9"/><polygon class="f-x" points="211.1,121.9 186.4,136.2 186.4,35.0 211.1,20.7"/><path class="iso-door" d=""/><path class="iso-handle" d="M168.5 30.1L176.5 34.7"/></g></svg></div>
+          <div class="d3-copy">
+            <h3>Free 3D kitchen design, arranged by us</h3>
+            <p>No design yet? We can book you a free appointment with one of our kitchen suppliers. Their designer
+              creates a full 3D design of your kitchen, and nothing is ordered until you're happy with it.</p>
+            <ol class="d3-steps">
+              <li><span class="n">1</span>We book your free design appointment</li>
+              <li><span class="n">2</span>A supplier's designer creates your 3D design</li>
+              <li><span class="n">3</span>We order everything once you're happy</li>
+            </ol>
+            <p class="d3-note">Already have a designer? We work from their design.</p>
+            <a class="btn btn-primary" href="#book" data-cta="design">Book a free site visit</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section class="section gallery" id="kitchens" aria-labelledby="kitchens-h">
+      <div class="wrap">
+        <div class="section-head">
+          <h2 class="h2" id="kitchens-h">Recent kitchens across London</h2>
+          <p class="lead">Real A&amp;G projects in London homes. Tap a kitchen to see all of its photos.</p>
+        </div>
+        <div class="ptiles">
+          <!-- PROJECT TILE: ealing -->
+          <button type="button" class="ptile" data-base="images/kitchens/ealing/ealing-01,images/kitchens/ealing/ealing-02,images/kitchens/ealing/ealing-03,images/kitchens/ealing/ealing-04,images/kitchens/ealing/ealing-05,images/kitchens/ealing/ealing-06,images/kitchens/ealing/ealing-07" data-start="0" data-caption="Kitchen in Ealing" aria-label="View the Ealing kitchen, 7 photos">
+            <picture style="background-image:url('data:image/webp;base64,UklGRu4AAABXRUJQVlA4IOIAAADQBQCdASoYACQAPulap02pJKOiMBqtUSAdCWUAwCgSjnRJcIfr4Kt9/eIZ+wn6788JIsetE+sAAP5rJfPsNfC3kMrWGV4WUPrw160haJYxo55bvRIkfxw8A9S23pjCRa3CQAPt4FALGU97UfKDmTC/nkgNNWtR2KoWdSl/QPBU1JxJH7FjixcfdWqWtPFvNbt1kjW8ZAD7oJ/96tQMb4xVaTf9svWrNMZ0BaAaZ0iId20zHWtKiQfeHXcxe/15CGmURNgm8L+PgHKKH7plsn7ey7tkgWr0KbLIBFegS0IqQAAA')"><source type="image/avif" sizes="(max-width: 860px) 82vw, 380px" srcset="images/kitchens/ealing/ealing-01-480.avif 480w, images/kitchens/ealing/ealing-01-800.avif 800w, images/kitchens/ealing/ealing-01-1200.avif 1200w, images/kitchens/ealing/ealing-01-1600.avif 1600w"><source type="image/webp" sizes="(max-width: 860px) 82vw, 380px" srcset="images/kitchens/ealing/ealing-01-480.webp 480w, images/kitchens/ealing/ealing-01-800.webp 800w, images/kitchens/ealing/ealing-01-1200.webp 1200w, images/kitchens/ealing/ealing-01-1600.webp 1600w"><img src="images/kitchens/ealing/ealing-01-800.webp" alt="Ealing kitchen under three skylights, with a marble-effect waterfall island, wood units with brass handles and glass doors to the garden" width="1600" height="2048" loading="lazy" decoding="async"></picture>
+            <span class="ptile-count">7 photos</span>
+            <span class="ptile-meta"><span class="ptile-title">Kitchen in Ealing</span><span class="ptile-sub">Fluted wood units, a waterfall island and brass taps</span><span class="ptile-view">View project</span></span>
+          </button>
+          <!-- PROJECT TILE: kensal -->
+          <button type="button" class="ptile" data-base="images/kitchens/kensal/kensal-18,images/kitchens/kensal/kensal-10,images/kitchens/kensal/kensal-07,images/kitchens/kensal/kensal-13,images/kitchens/kensal/kensal-06,images/kitchens/kensal/kensal-14,images/kitchens/kensal/kensal-09,images/kitchens/kensal/kensal-15,images/kitchens/kensal/kensal-20" data-start="0" data-caption="Kitchen in Kensal" aria-label="View Kitchen in Kensal, 9 photos">
+            <picture style="background-image:url('data:image/webp;base64,UklGRqQAAABXRUJQVlA4IJgAAADwBACdASoYABIAPu1urlIppiQiqAgBMB2JZwDM0Aga0QMIL7bTWMV39icpVMs5R4AA/pbOHc79I8ke+zp9P8tY+0cH+Pg5BsIrhT9LOsOHB3/sImw6vjxf3/Hp+8Lz5c+YdoUE4HJBZYgjy3BSW3jD10D+t+KxG55bGcqhRlfvP2ScSQUQkowuFb4OUc9LRx+8oJGHzwAAAA==')"><source type="image/avif" sizes="(max-width: 860px) 82vw, 380px" srcset="images/kitchens/kensal/kensal-18-480.avif 480w, images/kitchens/kensal/kensal-18-800.avif 800w, images/kitchens/kensal/kensal-18-1200.avif 1200w, images/kitchens/kensal/kensal-18-1600.avif 1600w"><source type="image/webp" sizes="(max-width: 860px) 82vw, 380px" srcset="images/kitchens/kensal/kensal-18-480.webp 480w, images/kitchens/kensal/kensal-18-800.webp 800w, images/kitchens/kensal/kensal-18-1200.webp 1200w, images/kitchens/kensal/kensal-18-1600.webp 1600w"><img src="images/kitchens/kensal/kensal-18-800.webp" alt="Kensal kitchen with dusty pink shaker units, glass pendant lights over a stone-topped island, and a patterned tile alcove behind a Belfast sink" width="1600" height="1200" loading="lazy" decoding="async"></picture>
+            <span class="ptile-count">9 photos</span>
+            <span class="ptile-meta"><span class="ptile-title">Kitchen in Kensal</span><span class="ptile-sub">Dusty pink shaker units and a patterned tile alcove</span><span class="ptile-view">View project</span></span>
+          </button>
+          <!-- PROJECT TILE: islington -->
+          <button type="button" class="ptile" data-base="images/kitchens/islington/islington-01,images/kitchens/islington/islington-02" data-start="0" data-caption="Kitchen in Islington" aria-label="View the Islington kitchen, 2 photos">
+            <picture style="background-image:url('data:image/webp;base64,UklGRp4AAABXRUJQVlA4IJIAAADwAwCdASoYAA8APu1iqU2ppaQiMAgBMB2JaACw7CBWYBc8Faj1jYxAAPse+KWB4gw38xGwWpyAsAYZki/EFL3a+mIuC9Z959g/CpNdJCBa1sL9l2Bs35I29wQNMvqzRo+/FVWQ8lrTbwjjwI53Geamsu9bYOuZ8fr/WyOcgnEIqJbVia6sK8sYdeSLHI9X3gAAAA==')"><source type="image/avif" sizes="(max-width: 860px) 82vw, 380px" srcset="images/kitchens/islington/islington-01-480.avif 480w, images/kitchens/islington/islington-01-800.avif 800w, images/kitchens/islington/islington-01-1200.avif 1200w, images/kitchens/islington/islington-01-1600.avif 1600w"><source type="image/webp" sizes="(max-width: 860px) 82vw, 380px" srcset="images/kitchens/islington/islington-01-480.webp 480w, images/kitchens/islington/islington-01-800.webp 800w, images/kitchens/islington/islington-01-1200.webp 1200w, images/kitchens/islington/islington-01-1600.webp 1600w"><img src="images/kitchens/islington/islington-01-800.webp" alt="Islington kitchen with coral shaker units, green glazed brick tiles, a range cooker and a tall sash window" width="1600" height="1033" loading="lazy" decoding="async" style="object-position: 72% 50%"></picture>
+            <span class="ptile-count">2 photos</span>
+            <span class="ptile-meta"><span class="ptile-title">Kitchen in Islington</span><span class="ptile-sub">Coral shaker units, green glazed tiles and a Belfast sink</span><span class="ptile-view">View project</span></span>
+          </button>
+          <!-- PROJECT TILE: croydon -->
+          <button type="button" class="ptile" data-base="images/kitchens/croydon/croydon-01,images/kitchens/croydon/croydon-02,images/kitchens/croydon/croydon-03,images/kitchens/croydon/croydon-04,images/kitchens/croydon/croydon-05,images/kitchens/croydon/croydon-06" data-start="0" data-caption="Kitchen in Croydon" aria-label="View the Croydon kitchen, 6 photos">
+            <picture style="background-image:url('data:image/webp;base64,UklGRrAAAABXRUJQVlA4IKQAAACQBQCdASoYACAAPu1oqVAppaOiqA1RMB2JZQC06EI85EFCHAOXMbKFCS+gPaXMxaD7tnE2gAD3JrYoqWlONWuQes8xeJQal+6GfHvQLvhq2qVTBLmTEDINMRFvqC/B5WY3W5ndvNUTd8UUXORRt1woqeJ76GCkSX9j074Mkj8qFohcGb/Vn2rRCnzTnq7F4+5F0hIfommN59EbScSTGvea5QAAAA==')"><source type="image/avif" sizes="(max-width: 860px) 82vw, 380px" srcset="images/kitchens/croydon/croydon-01-480.avif 480w, images/kitchens/croydon/croydon-01-800.avif 800w, images/kitchens/croydon/croydon-01-1200.avif 1200w, images/kitchens/croydon/croydon-01-1600.avif 1600w"><source type="image/webp" sizes="(max-width: 860px) 82vw, 380px" srcset="images/kitchens/croydon/croydon-01-480.webp 480w, images/kitchens/croydon/croydon-01-800.webp 800w, images/kitchens/croydon/croydon-01-1200.webp 1200w, images/kitchens/croydon/croydon-01-1600.webp 1600w"><img src="images/kitchens/croydon/croydon-01-800.webp" alt="Croydon kitchen with soft grey handleless units, white worktops, a large window and a herringbone floor" width="1600" height="2133" loading="lazy" decoding="async"></picture>
+            <span class="ptile-count">6 photos</span>
+            <span class="ptile-meta"><span class="ptile-title">Kitchen in Croydon</span><span class="ptile-sub">Soft grey handleless units, a big window and a herringbone floor</span><span class="ptile-view">View project</span></span>
+          </button>
+          <!-- PROJECT TILE: little-venice -->
+          <button type="button" class="ptile" data-base="images/kitchens/little-venice/little-venice-01,images/kitchens/little-venice/little-venice-02,images/kitchens/little-venice/little-venice-03,images/kitchens/little-venice/little-venice-04,images/kitchens/little-venice/little-venice-05" data-start="0" data-caption="Kitchen in Little Venice" aria-label="View the Little Venice kitchen, 5 photos">
+            <picture style="background-image:url('data:image/webp;base64,UklGRqAAAABXRUJQVlA4IJQAAADwBACdASoYABIAPu1qrlCppaQiqAqpMB2JZwAAIHUx8/Ww1OOn3wM+doNCbHnBE2AArTDPfHAxqce5QJLYMDAOoCAK5Wz2nKZDty/nP+tCcmSpJ9mnVsVAKMAB0/x8NIaaO71WE3OIOEMsE9p5MtKdxCWeGdJwJWfHlG/u4uESDbIsagwAEjexrv6izKwIFHPFyAAA')"><source type="image/avif" sizes="(max-width: 860px) 82vw, 380px" srcset="images/kitchens/little-venice/little-venice-01-480.avif 480w, images/kitchens/little-venice/little-venice-01-800.avif 800w, images/kitchens/little-venice/little-venice-01-1200.avif 1200w, images/kitchens/little-venice/little-venice-01-1600.avif 1600w"><source type="image/webp" sizes="(max-width: 860px) 82vw, 380px" srcset="images/kitchens/little-venice/little-venice-01-480.webp 480w, images/kitchens/little-venice/little-venice-01-800.webp 800w, images/kitchens/little-venice/little-venice-01-1200.webp 1200w, images/kitchens/little-venice/little-venice-01-1600.webp 1600w"><img src="images/kitchens/little-venice/little-venice-01-800.webp" alt="Little Venice kitchen with white gloss handleless units, marble-effect worktops and splashback, and under-cabinet lighting" width="1600" height="1200" loading="lazy" decoding="async"></picture>
+            <span class="ptile-count">5 photos</span>
+            <span class="ptile-meta"><span class="ptile-title">Kitchen in Little Venice</span><span class="ptile-sub">Handleless units with marble-effect worktops and splashback</span><span class="ptile-view">View project</span></span>
+          </button>
+          <!-- PROJECT TILE: grey-herringbone (area not known; if it becomes known, title and caption become "Kitchen in <area>") -->
+          <button type="button" class="ptile" data-base="images/kitchens/grey-herringbone/grey-herringbone-01,images/kitchens/grey-herringbone/grey-herringbone-02" data-start="0" data-caption="Grey herringbone kitchen" aria-label="View the grey herringbone kitchen, 2 photos">
+            <picture style="background-image:url('data:image/webp;base64,UklGRtgAAABXRUJQVlA4IMwAAABwBQCdASoYACAAPu1irVAppSQisBgIATAdiWUAAQYusMIx3fKnfdQZ9TlcQDpGEguvK6QAAP426RYfT5VNnF839nyFYnAVcLvaT4OfHJAm1/vWnNk4wU4z6PkSjjuG8oUBXZ6Ffm/jFmi3sfE/PcfLpvhk1+qK/v3FFISIR/c2Dj+Z5aFK/q7qGFdQuxvhzOB99QdxkyuklJS8Si3gPrHKTe6RlITnT201Go9Ptdp+Vw61isQL3tTut34EBBIzJgg3ekH2Yt3JzpOKQAA=')"><source type="image/avif" sizes="(max-width: 860px) 82vw, 380px" srcset="images/kitchens/grey-herringbone/grey-herringbone-01-480.avif 480w, images/kitchens/grey-herringbone/grey-herringbone-01-800.avif 800w, images/kitchens/grey-herringbone/grey-herringbone-01-1200.avif 1200w, images/kitchens/grey-herringbone/grey-herringbone-01-1600.avif 1600w"><source type="image/webp" sizes="(max-width: 860px) 82vw, 380px" srcset="images/kitchens/grey-herringbone/grey-herringbone-01-480.webp 480w, images/kitchens/grey-herringbone/grey-herringbone-01-800.webp 800w, images/kitchens/grey-herringbone/grey-herringbone-01-1200.webp 1200w, images/kitchens/grey-herringbone/grey-herringbone-01-1600.webp 1600w"><img src="images/kitchens/grey-herringbone/grey-herringbone-01-800.webp" alt="Kitchen with matt grey units, white worktops, an induction hob and a white herringbone tiled splashback" width="1600" height="2025" loading="lazy" decoding="async"></picture>
+            <span class="ptile-count">2 photos</span>
+            <span class="ptile-meta"><span class="ptile-title">Grey herringbone kitchen</span><span class="ptile-sub">Matt grey units, white worktops and a herringbone tiled splashback</span><span class="ptile-view">View project</span></span>
+          </button>
+        </div>
+
+        <div class="gallery-foot">
+          <a class="btn btn-primary" href="#book" data-cta="gallery">Book a free site visit</a>
+          <p>Free site visit. Itemised proposal. No obligation.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROCESS: journey -->
+    <section class="section process" id="process" aria-labelledby="process-h">
+      <div class="wrap">
+        <div class="process-grid">
+          <div class="process-intro">
+            <h2 class="h2" id="process-h">How your kitchen comes together</h2>
+            <p class="lead">Six stages, one point of contact. You always know what happens next and what, if
+              anything, we need from you.</p>
+            <div class="paperwork">
+              <b>What you receive along the way</b>
+              <ul>
+                <li><svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true"><path d="m3.5 9.5 3.5 3.5 7.5-8" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>Itemised quote and scope of works</li>
+                <li><svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true"><path d="m3.5 9.5 3.5 3.5 7.5-8" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>Terms of business</li>
+                <li><svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true"><path d="m3.5 9.5 3.5 3.5 7.5-8" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>Work programme plan</li>
+                <li><svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true"><path d="m3.5 9.5 3.5 3.5 7.5-8" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>WhatsApp group with your project coordinator</li>
+                <li><svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true"><path d="m3.5 9.5 3.5 3.5 7.5-8" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>Snagging sign-off at handover</li>
+                <li><svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true"><path d="m3.5 9.5 3.5 3.5 7.5-8" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>Gas Safe and electrical certificates where applicable</li>
+                <li><svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true"><path d="m3.5 9.5 3.5 3.5 7.5-8" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>12-month labour guarantee</li>
+              </ul>
+            </div>
+            <a class="btn btn-primary" href="#book" data-cta="process">Book a free site visit</a>
+          </div>
+          <div class="journey">
+            <span class="rail" aria-hidden="true"><i></i></span>
+            <ol class="jlist">
+            <li class="jstep">
+              <span class="jnum" aria-hidden="true">1</span>
+              <div class="jcard">
+                <div class="jhead"><span class="jicon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M3.5 11 12 4l8.5 7M6 9.5V20h12V9.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M10 20v-5h4v5" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg></span><h3>Free site visit</h3></div>
+                <p>One of our estimators visits, measures the room, checks your existing services and listens to what you want from the space.</p>
+                <p class="jyou"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="8" r="4" stroke="currentColor" stroke-width="2"/><path d="M4 21c1.5-4 4.5-6 8-6s6.5 2 8 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><span><b>Your part:</b> Show us the kitchen and tell us your plans.</span></p>
+              </div>
+            </li>
+            <li class="jstep">
+              <span class="jnum" aria-hidden="true">2</span>
+              <div class="jcard">
+                <div class="jhead"><span class="jicon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 3 20 7.5v9L12 21l-8-4.5v-9L12 3Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M4 7.5 12 12l8-4.5M12 12v9" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg></span><h3>Your kitchen design</h3></div>
+                <p>Already have a design? We work from it. If not, we can arrange a free design appointment with one of our kitchen suppliers, whose designers create a full 3D design before anything is ordered.</p>
+                <p class="jyou"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="8" r="4" stroke="currentColor" stroke-width="2"/><path d="M4 21c1.5-4 4.5-6 8-6s6.5 2 8 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><span><b>Your part:</b> Choose your layout, units and finishes.</span></p>
+              </div>
+            </li>
+            <li class="jstep">
+              <span class="jnum" aria-hidden="true">3</span>
+              <div class="jcard">
+                <div class="jhead"><span class="jicon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7 3h7l4 4v14H7V3Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M14 3v4h4M10 11h5M10 14.5h5M10 18h3" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></span><h3>Itemised proposal</h3></div>
+                <p>You receive an itemised quote, scope of works and terms of business, with every line itemised and no hidden costs.</p>
+                <p class="jyou"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="8" r="4" stroke="currentColor" stroke-width="2"/><path d="M4 21c1.5-4 4.5-6 8-6s6.5 2 8 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><span><b>Your part:</b> Review it in your own time. No obligation.</span></p>
+              </div>
+            </li>
+            <li class="jstep">
+              <span class="jnum" aria-hidden="true">4</span>
+              <div class="jcard">
+                <div class="jhead"><span class="jicon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="3.5" y="5" width="17" height="15" rx="2.5" stroke="currentColor" stroke-width="1.8"/><path d="M3.5 10h17M8 3v4M16 3v4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><path d="m9 14.5 2 2 4-4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span><h3>Ordering and scheduling</h3></div>
+                <p>We book your start date, order everything on your behalf, check deliveries and store them until work begins. You get a work programme plan and a WhatsApp group with your project coordinator.</p>
+                <p class="jyou"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="8" r="4" stroke="currentColor" stroke-width="2"/><path d="M4 21c1.5-4 4.5-6 8-6s6.5 2 8 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><span><b>Your part:</b> Confirm your start date.</span></p>
+              </div>
+            </li>
+            <li class="jstep">
+              <span class="jnum" aria-hidden="true">5</span>
+              <div class="jcard">
+                <div class="jhead"><span class="jicon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M14.5 6.5a4 4 0 0 0-5.3 5.3L4 17l3 3 5.2-5.2a4 4 0 0 0 5.3-5.3l-2.6 2.6-2.4-.6-.6-2.4 2.6-2.6Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg></span><h3>Installation</h3></div>
+                <p>Floor and dust protection go down and the old kitchen comes out, then services, cabinets, worktops, splashback, tiling and flooring in the right order. Our team works 8AM to 5PM and cleans up daily.</p>
+                <button type="button" class="jphoto" data-base="images/kitchens/on-site/fitter-01" data-start="0" data-caption="One of our fitters mid-installation" aria-label="Open the photo of one of our fitters mid-installation">
+                  <picture style="background-image:url('data:image/webp;base64,UklGRvwAAABXRUJQVlA4IPAAAACwBQCdASoYACAAPt1cpE2opaOiN/qoARAbiWIAtQkgIM8R3rsKfQ6gqEs4nNBFxl3sylYNfKAA/rWPcfligRCYXVGoyRY2fO4b9y7ihvDN1HzrZ6mH99354oKIVL88VzvyLtcJmu2hEzltkFHIDQih3q93nyB2WFBKcgNQvdxwvKTb0CKSQIi7gg37MvG/AcYZbsJYO8CkxHqptG6DQDaivJy4wVRHVUnIiKdSReBvvNoG9zlK8dc6vtV/n82Cf0LYvTncfRUMoIt8P+zdNy7jkuuqWbTNFCBNn8slVWClG13RjzqD1gKVrtLAQWPgAAA=')"><source type="image/avif" sizes="(max-width: 960px) 90vw, 560px" srcset="images/kitchens/on-site/fitter-01-480.avif 480w, images/kitchens/on-site/fitter-01-800.avif 800w, images/kitchens/on-site/fitter-01-1200.avif 1200w, images/kitchens/on-site/fitter-01-1600.avif 1600w"><source type="image/webp" sizes="(max-width: 960px) 90vw, 560px" srcset="images/kitchens/on-site/fitter-01-480.webp 480w, images/kitchens/on-site/fitter-01-800.webp 800w, images/kitchens/on-site/fitter-01-1200.webp 1200w, images/kitchens/on-site/fitter-01-1600.webp 1600w"><img src="images/kitchens/on-site/fitter-01-800.webp" alt="An A&amp;G fitter installing a kitchen with terracotta units and checkerboard tiles, with tools set up on site" width="1600" height="2133" loading="lazy" decoding="async"></picture>
+                  <span class="jphoto-tag">On site</span>
+                </button>
+                <p class="jphoto-cap">One of our in-house fitters mid-installation on a London kitchen.</p>
+                <p class="jyou"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="8" r="4" stroke="currentColor" stroke-width="2"/><path d="M4 21c1.5-4 4.5-6 8-6s6.5 2 8 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><span><b>Your part:</b> Follow progress on WhatsApp.</span></p>
+              </div>
+            </li>
+            <li class="jstep">
+              <span class="jnum" aria-hidden="true">6</span>
+              <div class="jcard">
+                <div class="jhead"><span class="jicon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="8" cy="14" r="4" stroke="currentColor" stroke-width="1.8"/><path d="m11 11 9-9M17 5l2.5 2.5M14.5 7.5 16.5 9.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></span><h3>Handover</h3></div>
+                <p>A walk-through inspection and snagging sign-off, your Gas Safe and electrical certificates where applicable, and your 12-month labour guarantee begins.</p>
+                <p class="jyou"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="8" r="4" stroke="currentColor" stroke-width="2"/><path d="M4 21c1.5-4 4.5-6 8-6s6.5 2 8 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><span><b>Your part:</b> Start using your new kitchen.</span></p>
+              </div>
+            </li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- REVIEWS -->
+    <section class="section reviews" id="reviews" aria-labelledby="reviews-h">
+      <div class="wrap">
+        <div class="reviews-grid">
+          <div class="reviews-intro">
+            <h2 class="h2" id="reviews-h">What our clients say</h2>
+            <p class="lead">Real Google reviews from kitchen clients, with the photos they shared of their finished
+              kitchens. Tap a photo to see more.</p>
+            <div class="platforms">
+              <a class="platform" href="https://www.google.com/search?q=A%26G+Renovations+London#lrd=0x47d8a7d1e8748481:0xd0985427ab3e41e4,3" target="_blank" rel="noopener">
+                <span class="plogo"><svg class="g-logo" viewBox="0 0 48 48" aria-hidden="true"><path fill="#FFC107" d="M43.6 20.1H42V20H24v8h11.3C33.7 32.7 29.2 36 24 36c-6.6 0-12-5.4-12-12s5.4-12 12-12c3.1 0 5.8 1.2 8 3l5.7-5.7C34 6.1 29.3 4 24 4 13 4 4 13 4 24s9 20 20 20 20-9 20-20c0-1.3-.1-2.6-.4-3.9z"/><path fill="#FF3D00" d="m6.3 14.7 6.6 4.8C14.7 15.1 19 12 24 12c3.1 0 5.8 1.2 8 3l5.7-5.7C34 6.1 29.3 4 24 4 16.3 4 9.7 8.3 6.3 14.7z"/><path fill="#4CAF50" d="M24 44c5.2 0 9.9-2 13.4-5.2l-6.2-5.2C29.2 35.1 26.7 36 24 36c-5.2 0-9.6-3.3-11.3-7.9l-6.5 5C9.5 39.6 16.2 44 24 44z"/><path fill="#1976D2" d="M43.6 20.1H42V20H24v8h11.3c-.8 2.2-2.2 4.2-4.1 5.6l6.2 5.2C37 39.2 44 34 44 24c0-1.3-.1-2.6-.4-3.9z"/></svg></span>
+                <span><b class="pname">Google</b><span class="pcount">60 reviews</span></span>
+                <span class="pscore"><b>5.0</b><span class="stars" aria-hidden="true"><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></span></span>
+              </a>
+              <a class="platform" href="https://uk.trustpilot.com/review/ag-renovations.co.uk" target="_blank" rel="noopener">
+                <span class="plogo"><svg class="tp-logo" viewBox="0 0 24 24" aria-hidden="true"><path fill="#00b67a" d="M12 1.8l2.6 7.5h7.9l-6.4 4.6 2.5 7.6L12 16.8l-6.6 4.7 2.5-7.6-6.4-4.6h7.9z"/></svg></span>
+                <span><b class="pname">Trustpilot</b><span class="pcount">48 reviews</span></span>
+                <span class="pscore"><b>4.7</b><span class="tp-stars" aria-hidden="true"><i><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#fff" d="M12 4l2.1 5.6h6l-4.8 3.5 1.8 5.8-5.1-3.6-5.1 3.6 1.8-5.8-4.8-3.5h6z"/></svg></i><i><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#fff" d="M12 4l2.1 5.6h6l-4.8 3.5 1.8 5.8-5.1-3.6-5.1 3.6 1.8-5.8-4.8-3.5h6z"/></svg></i><i><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#fff" d="M12 4l2.1 5.6h6l-4.8 3.5 1.8 5.8-5.1-3.6-5.1 3.6 1.8-5.8-4.8-3.5h6z"/></svg></i><i><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#fff" d="M12 4l2.1 5.6h6l-4.8 3.5 1.8 5.8-5.1-3.6-5.1 3.6 1.8-5.8-4.8-3.5h6z"/></svg></i><i class="part"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#fff" d="M12 4l2.1 5.6h6l-4.8 3.5 1.8 5.8-5.1-3.6-5.1 3.6 1.8-5.8-4.8-3.5h6z"/></svg></i></span></span>
+              </a>
+            </div>
+            <a class="reviews-more" href="https://www.google.com/search?q=A%26G+Renovations+London#lrd=0x47d8a7d1e8748481:0xd0985427ab3e41e4,3" target="_blank" rel="noopener">Read all our Google reviews</a>
+          </div>
+          <div class="rcards">
+
+          <article class="rcard rcard-feature">
+            <button type="button" class="rphotos" data-images="images/kitchen-testimonials/full/kimberly-dennis-01.webp,images/kitchen-testimonials/full/kimberly-dennis-02.webp,images/kitchen-testimonials/full/kimberly-dennis-03.webp,images/kitchen-testimonials/full/kimberly-dennis-04.webp" data-caption="Kimberly Dennis&#x27;s kitchen" aria-label="See 4 photos of Kimberly Dennis's kitchen">
+              <img class="rmain" src="images/kitchen-testimonials/low/kimberly-dennis-01.webp" alt="Kimberly Dennis&#x27;s kitchen" loading="lazy" decoding="async" width="800" height="960"><img src="images/kitchen-testimonials/low/kimberly-dennis-02.webp" alt="" loading="lazy" decoding="async" width="800" height="960"><img src="images/kitchen-testimonials/low/kimberly-dennis-03.webp" alt="" loading="lazy" decoding="async" width="800" height="960"><img src="images/kitchen-testimonials/low/kimberly-dennis-04.webp" alt="" loading="lazy" decoding="async" width="800" height="960">
+            </button>
+            <!-- REVIEW LINK: replace href with this review's own share link from Google Maps -->
+            <a class="rbody" href="https://www.google.com/search?q=A%26G+Renovations+London#lrd=0x47d8a7d1e8748481:0xd0985427ab3e41e4,3" target="_blank" rel="noopener" data-cta="review-kimberly-dennis" aria-label="Read Kimberly Dennis's full review on Google (opens in a new tab)">
+              <span class="rmeta"><span class="avatar" style="background:#e8467c" aria-hidden="true">K</span>
+                <span class="rname"><b>Kimberly Dennis</b><span><svg class="g-logo" viewBox="0 0 48 48" aria-hidden="true"><path fill="#FFC107" d="M43.6 20.1H42V20H24v8h11.3C33.7 32.7 29.2 36 24 36c-6.6 0-12-5.4-12-12s5.4-12 12-12c3.1 0 5.8 1.2 8 3l5.7-5.7C34 6.1 29.3 4 24 4 13 4 4 13 4 24s9 20 20 20 20-9 20-20c0-1.3-.1-2.6-.4-3.9z"/><path fill="#FF3D00" d="m6.3 14.7 6.6 4.8C14.7 15.1 19 12 24 12c3.1 0 5.8 1.2 8 3l5.7-5.7C34 6.1 29.3 4 24 4 16.3 4 9.7 8.3 6.3 14.7z"/><path fill="#4CAF50" d="M24 44c5.2 0 9.9-2 13.4-5.2l-6.2-5.2C29.2 35.1 26.7 36 24 36c-5.2 0-9.6-3.3-11.3-7.9l-6.5 5C9.5 39.6 16.2 44 24 44z"/><path fill="#1976D2" d="M43.6 20.1H42V20H24v8h11.3c-.8 2.2-2.2 4.2-4.1 5.6l6.2 5.2C37 39.2 44 34 44 24c0-1.3-.1-2.6-.4-3.9z"/></svg>Google review</span></span><span class="stars" aria-hidden="true"><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></span></span>
+              <blockquote>&ldquo;We are absolutely over the moon with our kitchen renovation. The customer experience was fantastic from start to finish - communication was excellent, the attention to detail was excellent, as was the finished product.&rdquo;</blockquote>
+              <span class="rmore">Read the full review on Google<svg class="i-ext" width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+            </a>
+          </article>
+
+          <article class="rcard">
+            <button type="button" class="rphotos" data-images="images/kitchen-testimonials/full/stevie-downard-01.webp,images/kitchen-testimonials/full/stevie-downard-02.webp,images/kitchen-testimonials/full/stevie-downard-03.webp" data-caption="Stevie Downard&#x27;s kitchen" aria-label="See photos of Stevie Downard's kitchen">
+              <img class="rmain" src="images/kitchen-testimonials/low/stevie-downard-01.webp" alt="Stevie Downard&#x27;s kitchen" loading="lazy" decoding="async" width="800" height="600"><span class="rcount">3 photos</span>
+            </button>
+            <!-- REVIEW LINK: replace href with this review's own share link from Google Maps -->
+            <a class="rbody" href="https://www.google.com/search?q=A%26G+Renovations+London#lrd=0x47d8a7d1e8748481:0xd0985427ab3e41e4,3" target="_blank" rel="noopener" data-cta="review-stevie-downard" aria-label="Read Stevie Downard's full review on Google (opens in a new tab)">
+              <span class="rmeta"><span class="avatar" style="background:#7e57c2" aria-hidden="true">S</span>
+                <span class="rname"><b>Stevie Downard</b><span><svg class="g-logo" viewBox="0 0 48 48" aria-hidden="true"><path fill="#FFC107" d="M43.6 20.1H42V20H24v8h11.3C33.7 32.7 29.2 36 24 36c-6.6 0-12-5.4-12-12s5.4-12 12-12c3.1 0 5.8 1.2 8 3l5.7-5.7C34 6.1 29.3 4 24 4 13 4 4 13 4 24s9 20 20 20 20-9 20-20c0-1.3-.1-2.6-.4-3.9z"/><path fill="#FF3D00" d="m6.3 14.7 6.6 4.8C14.7 15.1 19 12 24 12c3.1 0 5.8 1.2 8 3l5.7-5.7C34 6.1 29.3 4 24 4 16.3 4 9.7 8.3 6.3 14.7z"/><path fill="#4CAF50" d="M24 44c5.2 0 9.9-2 13.4-5.2l-6.2-5.2C29.2 35.1 26.7 36 24 36c-5.2 0-9.6-3.3-11.3-7.9l-6.5 5C9.5 39.6 16.2 44 24 44z"/><path fill="#1976D2" d="M43.6 20.1H42V20H24v8h11.3c-.8 2.2-2.2 4.2-4.1 5.6l6.2 5.2C37 39.2 44 34 44 24c0-1.3-.1-2.6-.4-3.9z"/></svg>Google review</span></span><span class="stars" aria-hidden="true"><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></span></span>
+              <blockquote>&ldquo;I had a fantastic experience with A&amp;G Renovations. They were meticulous and detail-oriented throughout the entire project. The team worked with great care, keeping everything clean, tidy, and well-organised. … I couldn’t be happier with the results and would highly recommend A&amp;G Renovations to anyone looking for a reliable, professional company.&rdquo;</blockquote>
+              <span class="rmore">Read the full review on Google<svg class="i-ext" width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+            </a>
+          </article>
+
+          <article class="rcard">
+            <button type="button" class="rphotos" data-images="images/kitchen-testimonials/full/helen-e14-01.webp" data-caption="Helen, E14&#x27;s kitchen" aria-label="See photos of Helen, E14's kitchen">
+              <img class="rmain" src="images/kitchen-testimonials/low/helen-e14-01.webp" alt="Helen, E14&#x27;s kitchen" loading="lazy" decoding="async" width="800" height="600">
+            </button>
+            <!-- REVIEW LINK: replace href with this review's own share link from Google Maps -->
+            <a class="rbody" href="https://www.google.com/search?q=A%26G+Renovations+London#lrd=0x47d8a7d1e8748481:0xd0985427ab3e41e4,3" target="_blank" rel="noopener" data-cta="review-helen-e14" aria-label="Read Helen, E14's full review on Google (opens in a new tab)">
+              <span class="rmeta"><span class="avatar" style="background:#ef6c00" aria-hidden="true">H</span>
+                <span class="rname"><b>Helen, E14</b><span><svg class="g-logo" viewBox="0 0 48 48" aria-hidden="true"><path fill="#FFC107" d="M43.6 20.1H42V20H24v8h11.3C33.7 32.7 29.2 36 24 36c-6.6 0-12-5.4-12-12s5.4-12 12-12c3.1 0 5.8 1.2 8 3l5.7-5.7C34 6.1 29.3 4 24 4 13 4 4 13 4 24s9 20 20 20 20-9 20-20c0-1.3-.1-2.6-.4-3.9z"/><path fill="#FF3D00" d="m6.3 14.7 6.6 4.8C14.7 15.1 19 12 24 12c3.1 0 5.8 1.2 8 3l5.7-5.7C34 6.1 29.3 4 24 4 16.3 4 9.7 8.3 6.3 14.7z"/><path fill="#4CAF50" d="M24 44c5.2 0 9.9-2 13.4-5.2l-6.2-5.2C29.2 35.1 26.7 36 24 36c-5.2 0-9.6-3.3-11.3-7.9l-6.5 5C9.5 39.6 16.2 44 24 44z"/><path fill="#1976D2" d="M43.6 20.1H42V20H24v8h11.3c-.8 2.2-2.2 4.2-4.1 5.6l6.2 5.2C37 39.2 44 34 44 24c0-1.3-.1-2.6-.4-3.9z"/></svg>Google review</span></span><span class="stars" aria-hidden="true"><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></span></span>
+              <blockquote>&ldquo;From the initial site visit … through to completion, the whole project was handled extremely professionally with much appreciated attention to detail. … I didn’t have to move out even for one night! … I would recommend A&amp;G without hesitation - they were a pleasure to work with.&rdquo;</blockquote>
+              <span class="rmore">Read the full review on Google<svg class="i-ext" width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+            </a>
+          </article>
+
+          <!-- HIDDEN until Shoaib confirms this reviewer is not the former A&G coordinator. To show it, delete the word hidden. -->
+          <article class="rcard" hidden>
+            <button type="button" class="rphotos" data-images="images/kitchen-testimonials/full/mindaugas-k-01.webp" data-caption="Mindaugas K.&#x27;s kitchen" aria-label="See photos of Mindaugas K.'s kitchen">
+              <img class="rmain" src="images/kitchen-testimonials/low/mindaugas-k-01.webp" alt="Mindaugas K.&#x27;s kitchen" loading="lazy" decoding="async" width="800" height="600">
+            </button>
+            <!-- REVIEW LINK: replace href with this review's own share link from Google Maps -->
+            <a class="rbody" href="https://www.google.com/search?q=A%26G+Renovations+London#lrd=0x47d8a7d1e8748481:0xd0985427ab3e41e4,3" target="_blank" rel="noopener" data-cta="review-mindaugas-k" aria-label="Read Mindaugas K.'s full review on Google (opens in a new tab)">
+              <span class="rmeta"><span class="avatar" style="background:#1e88e5" aria-hidden="true">M</span>
+                <span class="rname"><b>Mindaugas K.</b><span><svg class="g-logo" viewBox="0 0 48 48" aria-hidden="true"><path fill="#FFC107" d="M43.6 20.1H42V20H24v8h11.3C33.7 32.7 29.2 36 24 36c-6.6 0-12-5.4-12-12s5.4-12 12-12c3.1 0 5.8 1.2 8 3l5.7-5.7C34 6.1 29.3 4 24 4 13 4 4 13 4 24s9 20 20 20 20-9 20-20c0-1.3-.1-2.6-.4-3.9z"/><path fill="#FF3D00" d="m6.3 14.7 6.6 4.8C14.7 15.1 19 12 24 12c3.1 0 5.8 1.2 8 3l5.7-5.7C34 6.1 29.3 4 24 4 16.3 4 9.7 8.3 6.3 14.7z"/><path fill="#4CAF50" d="M24 44c5.2 0 9.9-2 13.4-5.2l-6.2-5.2C29.2 35.1 26.7 36 24 36c-5.2 0-9.6-3.3-11.3-7.9l-6.5 5C9.5 39.6 16.2 44 24 44z"/><path fill="#1976D2" d="M43.6 20.1H42V20H24v8h11.3c-.8 2.2-2.2 4.2-4.1 5.6l6.2 5.2C37 39.2 44 34 44 24c0-1.3-.1-2.6-.4-3.9z"/></svg>Google review</span></span><span class="stars" aria-hidden="true"><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></span></span>
+              <blockquote>&ldquo;The director has been personally involved throughout my kitchen refurbishment and has been incredibly helpful with every decision. His advice, including suggesting we knock down a wall, completely transformed the space and made the kitchen hugely larger. Professional, knowledgeable and genuinely invested in getting the best possible result. 10/10 service.&rdquo;</blockquote>
+              <span class="rmore">Read the full review on Google<svg class="i-ext" width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+            </a>
+          </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ACCOUNTABILITY -->
+    <section class="section account" aria-labelledby="account-h">
+      <div class="wrap">
+        <div class="section-head">
+          <h2 class="h2" id="account-h">Accountable for the whole job</h2>
+          <p class="lead">Every accreditation, certification and insurance policy is there to protect you and your
+            home.</p>
+        </div>
+        <div class="account-grid">
+          <article class="note">
+            <div class="note-head">
+              <img src="images/optimized/owner.webp" alt="Andrius Grisanovas" width="76" height="76" loading="lazy">
+              <span><b>Andrius Grisanovas</b><span>Managing Director and founder</span></span>
+            </div>
+            <p>Andrius began his career as a self-employed tradesman in 2011, specialising in domestic tiling and
+              plumbing before expanding into full bathroom and kitchen renovations. A&amp;G Renovations started in 2014
+              as a one-man operation. Today it is a structured team of around 14 professionals, completing 60&ndash;70
+              renovation projects each year across London.</p>
+            <p class="quote">&ldquo;We don't compete on price. We compete on transparency, expertise, and the quality
+              of the experience we deliver.&rdquo;</p>
+            <div class="facts">
+              <div><b>2014</b><span>Founded in London</span></div>
+              <div><b>60&ndash;70</b><span>Projects a year</span></div>
+              <div><b>14</b><span>Team members</span></div>
+            </div>
+          </article>
+          <figure class="award">
+            <img src="images/optimized/award-certificate-full.webp" alt="Andrius Grisanovas holding the Prestige Award certificate beside an A&amp;G Renovations van" width="1600" height="1200" loading="lazy" decoding="async">
+            <figcaption class="award-text">
+              <b>Kitchen &amp; Bathroom Installation Firm of the Year, London &amp; South East England</b>
+              <p>Prestige Awards 2026/27. The awards recognise small and medium-sized businesses judged on the quality
+                of their work, their service standards and their customer feedback.</p>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="creds">
+          <div class="cred"><div class="cred-mark"><img src="images/optimized/marks/bifis.webp" alt="BIFIS, British Institute of Fitted Interiors Specialists" width="529" height="144" loading="lazy"></div><b>BIFIS member</b><span>British Institute of Fitted Interiors Specialists, the professional body for kitchen and bathroom fitters</span></div>
+          <div class="cred"><div class="cred-mark"><img src="images/optimized/marks/niceic.webp" alt="NICEIC" width="89" height="44" loading="lazy"></div><b>NICEIC certified electricians</b><span>All electrical work by our certified subcontractors, verified on every project</span></div>
+          <div class="cred"><div class="cred-mark"><img src="images/optimized/marks/gas-safe.webp" alt="Gas Safe Register" width="38" height="44" loading="lazy"></div><b>Gas Safe registered</b><span>All gas work by our Gas Safe registered partners</span></div>
+          <div class="cred"><div class="cred-mark"><img src="images/optimized/marks/environment-agency.webp" alt="Environment Agency" width="44" height="44" loading="lazy"></div><b>Licensed waste carrier</b><span>Waste disposed of responsibly by our Environment Agency licensed carrier</span></div>
+          <div class="cred"><div class="cred-mark"><img src="images/optimized/marks/city-and-guilds.webp" alt="City &amp; Guilds" width="70" height="44" loading="lazy"></div><b>City &amp; Guilds qualified</b><span>Our director holds City &amp; Guilds qualifications in domestic plumbing</span></div>
+          <div class="cred"><div class="cred-mark"><img src="images/optimized/marks/bsi.webp" alt="BSI" width="76" height="44" loading="lazy"></div><b>BSI-certified products</b><span>BSI-certified products and British Standards compliance throughout every project</span></div>
+          <div class="cred"><div class="cred-mark"><span class="num">£5M</span></div><b>Public liability insurance</b><span>Full coverage on every project, protecting you, your home and our team</span></div>
+          <div class="cred"><div class="cred-mark"><span class="num">12 months</span></div><b>Labour guarantee</b><span>All workmanship guaranteed for a full year. If anything falls short, we return and fix it</span></div>
+        </div>
+        <div class="clients-panel">
+          <div class="clients-head">
+            <h3>Homes are our focus</h3>
+            <p>Most of our projects are kitchens, bathrooms and full renovations in family homes across London. We bring
+              the same standards to commercial work, for clients including:</p>
+          </div>
+          <div class="client-grid">
+            <figure class="client"><img src="images/optimized/clients/jw-marriott.webp" alt="JW Marriott Grosvenor House" loading="lazy" decoding="async" width="456" height="372"><figcaption>JW Marriott Grosvenor House</figcaption></figure>
+            <figure class="client"><img src="images/optimized/clients/the-hari-hotel.webp" alt="The Hari Hotel London" loading="lazy" decoding="async" width="456" height="372"><figcaption>The Hari Hotel London</figcaption></figure>
+            <figure class="client"><img src="images/optimized/clients/royal-air-force-club.webp" alt="Royal Air Force Club" loading="lazy" decoding="async" width="456" height="372"><figcaption>Royal Air Force Club</figcaption></figure>
+            <figure class="client"><img src="images/optimized/clients/gordons-wine-bar.webp" alt="Gordon&#x27;s Wine Bar" loading="lazy" decoding="async" width="456" height="372"><figcaption>Gordon&#x27;s Wine Bar</figcaption></figure>
+            <figure class="client"><img src="images/optimized/clients/equinox-sports-club.webp" alt="Equinox Sports Club" loading="lazy" decoding="async" width="456" height="372"><figcaption>Equinox Sports Club</figcaption></figure>
+            <figure class="client"><img src="images/optimized/clients/victus-soul.webp" alt="Victus Soul" loading="lazy" decoding="async" width="456" height="372"><figcaption>Victus Soul</figcaption></figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ENQUIRY -->
+    <section class="section enquiry on-dark" id="enquiry" aria-labelledby="enquiry-h">
+      <div class="wrap">
+        <div class="enquiry-grid">
+          <div class="enquiry-intro">
+            <h2 class="h2" id="enquiry-h">Book your free site visit</h2>
+            <p class="lead">No commitment and no hard sell. Tell us where you are with your kitchen and we'll arrange
+              a visit at a time that suits you.</p>
+            <ol class="next-steps">
+              <li><span class="n" aria-hidden="true">1</span><span><b>We get in touch to arrange a time</b><span>A member of our admin team books your free site visit.</span></span></li>
+              <li><span class="n" aria-hidden="true">2</span><span><b>An estimator visits your home</b><span>Measures up, checks existing services and talks through your plans.</span></span></li>
+              <li><span class="n" aria-hidden="true">3</span><span><b>You receive an itemised proposal</b><span>Every line itemised. No obligation to go ahead.</span></span></li>
+            </ol>
+            <p class="talk">Prefer to talk it through?<br><a href="tel:02036218527">020 3621 8527</a><small>Monday to Saturday, 8AM to 7PM</small></p>
+          </div>
+
+          <div class="form-card" id="book">
+            <div id="ag-form">
+              <div class="progress"><span id="ag-step-label">Step 1 of 3</span><span class="progress-bar" aria-hidden="true"><i></i></span></div>
+
+              <div class="fstep" data-step="1">
+                <h3 tabindex="-1" id="fs1">Where are you with your kitchen?</h3>
+                <p class="hint">Pick the closest. You can tell us more in a moment.</p>
+                <div class="choices" role="group" aria-labelledby="fs1">
+            <button type="button" class="choice" data-stage="Just starting to plan" aria-pressed="false"><span>Just starting to plan</span><svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M7.5 4.5 13 10l-5.5 5.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+            <button type="button" class="choice" data-stage="Working on a design" aria-pressed="false"><span>Working on a design</span><svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M7.5 4.5 13 10l-5.5 5.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+            <button type="button" class="choice" data-stage="Design ready, need it built" aria-pressed="false"><span>Design ready, need it built</span><svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M7.5 4.5 13 10l-5.5 5.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+                </div>
+              </div>
+
+              <div class="fstep" data-step="2" hidden>
+                <h3 tabindex="-1" id="fs2">When would you like work to start?</h3>
+                <p class="hint">A rough idea is fine.</p>
+                <div class="choices" role="group" aria-labelledby="fs2">
+            <button type="button" class="choice" data-start="As soon as possible" aria-pressed="false"><span>As soon as possible</span><svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M7.5 4.5 13 10l-5.5 5.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+            <button type="button" class="choice" data-start="In 1 to 3 months" aria-pressed="false"><span>In 1 to 3 months</span><svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M7.5 4.5 13 10l-5.5 5.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+            <button type="button" class="choice" data-start="In 3 to 6 months" aria-pressed="false"><span>In 3 to 6 months</span><svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M7.5 4.5 13 10l-5.5 5.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+            <button type="button" class="choice" data-start="Just researching for now" aria-pressed="false"><span>Just researching for now</span><svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M7.5 4.5 13 10l-5.5 5.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+                </div>
+                <div class="form-actions"><button type="button" class="link-back" data-back="1">Back</button></div>
+              </div>
+
+              <div class="fstep" data-step="3" hidden>
+                <h3 tabindex="-1" id="fs3">Where should we call you?</h3>
+                <p class="hint">We'll use these details only to arrange your visit.</p>
+                <div class="field-row">
+                  <div class="field"><label for="ag-name">Full name</label><input id="ag-name" name="full_name" type="text" autocomplete="name" required></div>
+                  <div class="field"><label for="ag-phone">Phone</label><input id="ag-phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" required></div>
+                </div>
+                <div class="field-row">
+                  <div class="field"><label for="ag-email">Email</label><input id="ag-email" name="email" type="email" autocomplete="email" required></div>
+                  <div class="field"><label for="ag-postcode">Postcode</label><input id="ag-postcode" name="post_code" type="text" autocomplete="postal-code" autocapitalize="characters" required></div>
+                </div>
+                <div class="field"><label for="ag-message">Anything we should know? <small>(optional)</small></label>
+                  <textarea id="ag-message" name="message" placeholder="For example: moving the sink to an island, or new lighting throughout."></textarea></div>
+                <div class="hp" aria-hidden="true"><label for="ag-company">Company</label><input id="ag-company" name="company" type="text" tabindex="-1" autocomplete="off"></div>
+                <p class="form-error" id="ag-error" role="alert"></p>
+                <div class="form-actions">
+                  <button type="button" class="link-back" data-back="2">Back</button>
+                  <button type="button" class="btn btn-primary" id="ag-submit"><span id="ag-btn-label">Request my free site visit</span></button>
+                </div>
+                <p class="form-privacy">We use your details only to arrange your visit and prepare your proposal. <a href="https://ag-renovations.co.uk/privacy-policy/" target="_blank" rel="noopener">Privacy policy</a></p>
+              </div>
+            </div>
+
+            <div class="form-success" id="ag-success" role="status">
+              <span class="tick"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+              <h3 tabindex="-1" id="ag-success-h">Request received</h3>
+              <p>Thank you. A member of our admin team will get in touch to arrange your free site visit. If it's urgent,
+                call <a href="tel:02036218527">020 3621 8527</a>.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section faq" id="faq" aria-labelledby="faq-h">
+      <div class="wrap">
+        <div class="faq-grid">
+          <div class="faq-intro">
+            <h2 class="h2" id="faq-h">Questions people ask before booking</h2>
+            <p>Can't see yours? Call <a href="tel:02036218527">020 3621 8527</a>, Monday to Saturday, 8AM to 7PM.</p>
+            <!-- CONFIRM: this photo is an A&G project and A&G has the right to use it -->
+            <figure class="faq-photo">
+              <button type="button" class="faq-arch" data-base="images/kitchens/feature/sage-shaker" data-start="0" data-caption="A recent A&amp;G kitchen" aria-label="Open the photo of a recent A&amp;G kitchen">
+                <picture style="background-image:url('data:image/webp;base64,UklGRt4AAABXRUJQVlA4INIAAACQBgCdASoYACEAPu1cp04ppKMiNVQMATAdiWMAuzOKTj2QAeNsiO4jaFPzObYLF0BoE8jnb+oGkzCnBBgAAP7ngH1G6oAx8k5BFqnSDKuXzU4hrHnVk1rNTeytgFaLowpS18sonBKw10Ob8Y7y2SD2wjLOskPOryGbbKfuDzmoD9aABhY66EldRDDz4VEk9iTRrfaCpuMR8ncaX9Q8x55uNEOjlzG4JFHf//u7QDkNVZFOLZ2TICWI/jlW9Lx2PXMzIZNzO0FMegbpZjiDBWAAAAA=')"><source type="image/avif" sizes="(max-width: 960px) 90vw, 360px" srcset="images/kitchens/feature/sage-shaker-480.avif 480w, images/kitchens/feature/sage-shaker-800.avif 800w, images/kitchens/feature/sage-shaker-1200.avif 1200w, images/kitchens/feature/sage-shaker-1600.avif 1600w"><source type="image/webp" sizes="(max-width: 960px) 90vw, 360px" srcset="images/kitchens/feature/sage-shaker-480.webp 480w, images/kitchens/feature/sage-shaker-800.webp 800w, images/kitchens/feature/sage-shaker-1200.webp 1200w, images/kitchens/feature/sage-shaker-1600.webp 1600w"><img src="images/kitchens/feature/sage-shaker-800.webp" alt="Sage green shaker kitchen with a white range cooker, a marble-effect splashback and oak shelves with hanging mugs" width="1471" height="2025" loading="lazy" decoding="async"></picture>
+              </button>
+              <span class="faq-arch-line" aria-hidden="true"></span>
+              <figcaption>A recent A&amp;G kitchen</figcaption>
+            </figure>
+          </div>
+          <div class="faq-list">
+          <details>
+            <summary>How long does a kitchen renovation take?<span class="pm" aria-hidden="true"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true"><path d="M7 2v10M2 7h10" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></span></summary>
+            <p class="a">It depends on the size of the kitchen and the scope of work, so we don&#x27;t quote a standard figure. Before work starts you receive a work programme plan, so you know the timeline from day one. Stone worktops are templated once the cabinets are installed, then cut off-site and fitted, which adds a short wait. Your estimator will talk you through timings at the free site visit.</p>
+          </details>
+          <details>
+            <summary>How much does a kitchen renovation cost in London?<span class="pm" aria-hidden="true"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true"><path d="M7 2v10M2 7h10" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></span></summary>
+            <p class="a">Every kitchen is different, so we don&#x27;t publish set prices. The cost depends on the size of the room, any layout changes, the units, worktops and appliances you choose, and the electrical and plumbing work involved. After one of our estimators has visited your home, you receive a clear, itemised proposal, so you know exactly what you are paying for before committing to anything.</p>
+          </details>
+          <details>
+            <summary>Do you design the kitchen?<span class="pm" aria-hidden="true"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true"><path d="M7 2v10M2 7h10" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></span></summary>
+            <p class="a">Your kitchen is designed by a qualified kitchen designer. If you already have one, we work from their design. If not, we can arrange a free design appointment with one of our kitchen suppliers, whose designers create a full 3D design of your kitchen before anything is ordered. We then take care of supply and installation end to end.</p>
+          </details>
+          <details>
+            <summary>Do I need to supply my own units, worktops and appliances?<span class="pm" aria-hidden="true"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true"><path d="M7 2v10M2 7h10" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></span></summary>
+            <p class="a">No. If you&#x27;d like, we handle it all: we order everything on your behalf, check deliveries, store materials securely until your start date, and deal with any damaged items, exchanges and returns. You choose what you want and we take care of the rest.</p>
+          </details>
+          <details>
+            <summary>Do you offer fit-only kitchen installation?<span class="pm" aria-hidden="true"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true"><path d="M7 2v10M2 7h10" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></span></summary>
+            <p class="a">No. We only take on complete kitchen renovations: strip-out, electrics, plumbing, cabinets, worktops, splashback, tiling, flooring and appliances, managed as one project with one point of contact. That is how we can stand behind the finished kitchen as a whole, not just one part of it.</p>
+          </details>
+          <details>
+            <summary>Is the work guaranteed?<span class="pm" aria-hidden="true"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true"><path d="M7 2v10M2 7h10" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></span></summary>
+            <p class="a">Yes. All workmanship is covered by a 12-month guarantee against faulty labour as standard on every project. If anything falls short of your expectations within the first year, we will return and put it right at no additional cost to you. Materials are covered by their manufacturers&#x27; warranties, and the work is backed by our £5M Public Liability Insurance.</p>
+          </details>
+          <details>
+            <summary>Do you use subcontractors or your own team?<span class="pm" aria-hidden="true"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true"><path d="M7 2v10M2 7h10" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></span></summary>
+            <p class="a">Both. Our kitchen fitters are employed by A&amp;G and work on our projects only, so the same team is in your home from strip-out to handover. Specialist trades are different: electrical work is carried out by NICEIC certified electricians, gas work by Gas Safe registered engineers and stone worktops by specialist stonemasons, all partners we work with regularly. We coordinate them, so you deal with one point of contact throughout.</p>
+          </details>
+          <details>
+            <summary>Do you charge a fee for quoting, or use a matching service?<span class="pm" aria-hidden="true"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true"><path d="M7 2v10M2 7h10" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></span></summary>
+            <p class="a">No. The site visit and the written proposal are free, and there is no obligation to proceed. If you contact us directly there is also no agency or matching-platform commission in your quote. Those platforms are free for you to use because they charge the builder a percentage of every job won, and that cost has to be recovered somewhere. Our direct quotes are typically 10&ndash;15% lower than the same project priced through a matching service, because the commission is not there to pass on.</p>
+          </details>
+          <details>
+            <summary>What areas of London do you cover?<span class="pm" aria-hidden="true"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true"><path d="M7 2v10M2 7h10" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></span></summary>
+            <p class="a">We cover Greater London inside the M25. If you are unsure whether we reach you, call 020 3621 8527 or fill in the enquiry form and we will confirm.</p>
+          </details>
+          <details>
+            <summary>What happens after I submit an enquiry?<span class="pm" aria-hidden="true"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true"><path d="M7 2v10M2 7h10" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></span></summary>
+            <p class="a">A member of our admin team will get in touch to arrange a free site visit at a time that suits you. One of our estimators will come to your home, take precise measurements, listen to your plans, and answer every question. A clear, itemised proposal is then prepared and sent to you for review, with no obligation to proceed.</p>
+          </details>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CLOSING -->
+    <section class="closing on-dark" aria-labelledby="closing-h">
+      <div class="wrap">
+        <div>
+          <h2 class="h2" id="closing-h">Do it once, do it right.</h2>
+          <p>Book a free site visit and get a clear, itemised proposal for your whole kitchen.</p>
+        </div>
+        <div class="closing-actions">
+          <a class="btn btn-light" href="#book" data-cta="closing">Book a free site visit</a>
+          <a class="btn btn-outline-light" href="tel:02036218527">Call 020 3621 8527</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap">
+      <span>A&amp;G Renovations Ltd. Established in London in 2014. Member of the British Institute of Fitted Interiors Specialists.</span>
+      <span>Greater London, inside the M25. <a href="mailto:sales@ag-renovations.co.uk">sales@ag-renovations.co.uk</a>. <a href="https://ag-renovations.co.uk/privacy-policy/" target="_blank" rel="noopener">Privacy policy</a></span>
+    </div>
+  </footer>
+
+  <div class="sticky-book" id="sticky-book" aria-hidden="true">
+    <a class="btn btn-primary" href="#book" data-cta="sticky" tabindex="-1">Book a free site visit</a>
+  </div>
+
+  <dialog class="lightbox" id="lightbox" aria-label="Project photos">
+    <div class="lb-inner">
+      <img id="lb-img" src="" alt="">
+      <div class="lb-meta"><span id="lb-cap"></span><span id="lb-count"></span></div>
+      <button type="button" class="lb-btn lb-close" id="lb-close" aria-label="Close">
+        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true"><path d="M4 4l10 10M14 4 4 14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button>
+      <button type="button" class="lb-btn lb-prev" id="lb-prev" aria-label="Previous photo">
+        <svg width="18" height="18" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M12.5 4.5 7 10l5.5 5.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+      <button type="button" class="lb-btn lb-next" id="lb-next" aria-label="Next photo"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M7.5 4.5 13 10l-5.5 5.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+    </div>
+  </dialog>
+
+  <script>
+    /* ---------------- configuration ---------------- */
+    const AG_WEBHOOK_URL = 'https://hooks.zapier.com/hooks/catch/27822859/4bkdgjs/';
+    /* Google Ads form conversion. Uses the bathroom page's action for now; paste a kitchen action's send_to here if you create one. */
+    const AG_ADS_FORM_CONVERSION = 'AW-17907613995/rTgGCKThs7gcEKuCgttC';
+    /* true ONLY in the staging repo: nothing is sent and nothing is counted. */
+    const AG_STAGING = false;
+
+    const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    function track(name, params) { if (typeof gtag !== 'undefined') gtag('event', name, params || {}); }
+
+    /* ---------------- header ---------------- */
+    (function () {
+      const header = document.querySelector('.site-header');
+      const onScroll = () => header.classList.toggle('is-scrolled', window.scrollY > 8);
+      onScroll();
+      window.addEventListener('scroll', onScroll, { passive: true });
+    })();
+
+    /* ---------------- multi-step enquiry ---------------- */
+    const agAnswers = { stage: '', start: '' };
+    function showStep(n, focus) {
+      document.querySelectorAll('.fstep').forEach(s => { s.hidden = s.dataset.step !== String(n); });
+      document.querySelector('.progress-bar i').style.width = Math.round(n / 3 * 100) + '%';
+      document.getElementById('ag-step-label').textContent = 'Step ' + n + ' of 3';
+      if (focus) {
+        const h = document.querySelector('.fstep[data-step="' + n + '"] h3');
+        if (h) h.focus({ preventScroll: true });
+      }
+    }
+    function markPressed(attr, value) {
+      document.querySelectorAll('[' + attr + ']').forEach(b => b.setAttribute('aria-pressed', b.getAttribute(attr) === value ? 'true' : 'false'));
+    }
+    document.querySelectorAll('[data-stage]').forEach(btn => btn.addEventListener('click', () => {
+      agAnswers.stage = btn.getAttribute('data-stage');
+      markPressed('data-stage', agAnswers.stage);
+      track('form_step', { step: 1, project_stage: agAnswers.stage, from: btn.closest('.starter') ? 'hero' : 'form' });
+      showStep(2, true);
+      if (btn.closest('.starter')) {
+        /* Jump straight to the form card itself (on phones it sits below the intro text). */
+        document.getElementById('book').scrollIntoView({ behavior: 'instant', block: 'start' });
+      }
+    }));
+    document.querySelectorAll('[data-start]').forEach(btn => btn.addEventListener('click', () => {
+      agAnswers.start = btn.getAttribute('data-start');
+      markPressed('data-start', agAnswers.start);
+      track('form_step', { step: 2, start_timeline: agAnswers.start });
+      showStep(3, true);
+    }));
+    document.querySelectorAll('[data-back]').forEach(btn => btn.addEventListener('click', () => showStep(Number(btn.dataset.back), true)));
+
+    async function agSubmitForm() {
+      const btn = document.getElementById('ag-submit');
+      const label = document.getElementById('ag-btn-label');
+      const errorEl = document.getElementById('ag-error');
+      const fields = {
+        full_name: document.getElementById('ag-name'),
+        phone: document.getElementById('ag-phone'),
+        email: document.getElementById('ag-email'),
+        post_code: document.getElementById('ag-postcode')
+      };
+      Object.values(fields).forEach(f => f.removeAttribute('aria-invalid'));
+      errorEl.classList.remove('is-visible');
+      errorEl.textContent = '';
+
+      function showError(msg, field) {
+        errorEl.textContent = msg;
+        errorEl.classList.add('is-visible');
+        btn.disabled = false;
+        label.textContent = 'Request my free site visit';
+        if (field) { field.setAttribute('aria-invalid', 'true'); field.focus(); }
+      }
+
+      const full_name = fields.full_name.value.trim();
+      const phone = fields.phone.value.trim();
+      const email = fields.email.value.trim();
+      const post_code = fields.post_code.value.trim().toUpperCase();
+      const notes = document.getElementById('ag-message').value.trim();
+
+      if (!full_name) return showError('Enter your full name.', fields.full_name);
+      if (phone.replace(/[^0-9]/g, '').length < 10) return showError('Enter a phone number we can call, including the area code.', fields.phone);
+      if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) return showError('Enter an email address in the format name@example.com.', fields.email);
+      if (post_code.replace(/\s/g, '').length < 5) return showError('Enter the full postcode of the property.', fields.post_code);
+
+      /* Honeypot: bots fill hidden fields. Fake a success, send nothing, count nothing. */
+      if (document.getElementById('ag-company').value) return showSuccess();
+
+      if (AG_STAGING) {
+        console.info('STAGING: enquiry not sent, no conversion fired.', agAnswers);
+        return showSuccess();
+      }
+
+      const message = [
+        'Project stage: ' + (agAnswers.stage || 'Not given'),
+        'Preferred start: ' + (agAnswers.start || 'Not given'),
+        notes ? '\n' + notes : ''
+      ].join('\n').trim();
+
+      btn.disabled = true;
+      label.textContent = 'Sending…';
+
+      let delivered = false;
+      try {
+        const res = await fetch(AG_WEBHOOK_URL, {
+          method: 'POST',
+          body: new URLSearchParams({
+            full_name, email, phone, address: '', city: '', post_code, message,
+            lead_source: 'Google Ads Kitchen Landing Page',
+            project_type: 'Kitchen Renovation',
+            project_stage: agAnswers.stage,
+            start_timeline: agAnswers.start
+          })
+        });
+        delivered = res.ok;
+      } catch (err) {
+        console.warn('Zapier webhook failed:', err);
+        delivered = false;
+      }
+
+      /* The conversion fires ONLY on a confirmed delivery, so a failed send is never counted as a lead. */
+      if (!delivered) {
+        return showError('We couldn\'t send your request just now. Call us on 020 3621 8527 and we\'ll book your free site visit straight away.');
+      }
+      if (typeof gtag !== 'undefined') {
+        gtag('event', 'conversion', { 'send_to': AG_ADS_FORM_CONVERSION, 'value': 1.0, 'currency': 'GBP' });
+        gtag('event', 'generate_lead');
+      }
+      showSuccess();
+    }
+    function showSuccess() {
+      document.getElementById('ag-form').style.display = 'none';
+      document.getElementById('ag-success').classList.add('is-visible');
+      document.getElementById('ag-success-h').focus({ preventScroll: true });
+      document.getElementById('book').scrollIntoView({ behavior: reduceMotion ? 'auto' : 'smooth', block: 'start' });
+    }
+    document.getElementById('ag-submit').addEventListener('click', agSubmitForm);
+    document.querySelectorAll('.fstep[data-step="3"] input').forEach(i => i.addEventListener('keydown', ev => {
+      if (ev.key === 'Enter') { ev.preventDefault(); agSubmitForm(); }
+    }));
+
+    /* ---------------- one contract: interactive comparison ---------------- */
+    (function () {
+      const section = document.getElementById('contract');
+      const stage = document.getElementById('contract-stage');
+      const svg = stage.querySelector('.wires');
+      const you = stage.querySelector('.you'), coord = stage.querySelector('.coord');
+      const trades = Array.from(stage.querySelectorAll('.trade'));
+      const tabs = Array.from(section.querySelectorAll('[role="tab"]'));
+      const bend = [[-46, 34], [52, -26], [34, 44], [-52, -30], [44, 30], [-34, -48], [24, 52]];
+      let raf = 0, until = 0, touched = false;
+      function mid(el) {
+        const s = stage.getBoundingClientRect(), r = el.getBoundingClientRect();
+        return [r.left - s.left + r.width / 2, r.top - s.top + r.height / 2];
+      }
+      function draw() {
+        const [yx, yy] = mid(you); let out = '';
+        if (stage.dataset.mode === 'alone') {
+          trades.forEach((t, i) => {
+            const [tx, ty] = mid(t), [bx, by] = bend[i];
+            out += '<path class="w w-alone" d="M' + yx + ' ' + yy + ' Q' + ((yx + tx) / 2 + bx) + ' ' + ((yy + ty) / 2 + by) + ' ' + tx + ' ' + ty + '"/>';
+          });
+        } else {
+          const [cx, cy] = mid(coord);
+          out += '<path class="w w-main" d="M' + yx + ' ' + yy + ' L' + cx + ' ' + cy + '"/>';
+          trades.forEach(t => {
+            const [tx, ty] = mid(t), vertical = window.innerWidth < 761;
+            const c = vertical ? (cx + ' ' + (cy + ty) / 2 + ' ' + tx + ' ' + (cy + ty) / 2)
+                               : ((cx + tx) / 2 + ' ' + cy + ' ' + (cx + tx) / 2 + ' ' + ty);
+            out += '<path class="w w-ag" d="M' + cx + ' ' + cy + ' C' + c + ' ' + tx + ' ' + ty + '"/>';
+          });
+        }
+        svg.innerHTML = out;
+      }
+      function follow(ms) {
+        until = performance.now() + ms; cancelAnimationFrame(raf);
+        const step = () => { draw(); if (performance.now() < until) raf = requestAnimationFrame(step); };
+        step();
+      }
+      function setMode(mode, byUser) {
+        stage.dataset.mode = mode; section.dataset.mode = mode;
+        tabs.forEach(t => t.setAttribute('aria-selected', t.dataset.mode === mode ? 'true' : 'false'));
+        follow(reduceMotion ? 50 : 1300);
+        if (byUser) { touched = true; track('contract_toggle', { mode: mode }); }
+      }
+      tabs.forEach(t => t.addEventListener('click', () => setMode(t.dataset.mode, true)));
+      tabs.forEach((t, i) => t.addEventListener('keydown', ev => {
+        if (ev.key === 'ArrowRight' || ev.key === 'ArrowLeft') { const n = tabs[(i + 1) % 2]; n.focus(); n.click(); }
+      }));
+      window.addEventListener('resize', draw);
+      window.addEventListener('load', draw);
+      draw();
+      if ('IntersectionObserver' in window && !reduceMotion) {
+        const io = new IntersectionObserver(es => {
+          if (es[0].isIntersecting) {
+            io.disconnect();
+            setTimeout(() => { if (!touched) setMode('ag', false); }, 1400);
+          }
+        }, { threshold: 0.55 });
+        io.observe(stage);
+      }
+    })();
+
+    /* ---------------- what's included: auto-playing tour ---------------- */
+    (function () {
+      const tour = document.getElementById('tour');
+      const kd = tour.querySelector('.kd');
+      const card = tour.querySelector('.tour-card');
+      const btns = Array.from(tour.querySelectorAll('.part-btn'));
+      const bars = Array.from(tour.querySelectorAll('.bar'));
+      const toggle = tour.querySelector('.tour-toggle');
+      const cap = tour.querySelector('.tour-cap');
+      const n = btns.length;
+      let idx = 0, playing = !reduceMotion, inView = false, finished = false, drawn = false;
+
+      function setCaption(b) {
+        cap.querySelector('.cap-step').textContent = (idx + 1) + ' of ' + n;
+        cap.querySelector('.cap-title').textContent = b.dataset.title;
+        cap.querySelector('.cap-desc').textContent = b.dataset.desc;
+        cap.querySelector('.cap-who span').textContent = b.dataset.who;
+        cap.classList.remove('is-in'); void cap.offsetWidth; cap.classList.add('is-in');
+      }
+      function render() {
+        const id = btns[idx].dataset.part;
+        btns.forEach((b, i) => b.setAttribute('aria-pressed', i === idx ? 'true' : 'false'));
+        kd.classList.add('has-active');
+        kd.querySelectorAll('.part, .hs').forEach(g => g.classList.toggle('is-active', g.dataset.part === id));
+        bars.forEach((b, i) => { b.classList.toggle('is-done', i < idx); b.classList.remove('is-active'); });
+        void bars[idx].offsetWidth;
+        bars[idx].classList.add('is-active');
+        setCaption(btns[idx]);
+        state();
+      }
+      function state() {
+        const running = playing && inView;
+        tour.classList.toggle('is-paused', !running);
+        toggle.setAttribute('aria-label', playing ? 'Pause the tour' : (finished ? 'Play the tour again' : 'Play the tour'));
+        toggle.classList.toggle('is-playing', playing);
+      }
+      function go(i, how) {
+        idx = (i + n) % n; render();
+        if (how) track('included_select', { part: btns[idx].dataset.part, how: how });
+      }
+      bars.forEach((b, i) => b.querySelector('i').addEventListener('animationend', () => {
+        if (i !== idx || !playing) return;
+        if (idx === n - 1) { playing = false; finished = true; state(); }
+        else go(idx + 1);
+      }));
+      toggle.addEventListener('click', () => {
+        playing = !playing;
+        if (playing && finished) { finished = false; go(0); } else state();
+        track('included_tour', { action: playing ? 'play' : 'pause' });
+      });
+      btns.forEach((b, i) => b.addEventListener('click', () => go(i, 'list')));
+      kd.querySelectorAll('.hs').forEach(h => {
+        const pick = () => go(btns.findIndex(b => b.dataset.part === h.dataset.part), 'drawing');
+        h.addEventListener('click', ev => { ev.stopPropagation(); pick(); });
+        h.addEventListener('keydown', ev => { if (ev.key === 'Enter' || ev.key === ' ') { ev.preventDefault(); pick(); } });
+      });
+      tour.querySelector('.cap-prev').addEventListener('click', () => go(idx - 1, 'arrow'));
+      tour.querySelector('.cap-next').addEventListener('click', () => go(idx + 1, 'arrow'));
+      tour.querySelector('.tour-art').addEventListener('click', ev => {
+        if (window.innerWidth > 760 || ev.target.closest('.hs')) return;
+        const r = ev.currentTarget.getBoundingClientRect();
+        go(ev.clientX - r.left < r.width * 0.35 ? idx - 1 : idx + 1, 'tap');
+      });
+      card.addEventListener('mouseenter', () => tour.classList.add('is-held'));
+      card.addEventListener('mouseleave', () => tour.classList.remove('is-held'));
+      card.addEventListener('focusin', () => tour.classList.add('is-held'));
+      card.addEventListener('focusout', () => tour.classList.remove('is-held'));
+
+      if (!reduceMotion) kd.classList.add('pre');
+      render();
+      if ('IntersectionObserver' in window) {
+        new IntersectionObserver(es => {
+          inView = es[0].isIntersecting;
+          if (inView && !drawn) {
+            drawn = true;
+            if (!reduceMotion) {
+              kd.classList.add('drawing'); kd.classList.remove('has-active'); kd.querySelectorAll('.is-active').forEach(g => g.classList.remove('is-active'));
+              inView = false; state();
+              setTimeout(() => { kd.classList.remove('pre', 'drawing'); inView = true; render(); }, 2300);
+              return;
+            }
+          }
+          state();
+        }, { threshold: 0.45 }).observe(card);
+      } else { inView = true; state(); }
+    })();
+
+    /* ---------------- process: scroll-linked journey ---------------- */
+    (function () {
+      const list = document.querySelector('.journey');
+      const fill = list.querySelector('.rail i');
+      const steps = Array.from(list.querySelectorAll('.jstep'));
+      let ticking = false;
+      function update() {
+        ticking = false;
+        const line = window.innerHeight * 0.62;
+        const first = steps[0].querySelector('.jnum').getBoundingClientRect();
+        const last = steps[steps.length - 1].querySelector('.jnum').getBoundingClientRect();
+        const span = (last.top + last.height / 2) - (first.top + first.height / 2);
+        const p = Math.max(0, Math.min(1, (line - (first.top + first.height / 2)) / span));
+        fill.style.height = (p * 100) + '%';
+        steps.forEach(s => { const r = s.querySelector('.jnum').getBoundingClientRect(); s.classList.toggle('is-on', r.top + r.height / 2 < line); });
+      }
+      window.addEventListener('scroll', () => { if (!ticking) { ticking = true; requestAnimationFrame(update); } }, { passive: true });
+      window.addEventListener('resize', update);
+      update();
+    })();
+
+    /* ---------------- popular additions + 3D design: play once when seen, tap to replay ---------------- */
+    (function () {
+      const cards = Array.from(document.querySelectorAll('.extra'));
+      const d3 = document.querySelector('.d3');
+      if (reduceMotion || !('IntersectionObserver' in window)) {
+        cards.forEach(c => c.classList.add('is-on')); d3.classList.add('is-on'); return;
+      }
+      const io = new IntersectionObserver(es => es.forEach(en => {
+        if (!en.isIntersecting) return;
+        io.unobserve(en.target);
+        if (en.target === d3) { d3.classList.add('is-on'); return; }
+        const i = cards.indexOf(en.target);
+        setTimeout(() => en.target.classList.add('is-on'), 180 * (i % 4));
+      }), { threshold: 0.5 });
+      cards.forEach(c => io.observe(c)); io.observe(d3);
+      cards.forEach(c => c.addEventListener('click', () => {
+        c.classList.remove('is-on'); void c.offsetWidth;
+        setTimeout(() => c.classList.add('is-on'), 60);
+        track('extra_tap', { extra: c.dataset.extra });
+      }));
+    })();
+
+    /* ---------------- the drawing thread: one line through the whole page ---------------- */
+    (function () {
+      const svg = document.querySelector('.thread');
+      const path = svg.querySelector('.thread-path');
+      const pen = svg.querySelector('.thread-pen');
+      const grad = svg.querySelector('#thread-grad');
+      const blooms = svg.querySelector('.blooms');
+      const SKETCH = {
+        dimension: '<path d="M4 30H56M4 22V38M56 22V38M11 25 4 30l7 5M49 25l7 5-7 5"/>',
+        pendant: '<path d="M30 0V30"/><path d="M12 50C12 34 48 34 48 50Z"/><path d="M25 50C25 57 35 57 35 50"/>',
+        handle: '<path d="M8 22H52"/><path d="M14 22C14 40 46 40 46 22"/><circle cx="14" cy="22" r="2.2"/><circle cx="46" cy="22" r="2.2"/>',
+        pencil: '<path d="M20 58 44 12l7 4-24 46Z"/><path d="M20 58l-3 9 10-5"/><path d="M40 20l7 4"/>',
+        key: '<circle cx="30" cy="14" r="9"/><path d="M30 23V62M30 46H39M30 55H37"/>',
+        star: '<path d="M30 6l7 15 16 2-12 11 3 16-14-8-14 8 3-16L7 23l16-2Z"/>'
+      };
+      const PLAN = [['contract', 'dimension', 0.32], ['included', 'pendant', 0.12], ['extras', 'handle', 0.3],
+                    ['kitchens', 'pencil', 0.35], ['process', 'key', 0.8], ['reviews', 'star', 0.25]];
+      let L = 0, lens = [], ys = [], xs = [], marks = [], raf = 0;
+
+      function build() {
+        const W = document.documentElement.clientWidth;
+        const H = document.documentElement.scrollHeight;
+        svg.setAttribute('width', W); svg.setAttribute('height', H); svg.style.height = H + 'px';
+        const gutter = (W - Math.min(1200, W)) / 2;
+        const wide = gutter >= 70;
+        const xL = wide ? gutter / 2 : 11, xR = wide ? W - gutter / 2 : W - 11;
+        const secs = Array.from(document.querySelectorAll('main > section'));
+        const sidesWide = { contract: 'L', included: 'R', extras: 'R', kitchens: 'L', process: 'L', reviews: 'R', enquiry: 'R', faq: 'L' };
+        const sidesNarrow = { contract: 'L', included: 'R', extras: 'L', kitchens: 'R', process: 'L', reviews: 'R', enquiry: 'L', faq: 'R' };
+        const sides = wide ? sidesWide : sidesNarrow;
+        const inset = wide ? 60 : 28, pull = wide ? 70 : 34;
+        let d = '', prevX = null, prevY = null, stops = '';
+        secs.forEach((sec, i) => {
+          const top = sec.offsetTop, bot = top + sec.offsetHeight;
+          const x = (sides[sec.id] || 'L') === 'L' ? xL : xR;
+          const y1 = top + (i === 0 ? 40 : inset), y2 = bot - inset;
+          if (prevX === null) d += 'M' + x + ' ' + y1;
+          else if (prevX === x) d += 'L' + x + ' ' + y1;
+          else d += 'C' + prevX + ' ' + (prevY + pull) + ' ' + x + ' ' + (y1 - pull) + ' ' + x + ' ' + y1;
+          // gentle curves on the way down, so it reads as drawn rather than ruled
+          const span = y2 - y1;
+          if (wide) {
+            const amp = Math.min(14, gutter / 8);
+            if (span > 300) {
+              const m = y1 + span / 2;
+              d += 'C' + (x + amp) + ' ' + (y1 + span * 0.2) + ' ' + (x + amp) + ' ' + (m - span * 0.1) + ' ' + x + ' ' + m;
+              d += 'C' + (x - amp) + ' ' + (m + span * 0.1) + ' ' + (x - amp) + ' ' + (y2 - span * 0.2) + ' ' + x + ' ' + y2;
+            } else d += 'L' + x + ' ' + y2;
+          } else {
+            // phones and tablets: a softer wave that stays inside the page's edge padding
+            const amp = 7, waves = Math.max(1, Math.round(span / 520)), step = span / waves;
+            for (let k = 0; k < waves; k++) {
+              const ya = y1 + k * step, yb = ya + step, dir = k % 2 ? -1 : 1;
+              d += 'C' + (x + amp * dir * 1.6) + ' ' + (ya + step * 0.3) + ' ' + (x + amp * dir * 1.6) + ' ' + (yb - step * 0.3) + ' ' + x + ' ' + yb;
+            }
+          }
+          prevX = x; prevY = y2;
+          const dark = sec.classList.contains('on-dark');
+          const col = dark ? 'stop-color="#dcb878" stop-opacity=".75"' : 'stop-color="#2d6a4f" stop-opacity=".42"';
+          stops += '<stop offset="' + (top / H) + '" ' + col + '/><stop offset="' + (bot / H) + '" ' + col + '/>';
+          sec.dataset.threadX = x;
+        });
+        grad.setAttribute('y2', H); grad.innerHTML = stops;
+        path.setAttribute('d', d);
+        L = path.getTotalLength();
+        lens = []; ys = []; xs = [];
+        for (let l = 0; l <= L; l += 12) { const pt = path.getPointAtLength(l); lens.push(l); ys.push(pt.y); xs.push(pt.x); }
+        path.style.strokeDasharray = L;
+        // sketches that bloom from the line, only where the margin has room
+        blooms.innerHTML = ''; marks = [];
+        if (gutter >= 100) {
+          const scale = Math.min(1, (gutter - 30) / 60);
+          PLAN.forEach(([id, kind, at]) => {
+            const sec = document.getElementById(id); if (!sec) return;
+            const y = sec.offsetTop + sec.offsetHeight * at, x = Number(sec.dataset.threadX);
+            const g = document.createElementNS('http://www.w3.org/2000/svg', 'g');
+            g.setAttribute('class', 'bloom ' + (sec.classList.contains('on-dark') ? 'dark' : 'light'));
+            g.setAttribute('transform', 'translate(' + (x - 30 * scale) + ' ' + y + ') scale(' + scale + ')');
+            g.innerHTML = SKETCH[kind];
+            g.querySelectorAll('*').forEach(el => el.setAttribute('pathLength', '1'));
+            blooms.appendChild(g); marks.push([y, g]);
+          });
+        }
+        update();
+      }
+      function update() {
+        raf = 0;
+        if (!L) return;
+        const target = reduceMotion ? Infinity : window.scrollY + window.innerHeight * 0.72;
+        let lo = 0, hi = ys.length - 1;
+        while (lo < hi) { const mid = (lo + hi) >> 1; if (ys[mid] < target) lo = mid + 1; else hi = mid; }
+        const len = target === Infinity ? L : lens[lo];
+        path.style.strokeDashoffset = Math.max(0, L - len);
+        pen.setAttribute('cx', xs[lo]); pen.setAttribute('cy', ys[lo]);
+        pen.style.opacity = (reduceMotion || lo >= ys.length - 1) ? 0 : 1;
+        marks.forEach(([y, g]) => g.classList.toggle('on', target >= y + 30));
+      }
+      let t = 0;
+      const rebuild = () => { clearTimeout(t); t = setTimeout(build, 120); };
+      window.addEventListener('scroll', () => { if (!raf) raf = requestAnimationFrame(update); }, { passive: true });
+      window.addEventListener('resize', rebuild);
+      window.addEventListener('load', build);
+      if ('ResizeObserver' in window) new ResizeObserver(rebuild).observe(document.querySelector('main'));
+      build();
+    })();
+
+    /* ---------------- lightbox ---------------- */
+    (function () {
+      const lb = document.getElementById('lightbox');
+      const img = document.getElementById('lb-img');
+      const cap = document.getElementById('lb-cap');
+      const count = document.getElementById('lb-count');
+      const prev = document.getElementById('lb-prev');
+      const next = document.getElementById('lb-next');
+      let set = [], idx = 0, caption = '';
+      function render() {
+        const it = set[idx];
+        if (it.srcset) { img.srcset = it.srcset; img.sizes = '100vw'; } else { img.removeAttribute('srcset'); img.removeAttribute('sizes'); }
+        img.src = it.src;
+        if (set.length > 1) { const nx = set[(idx + 1) % set.length]; const pre = new Image(); if (nx.srcset) { pre.sizes = '100vw'; pre.srcset = nx.srcset; } pre.src = nx.src; }
+        img.alt = caption + (set.length > 1 ? ', photo ' + (idx + 1) + ' of ' + set.length : '');
+        cap.textContent = caption;
+        count.textContent = set.length > 1 ? (idx + 1) + ' of ' + set.length : '';
+        prev.hidden = next.hidden = set.length < 2;
+      }
+      document.querySelectorAll('[data-images], [data-base]').forEach(el => el.addEventListener('click', () => {
+        if (el.dataset.base) {
+          set = el.dataset.base.split(',').map(x => x.trim()).filter(Boolean).map(b => ({
+            src: b + '-1200.webp', srcset: b + '-800.webp 800w, ' + b + '-1200.webp 1200w, ' + b + '-1600.webp 1600w' }));
+        } else {
+          set = el.dataset.images.split(',').map(x => x.trim()).filter(Boolean).map(x => ({ src: x, srcset: '' }));
+        }
+        caption = el.dataset.caption || '';
+        idx = Number(el.dataset.start || 0); render(); lb.showModal();
+        track('gallery_open', { caption: caption });
+      }));
+      prev.addEventListener('click', () => { idx = (idx - 1 + set.length) % set.length; render(); });
+      next.addEventListener('click', () => { idx = (idx + 1) % set.length; render(); });
+      document.getElementById('lb-close').addEventListener('click', () => lb.close());
+      lb.addEventListener('click', ev => { if (ev.target === lb) lb.close(); });
+      lb.addEventListener('keydown', ev => {
+        if (ev.key === 'ArrowLeft' && set.length > 1) prev.click();
+        if (ev.key === 'ArrowRight' && set.length > 1) next.click();
+      });
+    })();
+
+    /* ---------------- mobile booking bar ---------------- */
+    (function () {
+      const bar = document.getElementById('sticky-book');
+      if (!('IntersectionObserver' in window)) return;
+      let heroVisible = true, formVisible = false;
+      const update = () => {
+        const show = !heroVisible && !formVisible;
+        bar.classList.toggle('is-visible', show);
+        bar.setAttribute('aria-hidden', show ? 'false' : 'true');
+        bar.querySelector('a').tabIndex = show ? 0 : -1;
+      };
+      new IntersectionObserver(es => { heroVisible = es[0].isIntersecting || es[0].boundingClientRect.top > 0; update(); }).observe(document.querySelector('.starter'));
+      new IntersectionObserver(es => { formVisible = es[0].isIntersecting; update(); }).observe(document.getElementById('enquiry'));
+    })();
+
+    /* ---------------- CTA clicks and phone conversions ---------------- */
+    document.addEventListener('click', function (e) {
+      const cta = e.target.closest('[data-cta]');
+      if (cta) track('cta_click', { location: cta.dataset.cta });
+      if (typeof gtag !== 'undefined' && window.location.hostname === 'kitchen.ag-renovations.co.uk' &&
+        e.target.closest('[href^="tel:"]')) {
+        gtag('event', 'conversion', { 'send_to': 'AW-17907613995/FLEYCIDJhOEcEKuCgttC' });
+      }
+    });
+  </script>
+</body>
+
+</html>

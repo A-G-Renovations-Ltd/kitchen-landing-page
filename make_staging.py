@@ -46,7 +46,7 @@ for d in ('css', 'images'):
     if os.path.isdir(dst):
         shutil.rmtree(dst)          # mirror exactly, so deleted images disappear from staging too
     shutil.copytree(d, dst)
-for f in ('logo.jpeg', '.gitignore'):
+for f in ('logo.jpeg', '.gitignore', 'favicon-32.png', 'apple-touch-icon.png'):
     shutil.copy2(f, os.path.join(target, f))
 with open(os.path.join(target, 'robots.txt'), 'w') as fh:
     fh.write('User-agent: *\nDisallow: /\n')

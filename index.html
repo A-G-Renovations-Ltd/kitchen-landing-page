@@ -2,6 +2,24 @@
 <html lang="en-GB">
 
 <head>
+  <!-- COOKIE CONSENT: Google Consent Mode v2 defaults. Must stay above Google Tag Manager and the Google tag.
+       Nothing that sets tracking cookies runs until the visitor accepts; a saved choice is reused for 12 months. -->
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    (function () {
+      var saved = null;
+      try { saved = JSON.parse(localStorage.getItem('ag_cookie_consent') || 'null'); } catch (e) { saved = null; }
+      if (saved && (saved.v !== 1 || !saved.ts || Date.now() - saved.ts > 365 * 24 * 3600 * 1000)) saved = null;
+      window.agConsent = saved;
+      var g = function (on) { return on ? 'granted' : 'denied'; };
+      gtag('consent', 'default', {
+        ad_storage: g(saved && saved.ads), ad_user_data: g(saved && saved.ads), ad_personalization: g(saved && saved.ads),
+        analytics_storage: g(saved && saved.analytics), functionality_storage: 'granted', security_storage: 'granted',
+        wait_for_update: 500
+      });
+    })();
+  </script>
   <!-- TRACKING:START Google Tag Manager -->
   <script>(function (w, d, s, l, i) {
       w[l] = w[l] || []; w[l].push({
@@ -18,19 +36,37 @@
   <meta name="description"
     content="Complete kitchen renovations for homes across Greater London, from strip-out to final finish. In-house fitters, every specialist trade coordinated, 12-month labour guarantee. Book a free site visit.">
   <link rel="canonical" href="https://kitchen.ag-renovations.co.uk/">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="en_GB">
+  <meta property="og:site_name" content="A&amp;G Renovations">
+  <meta property="og:url" content="https://kitchen.ag-renovations.co.uk/">
+  <meta property="og:title" content="Kitchen Renovation London | A&amp;G Renovations (Est. 2014)">
+  <meta property="og:description" content="Complete kitchen renovations for homes across Greater London, from strip-out to final finish. In-house fitters, every specialist trade coordinated, 12-month labour guarantee. Book a free site visit.">
+  <meta property="og:image" content="https://kitchen.ag-renovations.co.uk/images/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="A completed A&amp;G kitchen with dark shaker-style units and brass handles">
+  <meta name="twitter:card" content="summary_large_image">
   <meta name="theme-color" content="#24483a">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700;9..40,800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/kitchen.css?v=14">
+  <link rel="stylesheet" href="css/kitchen.css?v=19">
 
-  <!-- TRACKING:START Microsoft Clarity (marketing@ account; swap the ID for a kitchen-only project if you create one) -->
+  <!-- TRACKING:START Microsoft Clarity (loads only after analytics consent; marketing@ account) -->
   <script type="text/javascript">
-    (function(c,l,a,r,i,t,y){
-        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-    })(window, document, "clarity", "script", "z7a9bycib9");
+    window.agLoadClarity = function () {
+      if (window.__agClarity) return;
+      window.__agClarity = true;
+      (function(c,l,a,r,i,t,y){
+          c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+          t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+          y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "z7a9bycib9");
+    };
+    if (window.agConsent && window.agConsent.analytics) window.agLoadClarity();
   </script>
   <!-- TRACKING:END -->
 
@@ -103,7 +139,7 @@
       "name": "Do you design the kitchen?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Your kitchen is designed by a qualified kitchen designer. If you already have one, we work from their design. If not, we can arrange a free design appointment with one of our kitchen suppliers, whose designers create a full 3D design of your kitchen before anything is ordered. We then take care of supply and installation end to end."
+        "text": "Your kitchen is designed by a qualified kitchen designer. If you already have one, we work from their design. If not, we can arrange a free design appointment with one of our kitchen suppliers, Howdens, Magnet or Kutchenhaus, whose designers create a full 3D design of your kitchen before anything is ordered. We then take care of supply and installation end to end."
       }
     },
     {
@@ -143,7 +179,7 @@
       "name": "Do you charge a fee for quoting, or use a matching service?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "No. The site visit and the written proposal are free, and there is no obligation to proceed. If you contact us directly there is also no agency or matching-platform commission in your quote. Those platforms are free for you to use because they charge the builder a percentage of every job won, and that cost has to be recovered somewhere. Our direct quotes are typically 10-15% lower than the same project priced through a matching service, because the commission is not there to pass on."
+        "text": "No. The site visit and the written proposal are free, and there is no obligation to proceed. If you contact us directly there is also no agency or matching-platform commission in your quote. Those platforms are free for you to use because they charge the builder a percentage of every job won, and that cost has to be recovered somewhere. Our direct quotes are typically 10–15% lower than the same project priced through a matching service, because the commission is not there to pass on."
       }
     },
     {
@@ -196,7 +232,7 @@
       <div class="wrap">
         <div class="hero-grid">
           <div class="hero-copy">
-            <h1 class="h1">Your whole kitchen, handled by one accountable team.</h1>
+            <h1 class="h1">Your whole kitchen, handled by <em class="accent">one accountable team.</em></h1>
             <p class="hero-sub">Complete kitchen renovations for homes across Greater London since 2014. Our in-house fitters take
               the room from strip-out to final finish, we coordinate every specialist trade, and the labour is
               guaranteed for 12 months.</p>
@@ -270,7 +306,7 @@
     <section class="section contract" id="contract" data-mode="alone" aria-labelledby="contract-h">
       <div class="wrap">
         <div class="section-head">
-          <h2 class="h2" id="contract-h">Up to seven trades in one room. One team runs it.</h2>
+          <h2 class="h2" id="contract-h">Up to seven trades in one room. <em class="accent">One team runs it.</em></h2>
           <p class="lead">A new kitchen brings together a fitter, an electrician, a plumber, often a gas engineer and a
             stonemason, plus tiling and flooring, all in a set order. Booked separately, every gap between them is
             yours to manage.</p>
@@ -327,7 +363,7 @@
     <section class="section included" id="included" aria-labelledby="included-h">
       <div class="wrap">
         <div class="section-head">
-          <h2 class="h2" id="included-h">Everything from strip-out to final finish</h2>
+          <h2 class="h2" id="included-h">Everything from strip-out to <em class="accent">final finish</em></h2>
           <p class="lead">Sit back and watch the kitchen come together, or tap any part to jump straight to it.</p>
         </div>
         <p class="included-bookend"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true"><circle cx="9" cy="9" r="7" stroke="currentColor" stroke-width="1.8"/><path d="m6 9.3 2 2 4-4.3" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Before work starts, floor and dust protection go down. Your old kitchen is removed and the waste taken away by our licensed waste carrier.</span></p>
@@ -517,8 +553,9 @@
           <div class="d3-art"><svg class="iso" viewBox="-183 -140 438 391" role="img" aria-label="A 3D line model of a kitchen with an island, assembling piece by piece"><path class="iso-grid" d="M0.0 0.0L-167.3 96.6M19.9 11.5L-147.4 108.1M39.8 23.0L-127.5 119.6M59.8 34.5L-107.6 131.1M79.7 46.0L-87.6 142.6M99.6 57.5L-67.7 154.1M119.5 69.0L-47.8 165.6M139.4 80.5L-27.9 177.1M159.3 92.0L-8.0 188.6M179.3 103.5L12.0 200.1M199.2 115.0L31.9 211.6M219.1 126.5L51.8 223.1M239.0 138.0L71.7 234.6M0.0 0.0L239.0 138.0M-19.9 11.5L219.1 149.5M-39.8 23.0L199.2 161.0M-59.8 34.5L179.3 172.5M-79.7 46.0L159.3 184.0M-99.6 57.5L139.4 195.5M-119.5 69.0L119.5 207.0M-139.4 80.5L99.6 218.5M-159.3 92.0L79.7 230.0"/><path class="iso-wall" d="M0.0 0.0L0.0 -124.2M0.0 -124.2L239.0 13.8M0.0 -124.2L-167.3 -27.6"/><g class="iso-b iso-cab" style="--i:0"><polygon class="f-top" points="0.0,-40.5 183.2,65.3 159.3,79.1 -23.9,-26.7"/><polygon class="f-y" points="-23.9,13.8 159.3,119.6 159.3,79.1 -23.9,-26.7"/><polygon class="f-x" points="183.2,105.8 159.3,119.6 159.3,79.1 183.2,65.3"/><path class="iso-door" d="M-1.0 25.2L-1.0 -11.6M21.9 38.4L21.9 1.6M44.8 51.6L44.8 14.8M67.7 64.9L67.7 28.1M90.6 78.1L90.6 41.3M113.5 91.3L113.5 54.5M136.4 104.5L136.4 67.7"/><path class="iso-handle" d="M-16.4 -16.8L-8.5 -12.2M6.5 -3.6L14.4 1.0M29.4 9.6L37.3 14.2M52.3 22.8L60.3 27.4M75.2 36.1L83.2 40.7M98.1 49.3L106.1 53.9M121.0 62.5L129.0 67.1M143.9 75.7L151.9 80.3"/></g><g class="iso-b iso-top" style="--i:1"><polygon class="f-top" points="0.0,-43.7 183.2,62.1 157.0,77.3 -26.3,-28.5"/><polygon class="f-y" points="-26.3,-25.3 157.0,80.5 157.0,77.3 -26.3,-28.5"/><polygon class="f-x" points="183.2,65.3 157.0,80.5 157.0,77.3 183.2,62.1"/></g><g class="iso-b iso-cab" style="--i:2"><polygon class="f-top" points="10.0,-93.1 77.7,-54.0 63.3,-45.8 -4.4,-84.9"/><polygon class="f-y" points="-4.4,-52.7 63.3,-13.6 63.3,-45.8 -4.4,-84.9"/><polygon class="f-x" points="77.7,-21.9 63.3,-13.6 63.3,-45.8 77.7,-54.0"/><path class="iso-door" d="M18.2 -41.5L18.2 -70.0M40.8 -28.4L40.8 -57.0"/><path class="iso-handle" d="M2.9 -54.0L10.9 -49.4M25.5 -40.9L33.5 -36.3M48.1 -27.9L56.0 -23.3"/></g><g class="iso-b iso-appl" style="--i:3"><polygon class="f-top" points="81.7,-54.1 109.5,-38.0 92.8,-28.3 64.9,-44.4"/><polygon class="f-y" points="64.9,-14.5 92.8,1.6 92.8,-28.3 64.9,-44.4"/><polygon class="f-x" points="109.5,-8.0 92.8,1.6 92.8,-28.3 109.5,-38.0"/></g><g class="iso-b iso-cab" style="--i:4"><polygon class="f-top" points="113.5,-33.3 181.3,5.8 166.9,14.0 99.2,-25.1"/><polygon class="f-y" points="99.2,7.1 166.9,46.2 166.9,14.0 99.2,-25.1"/><polygon class="f-x" points="181.3,37.9 166.9,46.2 166.9,14.0 181.3,5.8"/><path class="iso-door" d="M121.8 18.3L121.8 -10.2M144.3 31.4L144.3 2.8"/><path class="iso-handle" d="M106.5 5.8L114.5 10.4M129.1 18.9L137.0 23.5M151.6 31.9L159.6 36.5"/></g><g class="iso-b iso-cab" style="--i:5"><polygon class="f-top" points="-23.9,-26.7 0.0,-12.9 -99.6,44.6 -123.5,30.8"/><polygon class="f-y" points="-123.5,71.3 -99.6,85.1 -99.6,44.6 -123.5,30.8"/><polygon class="f-x" points="0.0,27.6 -99.6,85.1 -99.6,44.6 0.0,-12.9"/><path class="iso-door" d="M-24.9 40.1L-24.9 3.3M-49.8 54.5L-49.8 17.7M-74.7 68.9L-74.7 32.1"/><path class="iso-handle" d="M-8.5 -2.5L-16.4 2.1M-33.4 11.9L-41.3 16.5M-58.3 26.3L-66.2 30.9M-83.2 40.7L-91.1 45.3"/></g><g class="iso-b iso-top" style="--i:6"><polygon class="f-top" points="-23.9,-29.9 2.4,-14.7 -97.2,42.8 -123.5,27.6"/><polygon class="f-y" points="-123.5,30.8 -97.2,46.0 -97.2,42.8 -123.5,27.6"/><polygon class="f-x" points="2.4,-11.5 -97.2,46.0 -97.2,42.8 2.4,-14.7"/></g><g class="iso-b iso-cab" style="--i:7"><polygon class="f-top" points="-2.0,38.9 73.7,82.6 39.8,102.1 -35.9,58.4"/><polygon class="f-y" points="-35.9,98.9 39.8,142.6 39.8,102.1 -35.9,58.4"/><polygon class="f-x" points="73.7,123.0 39.8,142.6 39.8,102.1 73.7,82.6"/><path class="iso-door" d="M-10.6 111.6L-10.6 74.8M14.6 126.2L14.6 89.4"/><path class="iso-handle" d="M-27.2 68.9L-19.3 73.5M-2.0 83.5L6.0 88.1M23.2 98.1L31.2 102.7"/></g><g class="iso-b iso-top" style="--i:8"><polygon class="f-top" points="-2.0,31.1 81.7,79.3 39.8,103.5 -43.8,55.2"/><polygon class="f-y" points="-43.8,58.4 39.8,106.7 39.8,103.5 -43.8,55.2"/><polygon class="f-x" points="81.7,82.6 39.8,106.7 39.8,103.5 81.7,79.3"/></g><g class="iso-b iso-appl" style="--i:9"><polygon class="f-top" points="183.2,4.6 211.1,20.7 186.4,35.0 158.5,18.9"/><polygon class="f-y" points="158.5,120.1 186.4,136.2 186.4,35.0 158.5,18.9"/><polygon class="f-x" points="211.1,121.9 186.4,136.2 186.4,35.0 211.1,20.7"/><path class="iso-door" d=""/><path class="iso-handle" d="M168.5 30.1L176.5 34.7"/></g></svg></div>
           <div class="d3-copy">
             <h3>Free 3D kitchen design, arranged by us</h3>
-            <p>No design yet? We can book you a free appointment with one of our kitchen suppliers. Their designer
-              creates a full 3D design of your kitchen, and nothing is ordered until you're happy with it.</p>
+            <p>No design yet? We can book you a free appointment with one of our kitchen suppliers: Howdens, Magnet
+              or Kutchenhaus. Their designer creates a full 3D design of your kitchen, and nothing is ordered until
+              you're happy with it.</p>
             <ol class="d3-steps">
               <li><span class="n">1</span>We book your free design appointment</li>
               <li><span class="n">2</span>A supplier's designer creates your 3D design</li>
@@ -535,7 +572,7 @@
     <section class="section gallery" id="kitchens" aria-labelledby="kitchens-h">
       <div class="wrap">
         <div class="section-head">
-          <h2 class="h2" id="kitchens-h">Recent kitchens across London</h2>
+          <h2 class="h2" id="kitchens-h">Recent kitchens <em class="accent">across London</em></h2>
           <p class="lead">Real A&amp;G projects in London homes. Tap a kitchen to see all of its photos.</p>
         </div>
         <div class="ptiles">
@@ -589,7 +626,7 @@
       <div class="wrap">
         <div class="process-grid">
           <div class="process-intro">
-            <h2 class="h2" id="process-h">How your kitchen comes together</h2>
+            <h2 class="h2" id="process-h">How your kitchen <em class="accent">comes together</em></h2>
             <p class="lead">Six stages, one point of contact. You always know what happens next and what, if
               anything, we need from you.</p>
             <div class="paperwork">
@@ -673,7 +710,7 @@
       <div class="wrap">
         <div class="reviews-grid">
           <div class="reviews-intro">
-            <h2 class="h2" id="reviews-h">What our clients say</h2>
+            <h2 class="h2" id="reviews-h">What our <em class="accent">clients say</em></h2>
             <p class="lead">Real Google reviews from kitchen clients, with the photos they shared of their finished
               kitchens. Tap a photo to see more.</p>
             <div class="platforms">
@@ -753,7 +790,7 @@
     <section class="section account" aria-labelledby="account-h">
       <div class="wrap">
         <div class="section-head">
-          <h2 class="h2" id="account-h">Accountable for the whole job</h2>
+          <h2 class="h2" id="account-h">Accountable for <em class="accent">the whole job</em></h2>
           <p class="lead">Every accreditation, certification and insurance policy is there to protect you and your
             home.</p>
         </div>
@@ -794,6 +831,15 @@
           <div class="cred"><div class="cred-mark"><span class="num">£5M</span></div><b>Public liability insurance</b><span>Full coverage on every project, protecting you, your home and our team</span></div>
           <div class="cred"><div class="cred-mark"><span class="num">12 months</span></div><b>Labour guarantee</b><span>All workmanship guaranteed for a full year. If anything falls short, we return and fix it</span></div>
         </div>
+        <!-- PARTNERS: from the October 2026 brand catalogue (pages 19-20). Confirm each status is still current before launch. -->
+        <h3 class="creds-h">Approved installer and supply partners</h3>
+        <div class="creds partners">
+          <div class="cred"><div class="cred-mark"><img class="logo" src="images/optimized/partners/magnet.webp" alt="Magnet" width="182" height="96" loading="lazy"></div><b>Magnet Approved Installer</b><span>Approved Installer status with Magnet, Britain's kitchen manufacturer since 1918</span></div>
+          <div class="cred"><div class="cred-mark"><img class="logo" src="images/optimized/partners/bq.webp" alt="B&amp;Q" width="96" height="96" loading="lazy"></div><b>B&amp;Q Approved Installer</b><span>Approved for kitchen and bathroom installations through B&amp;Q's TradePoint network, vetted on trade experience, references and completed work</span></div>
+          <div class="cred"><div class="cred-mark"><img class="logo" src="images/optimized/partners/howdens.webp" alt="Howdens" width="158" height="96" loading="lazy"></div><b>Trusted supply partner</b><span>Units, worktops and fittings through Howdens, with their in-house design and planning service</span></div>
+          <div class="cred"><div class="cred-mark"><img class="logo" src="images/optimized/partners/kutchenhaus.webp" alt="Kutchenhaus" width="476" height="96" loading="lazy"></div><b>Trusted supply partner</b><span>Kitchen ranges from Kutchenhaus, the UK arm of nobilia, Europe's largest kitchen manufacturer</span></div>
+          <div class="cred"><div class="cred-mark"><img class="logo" src="images/optimized/partners/easy-bathrooms.webp" alt="Easy Bathrooms" width="217" height="96" loading="lazy"></div><b>Accredited Simply Install Partner</b><span>Simply Install accredited with Easy Bathrooms, the UK's largest bathroom retail network, with over 150 showrooms</span></div>
+        </div>
         <div class="clients-panel">
           <div class="clients-head">
             <h3>Homes are our focus</h3>
@@ -817,7 +863,7 @@
       <div class="wrap">
         <div class="enquiry-grid">
           <div class="enquiry-intro">
-            <h2 class="h2" id="enquiry-h">Book your free site visit</h2>
+            <h2 class="h2" id="enquiry-h">Book your <em class="accent">free site visit</em></h2>
             <p class="lead">No commitment and no hard sell. Tell us where you are with your kitchen and we'll arrange
               a visit at a time that suits you.</p>
             <ol class="next-steps">
@@ -893,7 +939,7 @@
       <div class="wrap">
         <div class="faq-grid">
           <div class="faq-intro">
-            <h2 class="h2" id="faq-h">Questions people ask before booking</h2>
+            <h2 class="h2" id="faq-h">Questions people ask <em class="accent">before booking</em></h2>
             <p>Can't see yours? Call <a href="tel:02036218527">020 3621 8527</a>, Monday to Saturday, 8AM to 7PM.</p>
             <!-- CONFIRM: this photo is an A&G project and A&G has the right to use it -->
             <figure class="faq-photo">
@@ -915,7 +961,7 @@
           </details>
           <details>
             <summary>Do you design the kitchen?<span class="pm" aria-hidden="true"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true"><path d="M7 2v10M2 7h10" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></span></summary>
-            <p class="a">Your kitchen is designed by a qualified kitchen designer. If you already have one, we work from their design. If not, we can arrange a free design appointment with one of our kitchen suppliers, whose designers create a full 3D design of your kitchen before anything is ordered. We then take care of supply and installation end to end.</p>
+            <p class="a">Your kitchen is designed by a qualified kitchen designer. If you already have one, we work from their design. If not, we can arrange a free design appointment with one of our kitchen suppliers, Howdens, Magnet or Kutchenhaus, whose designers create a full 3D design of your kitchen before anything is ordered. We then take care of supply and installation end to end.</p>
           </details>
           <details>
             <summary>Do I need to supply my own units, worktops and appliances?<span class="pm" aria-hidden="true"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true"><path d="M7 2v10M2 7h10" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></span></summary>
@@ -954,8 +1000,9 @@
     <section class="closing on-dark" aria-labelledby="closing-h">
       <div class="wrap">
         <div>
-          <h2 class="h2" id="closing-h">Do it once, do it right.</h2>
+          <h2 class="h2" id="closing-h">Do it once, <em class="accent">do it right.</em></h2>
           <p>Book a free site visit and get a clear, itemised proposal for your whole kitchen.</p>
+          <div class="direct-box"><span class="direct-pound" aria-hidden="true">&pound;</span><p><strong>Enquire direct and pay no introduction fee.</strong> Matching platforms charge the builder a commission on every job won, which ends up in the price you are quoted. Our direct quotes are typically 10&ndash;15% lower than the same project priced through one.</p></div>
         </div>
         <div class="closing-actions">
           <a class="btn btn-light" href="#book" data-cta="closing">Book a free site visit</a>
@@ -968,7 +1015,8 @@
   <footer class="footer">
     <div class="wrap">
       <span>A&amp;G Renovations Ltd. Established in London in 2014. Member of the British Institute of Fitted Interiors Specialists.</span>
-      <span>Greater London, inside the M25. <a href="mailto:sales@ag-renovations.co.uk">sales@ag-renovations.co.uk</a>. <a href="https://ag-renovations.co.uk/privacy-policy/" target="_blank" rel="noopener">Privacy policy</a></span>
+      <span>Greater London, inside the M25. <a href="mailto:sales@ag-renovations.co.uk">sales@ag-renovations.co.uk</a>. <a href="https://ag-renovations.co.uk/privacy-policy/" target="_blank" rel="noopener">Privacy policy</a>.
+        <button type="button" class="link-btn" data-cc-open>Cookie settings</button></span>
     </div>
   </footer>
 
@@ -1490,6 +1538,69 @@
         gtag('event', 'conversion', { 'send_to': 'AW-17907613995/FLEYCIDJhOEcEKuCgttC' });
       }
     });
+  </script>
+
+  <!-- COOKIE CONSENT banner. "Accept" grants everything; "Choose your cookie options" opens switches that start off. -->
+  <div class="cc" id="cc" role="region" aria-label="Cookie choices" hidden>
+    <div class="cc-card">
+      <div class="cc-main" id="cc-main">
+        <p class="cc-title">Cookies on this page</p>
+        <p class="cc-text">We use cookies to see how people use this page and to measure our adverts, so we can keep
+          improving it. <a href="https://ag-renovations.co.uk/privacy-policy/" target="_blank" rel="noopener">Privacy policy</a></p>
+        <div class="cc-actions">
+          <button type="button" class="btn btn-primary cc-accept" data-cc="accept">Accept</button>
+          <button type="button" class="cc-link" data-cc="options" aria-controls="cc-options" aria-expanded="false">Choose your cookie options</button>
+        </div>
+      </div>
+      <div class="cc-options" id="cc-options" hidden>
+        <p class="cc-title">Your cookie options</p>
+        <div class="cc-row"><span class="cc-label"><b>Essential</b><span class="cc-desc">Needed for the page and the enquiry form to work.</span></span><span class="cc-always">Always on</span></div>
+        <label class="cc-row" for="cc-analytics"><span class="cc-label"><b>Analytics</b><span class="cc-desc">Google Analytics and Microsoft Clarity show us which parts of the page help and where people get stuck.</span></span><input type="checkbox" class="cc-switch" id="cc-analytics"></label>
+        <label class="cc-row" for="cc-ads"><span class="cc-label"><b>Advertising</b><span class="cc-desc">Google Ads tells us which of our adverts lead to enquiries.</span></span><input type="checkbox" class="cc-switch" id="cc-ads"></label>
+        <div class="cc-actions">
+          <button type="button" class="btn btn-primary cc-accept" data-cc="accept">Accept all</button>
+          <button type="button" class="cc-save" data-cc="save">Save my choices</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>
+    (function () {
+      const KEY = 'ag_cookie_consent';
+      const box = document.getElementById('cc');
+      if (!box) return;
+      const main = document.getElementById('cc-main'), opts = document.getElementById('cc-options');
+      const cA = document.getElementById('cc-analytics'), cD = document.getElementById('cc-ads');
+      const optBtn = box.querySelector('[data-cc="options"]');
+      const g = (on) => (on ? 'granted' : 'denied');
+      function apply(c) {
+        window.agConsent = c;
+        if (typeof gtag === 'function') {
+          gtag('consent', 'update', { ad_storage: g(c.ads), ad_user_data: g(c.ads), ad_personalization: g(c.ads), analytics_storage: g(c.analytics) });
+        }
+        if (c.analytics && typeof window.agLoadClarity === 'function') window.agLoadClarity();
+      }
+      function close() { box.hidden = true; document.body.classList.remove('cc-open'); }
+      function show(options) {
+        main.hidden = options; opts.hidden = !options; optBtn.setAttribute('aria-expanded', String(options));
+        if (options) { const c = window.agConsent || {}; cA.checked = !!c.analytics; cD.checked = !!c.ads; cA.focus(); }
+      }
+      function open(options) { box.hidden = false; document.body.classList.add('cc-open'); show(!!options); }
+      function save(c) {
+        c.v = 1; c.ts = Date.now();
+        try { localStorage.setItem(KEY, JSON.stringify(c)); } catch (e) { /* private mode: applies for this visit only */ }
+        apply(c); close();
+      }
+      box.addEventListener('click', (e) => {
+        const b = e.target.closest('[data-cc]');
+        if (!b) return;
+        if (b.dataset.cc === 'accept') save({ analytics: true, ads: true });
+        else if (b.dataset.cc === 'options') show(true);
+        else if (b.dataset.cc === 'save') save({ analytics: cA.checked, ads: cD.checked });
+      });
+      document.querySelectorAll('[data-cc-open]').forEach((b) => b.addEventListener('click', () => open(true)));
+      if (!window.agConsent) setTimeout(() => open(false), 700);
+    })();
   </script>
 </body>
 
