@@ -49,7 +49,7 @@ No build step: plain HTML and one CSS file. Edit, then push.
 ## Before the first launch
 
 1. **No placeholders left.** In PowerShell: `(Select-String -Path index.html -Pattern "PLACEHOLDER").Count`
-   must return `0`. The only placeholders left are the 6 gallery tiles.
+   must return `0`. It already does.
 2. **Confirmed with Andrius (Nov 2026):** kitchen fitters are in-house; the 10-15% matching-service line applies
    to kitchens; no response-time promise anywhere on the page; no standard duration in the timeline FAQ. The
    included scope and the four popular additions follow the October brand catalogue.
@@ -68,19 +68,33 @@ No build step: plain HTML and one CSS file. Edit, then push.
 Review text is quoted word for word from Google. Where "…" appears, a passage was left out: staff names other than
 Andrius, and Helen's mention of the platform she booked through. Keep to that rule when adding reviews.
 
-## Adding photos and reviews
+Tapping a review's text opens it on Google; tapping its photos opens the photo viewer. Every review link currently
+opens the Google reviews list. To send each one to its exact review: on Google Maps, open the review, tap Share,
+copy the link, and paste it into the `href` under the matching `REVIEW LINK` comment in `index.html` (the hero quote
+card and each review card have one).
 
-1. Create `photos-raw/` in this folder (git-ignored), one folder per project: `photos-raw/Project-01/` ...
-   Review-card photos go in `photos-raw/testimonials/<client name>/`.
-2. `pip install pillow` (plus `pillow-heif` for iPhone .heic), then `python optimize_kitchen_photos.py`.
-3. Open `gallery-tiles.html`, replace `AREA`, and paste the tiles over the six PLACEHOLDER tiles in the
-   gallery. Put the strongest project first: it becomes the large feature tile.
-4. Hero: already set (`images/kitchen/hero/`). To change it, replace both files: a 1600x1200 landscape for
-   phones and tablets and a 1200x1600 portrait crop for desktop.
-5. Review cards: set `data-images` (full-size paths, comma separated) and `data-caption` on the photo button,
-   the `img` src (low version), the quote, the name and the platform. Delete any card you can't fill; the
-   first card is the large one.
-6. Delete `images/placeholders/`.
+## Booking links
+
+Every "Book a free site visit" button, the header button, the mobile booking bar and the hero options all go to
+`#book`, the form card itself, so on phones visitors land on the form rather than the intro text above it.
+
+## Adding kitchen projects
+
+The gallery shows one tile per project, as on the bathroom page: the cover photo, the project name, a short line
+and the photo count. Tapping a tile opens that project's photos only. Current projects: Kensal (9 photos),
+Croydon (6) and Little Venice (5). The Installation step in "How your kitchen comes together" also shows an
+on-site photo of one of our fitters (`images/kitchens/on-site/`), which opens full size when tapped.
+
+Photos are served as AVIF (about half the size of JPEG at the same visible quality) with WebP as the fallback,
+each at 480, 800, 1200 and 1600px wide. Browsers download only the size the screen needs, and a tiny blurred
+preview shows instantly while the sharp photo loads. All metadata, including GPS, is removed. Pick 5 to 9 photos
+per project with no near-duplicates, so the site stays light.
+
+1. Put the chosen photos in `photos-raw/<area>/` (git-ignored), e.g. `photos-raw/fulham/`, renamed so the cover
+   photo sorts first. iPhone RAW (.DNG) is fine.
+2. `pip install pillow rawpy pillow-heif`, then `python optimize_kitchen_photos.py fulham "Kitchen in Fulham"`.
+3. Paste the generated `project-fulham.html` inside `<div class="ptiles">` in the gallery, write the cover alt text
+   and the short line, then deploy as usual.
 
 ## Every deploy (staging, then live)
 

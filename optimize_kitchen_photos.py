@@ -1,95 +1,77 @@
 """
-Optimise kitchen photos for the landing page.
+Prepare kitchen project photos for the landing page.
 
-Put the original photos in photos-raw/ (ignored by git), one folder per project:
+Put the original photos (iPhone RAW .DNG, .HEIC, .JPG or .PNG) in photos-raw/<project-slug>/, e.g.
+photos-raw/kensal/. Name the folder after the area. Then run from the repo root:
 
-    photos-raw/Project-01/   any .jpg .jpeg .png .webp (.heic needs: pip install pillow-heif)
-    photos-raw/Project-02/
-    photos-raw/testimonials/<client-name>/   photos for a client review card
+    pip install pillow rawpy pillow-heif
+    python optimize_kitchen_photos.py kensal "Kitchen in Kensal"
 
-Run from the repo root:   python optimize_kitchen_photos.py
-
-Output (same settings as the bathroom page: full 1600px WebP q82, low 800px WebP q75,
-EXIF and GPS removed, phone rotation applied first):
-
-    images/kitchen/full/Project-01-image-01.webp     images/kitchen/low/...
-    images/kitchen-testimonials/full/<client>-01.webp   .../low/...
-
-It also writes gallery-tiles.html: one ready gallery tile per project folder, to paste into
-the gallery grid in index.html (replacing the PLACEHOLDER tiles). The first six get the layout
-classes the grid expects (feature, tall, two small, two wide). Replace AREA in each tile.
+For every photo it writes AVIF and WebP at 480, 800, 1200 and 1600px wide to images/kitchens/<slug>/, with all
+metadata removed (including GPS), plus a tiny blurred preview. AVIF is about half the size of JPEG at the same
+visible quality; WebP is the fallback. Browsers pick the right size for the screen, so phones on a weak signal
+download small files. It also writes project-<slug>.html: a ready project tile to paste into the gallery grid.
+Photos are used in name order; rename them (01-..., 02-...) so the cover photo sorts first. Leave out near-duplicates.
 """
-import os
-import re
+import base64, io, os, sys
 from PIL import Image, ImageOps
 
 try:
-    import pillow_heif  # optional, for iPhone .heic files
-    pillow_heif.register_heif_opener()
+    import pillow_heif; pillow_heif.register_heif_opener()
 except ImportError:
     pass
 
-RAW = 'photos-raw'
-EXT = ('.jpg', '.jpeg', '.png', '.webp', '.heic')
+WIDTHS = [480, 800, 1200, 1600]
 
 
-def slug(s):
-    return re.sub(r'[^a-z0-9]+', '-', s.lower()).strip('-')
-
-
-def save(src, dst, max_px, quality):
-    with Image.open(src) as im:
-        im = ImageOps.exif_transpose(im)  # apply rotation, then drop all metadata
-        im = im.convert('RGB')
-        im.thumbnail((max_px, max_px), Image.Resampling.LANCZOS)
-        im.save(dst, 'WEBP', quality=quality, method=6)  # no exif passed, so none is written
-
-
-def process(folder, out_dir, prefix):
-    files = sorted(f for f in os.listdir(folder) if f.lower().endswith(EXT))
-    made = []
-    for i, f in enumerate(files, 1):
-        name = f'{prefix}-{i:02d}.webp'
-        for sub, px, q in (('full', 1600, 82), ('low', 800, 75)):
-            os.makedirs(f'{out_dir}/{sub}', exist_ok=True)
-            save(os.path.join(folder, f), f'{out_dir}/{sub}/{name}', px, q)
-        made.append(name)
-        print(f'  {f} -> {out_dir}/full/{name}')
-    return made
+def load(path):
+    if path.lower().endswith('.dng'):
+        import rawpy
+        with rawpy.imread(path) as raw:
+            flip = raw.sizes.flip; t = raw.extract_thumb()
+            im = Image.open(io.BytesIO(t.data)) if t.format == rawpy.ThumbFormat.JPEG else Image.fromarray(t.data)
+        im = ImageOps.exif_transpose(im)
+        if flip in (5, 6) and im.width > im.height: im = im.rotate(90 if flip == 5 else -90, expand=True)
+        if flip == 3: im = im.rotate(180)
+    else:
+        im = ImageOps.exif_transpose(Image.open(path))
+    px = Image.new('RGB', im.size); px.paste(im.convert('RGB'))   # pixels only: no EXIF or GPS
+    return px
 
 
 def main():
-    if not os.path.isdir(RAW):
-        raise SystemExit(f'No {RAW}/ folder found. Create it and add one folder per project.')
-    tiles = []
-    for d in sorted(os.listdir(RAW)):
-        path = os.path.join(RAW, d)
-        if not os.path.isdir(path):
-            continue
-        if d.lower() == 'testimonials':
-            for c in sorted(os.listdir(path)):
-                if os.path.isdir(os.path.join(path, c)):
-                    print(f'Testimonial: {c}')
-                    process(os.path.join(path, c), 'images/kitchen-testimonials', slug(c))
-            continue
-        print(f'Project: {d}')
-        prefix = re.sub(r'[^A-Za-z0-9]+', '-', d).strip('-') + '-image'   # Project-01 -> Project-01-image
-        made = process(path, 'images/kitchen', prefix)
-        if not made:
-            continue
-        full = ','.join(f'images/kitchen/full/{m}' for m in made)
-        cls = ['tile-feature', 'tile-tall', '', '', 'tile-wide', 'tile-wide'][len(tiles)] if len(tiles) < 6 else ''
-        count = f'\n          <span class="tile-count">{len(made)} photos</span>' if len(made) > 1 else ''
-        tiles.append(f'''        <!-- {d}: replace AREA with the area only (e.g. Fulham), never a street -->
-        <button type="button" class="tile {cls}" data-images="{full}" data-caption="Kitchen in AREA">
-          <img src="images/kitchen/low/{made[0]}" alt="Kitchen renovation by A&amp;G Renovations in AREA, London" loading="lazy" decoding="async" width="800" height="600">
-          <span class="tile-cap">Kitchen in AREA</span>{count}
-        </button>
-''')
-    if tiles:
-        with open('gallery-tiles.html', 'w', encoding='utf-8') as fh:
-            fh.write('\n'.join(tiles))
-        print(f'\nWrote gallery-tiles.html with {len(tiles)} tile(s).')
+    if len(sys.argv) < 3:
+        raise SystemExit('Usage: python optimize_kitchen_photos.py <slug> "<caption>"')
+    slug, caption = sys.argv[1], sys.argv[2]
+    src_dir = os.path.join('photos-raw', slug); out = os.path.join('images', 'kitchens', slug)
+    os.makedirs(out, exist_ok=True)
+    files = sorted(f for f in os.listdir(src_dir) if f.lower().endswith(('.dng', '.heic', '.jpg', '.jpeg', '.png', '.webp')))
+    meta = []
+    for i, f in enumerate(files, 1):
+        im = load(os.path.join(src_dir, f))
+        im = im.resize((1600, round(im.height * 1600 / im.width)), Image.LANCZOS)
+        name = f'{slug}-{i:02d}'; sizes = []
+        for w in WIDTHS:
+            h = round(im.height * w / im.width); r = im if w == 1600 else im.resize((w, h), Image.LANCZOS)
+            r.save(os.path.join(out, f'{name}-{w}.avif'), 'AVIF', quality=62, speed=6)
+            r.save(os.path.join(out, f'{name}-{w}.webp'), 'WEBP', quality=80, method=4)
+            sizes.append((w, h))
+        t = im.resize((24, round(im.height * 24 / im.width))); b = io.BytesIO(); t.save(b, 'WEBP', quality=40)
+        meta.append((name, sizes, 'data:image/webp;base64,' + base64.b64encode(b.getvalue()).decode()))
+        print(f'  {f} -> {out}/{name}-*.avif/.webp')
+    bases = ','.join(f'images/kitchens/{slug}/{n}' for n, _, _ in meta)
+    n0, sizes, lqip = meta[0]; b = f'images/kitchens/{slug}/{n0}'; w, h = sizes[-1]
+    sz = '(max-width: 860px) 82vw, 380px'
+    av = ', '.join(f'{b}-{x}.avif {x}w' for x, _ in sizes); wb = ', '.join(f'{b}-{x}.webp {x}w' for x, _ in sizes)
+    block = f'''          <!-- PROJECT TILE: {slug} -->
+          <button type="button" class="ptile" data-base="{bases}" data-start="0" data-caption="{caption}" aria-label="View {caption}, {len(meta)} photos">
+            <picture style="background-image:url('{lqip}')"><source type="image/avif" sizes="{sz}" srcset="{av}"><source type="image/webp" sizes="{sz}" srcset="{wb}"><img src="{b}-800.webp" alt="WRITE A SHORT FACTUAL DESCRIPTION OF THE COVER PHOTO" width="{w}" height="{h}" loading="lazy" decoding="async"></picture>
+            <span class="ptile-count">{len(meta)} photos</span>
+            <span class="ptile-meta"><span class="ptile-title">{caption}</span><span class="ptile-sub">WRITE ONE SHORT LINE ABOUT THE KITCHEN</span><span class="ptile-view">View project</span></span>
+          </button>
+'''
+    open(f'project-{slug}.html', 'w', encoding='utf-8').write(block)
+    print(f'\nWrote project-{slug}.html. Paste it inside <div class="ptiles"> in the gallery, then fill in the alt text and the short line.')
 
 
 if __name__ == '__main__':

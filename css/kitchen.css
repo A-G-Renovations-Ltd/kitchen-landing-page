@@ -1002,3 +1002,171 @@ body { position: relative; }
 @media (max-width: 900px) { .d3 { grid-template-columns: 1fr; } .d3-copy { padding: 28px 24px 30px; } .d3-art { padding: 18px; } }
 @media (max-width: 560px) { .extras-grid { grid-template-columns: 1fr; } .extra h3 { font-size: 17px; } }
 @media (prefers-reduced-motion: reduce) { .arch, .arch img, .arch-line, .award-seal, .hero-quote { animation: none !important; clip-path: none; } }
+
+/* ================================================================ v6 */
+/* Hero: the floor-plan texture is retired here; the drawing line and grain carry the texture */
+.hero::before { display: none; }
+
+/* Award seal: Prestige orange, white type, biggest words in the middle */
+.award-seal { width: 158px; height: 158px; top: -12px; left: -22px; }
+.award-seal svg { filter: drop-shadow(0 16px 24px rgba(120, 52, 14, 0.35)); }
+.award-seal .seal-bg { fill: #bf5419; }
+.award-seal .seal-rule { fill: none; stroke: rgba(255, 255, 255, 0.55); stroke-width: 1; }
+.award-seal .seal-text { fill: #ffffff; font-size: 12.4px; font-weight: 700; letter-spacing: .02em; }
+.award-seal .seal-star { fill: #ffd9b8; }
+.award-seal .seal-big { fill: #ffffff; font-size: 19.5px; font-weight: 700; text-anchor: middle; letter-spacing: -0.01em; }
+@media (max-width: 960px) { .award-seal { width: 128px; height: 128px; top: -10px; left: -8px; } }
+@media (max-width: 560px) { .award-seal { width: 122px; height: 122px; } }
+
+/* Trust row: one consistent treatment, a strong value and a short label */
+.proof { margin-top: 44px; padding: 24px 0 30px; gap: 0; grid-template-columns: repeat(4, minmax(0, 1fr)); }
+.proof > li { display: flex; }
+.pf {
+  display: flex; flex-direction: column; gap: 5px; width: 100%;
+  padding: 2px 24px; border-left: 1px solid var(--stone); text-decoration: none; color: inherit;
+}
+.proof > li:first-child .pf { padding-left: 0; border-left: 0; }
+.pf-value { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; font-size: 25px; line-height: 1.1; letter-spacing: -0.02em; color: var(--ink); }
+.pf-value b { font-weight: 700; }
+.pf-value b + b { font-weight: 500; color: var(--ink-soft); }
+.pf-value .g-logo { width: 22px; height: 22px; vertical-align: 0; }
+.pf-value .stars { color: #e3a008; }
+.pf-value .stars svg { width: 15px; height: 15px; }
+.pf-word { color: var(--forest-deep); font-weight: 800 !important; letter-spacing: 0.01em; }
+.pf-label { font-size: 14.5px; line-height: 1.45; color: var(--muted); max-width: 30ch; }
+.pf-link:hover .pf-label { color: var(--forest); text-decoration: underline; text-underline-offset: 3px; }
+@media (max-width: 960px) {
+  .proof { grid-template-columns: repeat(2, minmax(0, 1fr)); margin-top: 30px; padding-top: 18px; }
+  .pf { padding: 2px 0 2px 16px; }
+  .proof > li:nth-child(odd) .pf { padding-left: 0; border-left: 0; }
+  .proof > li:nth-child(n+3) .pf { margin-top: 16px; padding-top: 16px; border-top: 1px solid var(--stone); }
+  .proof > li:nth-child(4) .pf { border-left: 1px solid var(--stone); }
+  .pf-value { font-size: 21px; }
+  .pf-label { font-size: 13.5px; }
+}
+
+/* Reviews open on Google: the whole quote area is the link, photos still open the lightbox */
+.hq-link { display: grid; gap: 8px; text-decoration: none; color: inherit; border-radius: 18px; }
+.hero-quote { padding: 0; }
+.hq-link { padding: 16px 18px; }
+.hero-quote { transition: box-shadow .2s ease, transform .2s ease; }
+.hero-quote:hover { box-shadow: 0 32px 60px -24px rgba(28, 43, 38, 0.6); }
+.hq-more, .rmore { display: inline-flex; gap: 6px; align-items: center; font-weight: 600; color: var(--forest); }
+.hq-more { font-size: 13.5px; }
+.rmore { font-size: 14.5px; margin-top: auto; }
+.hq-link:hover .hq-more, a.rbody:hover .rmore { text-decoration: underline; text-underline-offset: 3px; }
+a.rbody { text-decoration: none; color: inherit; flex: 1; }
+a.rbody:focus-visible, .hq-link:focus-visible { outline: 3px solid var(--forest); outline-offset: -3px; }
+.rcard-feature a.rbody { justify-content: center; }
+@media (max-width: 960px) { .hq-link { padding: 13px 15px; } }
+
+/* ================================================================ v7 */
+/* Headings: soft layered shadows so titles lift off the page */
+.h1, .h2, .d3-copy h3, .clients-head h3 {
+  text-shadow: 0 1px 1px rgba(28, 43, 38, 0.06), 0 4px 10px rgba(28, 43, 38, 0.10), 0 14px 32px rgba(28, 43, 38, 0.16);
+}
+.on-dark .h2, .closing .h2, .clients-head h3 {
+  text-shadow: 0 2px 3px rgba(0, 0, 0, 0.22), 0 8px 20px rgba(0, 0, 0, 0.28), 0 18px 44px rgba(0, 0, 0, 0.32);
+}
+
+/* Award seal: lighter apricot orange, forest-green type, trophy and laurel mark */
+.award-seal svg { filter: drop-shadow(0 14px 22px rgba(150, 82, 22, 0.28)) drop-shadow(0 2px 3px rgba(150, 82, 22, 0.18)); }
+.award-seal .seal-bg { fill: #f2a055; }
+.award-seal .seal-face { fill: #f8bb7c; }
+.award-seal .seal-rule { fill: none; stroke: rgba(160, 82, 22, 0.55); stroke-width: 1.1; }
+.award-seal .seal-text { fill: #1b3a2e; font-size: 12.4px; font-weight: 700; letter-spacing: .02em; }
+.award-seal .seal-big { fill: #1b3a2e; font-size: 17.5px; font-weight: 700; text-anchor: middle; letter-spacing: -0.01em; }
+.award-seal .seal-trophy path, .award-seal .seal-trophy rect { fill: #1b3a2e; }
+.award-seal .seal-trophy .tr-line { fill: none; stroke: #1b3a2e; stroke-width: 1.7; stroke-linecap: round; }
+.award-seal .seal-laurel ellipse { fill: #24483a; }
+.award-seal .lr-stem { fill: none; stroke: #24483a; stroke-width: 1.2; stroke-linecap: round; }
+
+/* ================================================================ v8 */
+/* Award seal: gold foil, engraved forest-green lettering */
+.award-seal svg { filter: drop-shadow(0 16px 24px rgba(92, 64, 12, 0.32)) drop-shadow(0 2px 3px rgba(92, 64, 12, 0.25)); }
+.award-seal .sg-rule { fill: none; stroke: #8a6419; stroke-width: 1.1; opacity: .85; }
+.award-seal .sg-rule.thin { stroke-width: .6; opacity: .6; }
+.award-seal .sg-ring { fill: #173328; font-size: 12.4px; font-weight: 700; letter-spacing: .03em; }
+.award-seal .sg-big { fill: #173328; font-size: 17.5px; font-weight: 700; text-anchor: middle; letter-spacing: -0.01em; }
+.award-seal .hl, .award-seal .hl * { fill: rgba(255, 248, 222, 0.75) !important; stroke: rgba(255, 248, 222, 0.75) !important; }
+.award-seal .seal-trophy path, .award-seal .seal-trophy rect { fill: #173328; }
+.award-seal .seal-trophy .tr-line { fill: none; stroke: #173328; }
+.award-seal .seal-trophy.hl .tr-line { fill: none !important; }
+.award-seal .seal-laurel ellipse { fill: #1f4436; }
+.award-seal .lr-stem { stroke: #1f4436; }
+.award-seal .seal-laurel.hl .lr-stem { fill: none !important; }
+
+/* Gallery: one featured project with a photo mosaic */
+.project { background: var(--white); border: 1px solid var(--stone); border-radius: 26px; padding: 14px; box-shadow: 0 30px 60px -44px rgba(28, 43, 38, 0.45); }
+.proj-grid { display: grid; grid-template-columns: minmax(0, 2.1fr) minmax(0, 1fr) minmax(0, 1fr); grid-template-rows: repeat(2, minmax(0, 1fr)); gap: 8px; aspect-ratio: 2.25 / 1; }
+.pimg { position: relative; border: 0; padding: 0; margin: 0; cursor: pointer; overflow: hidden; border-radius: 14px; background: var(--stone); min-height: 0; }
+.pimg-main { grid-row: span 2; border-radius: 18px; }
+.pimg picture { display: block; width: 100%; height: 100%; background-size: cover; background-position: center; }
+.pimg img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform .6s ease; }
+.pimg:hover img { transform: scale(1.03); }
+.pmore {
+  position: absolute; inset: 0; display: grid; place-content: center; text-align: center; gap: 2px;
+  background: rgba(27, 58, 46, 0.62); color: var(--white); font-size: 30px; font-weight: 700; letter-spacing: -0.02em;
+}
+.pmore small { font-size: 14px; font-weight: 600; letter-spacing: 0; }
+.proj-meta { display: flex; justify-content: space-between; align-items: center; gap: 20px; padding: 18px 10px 8px; }
+.proj-meta h3 { font-size: 24px; font-weight: 600; letter-spacing: -0.015em; }
+.proj-meta p { margin-top: 4px; font-size: 16px; color: var(--ink-soft); max-width: 70ch; }
+.proj-meta .btn { flex-shrink: 0; }
+@media (max-width: 860px) {
+  .project { padding: 10px; border-radius: 20px; }
+  .proj-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); grid-template-rows: auto auto; aspect-ratio: auto; gap: 6px; }
+  .pimg-main { grid-column: 1 / -1; grid-row: auto; aspect-ratio: 4 / 3; }
+  .pimg:not(.pimg-main) { aspect-ratio: 1 / 1; border-radius: 10px; }
+  .pmore { font-size: 22px; }
+  .pmore small { font-size: 11px; }
+  .proj-meta { flex-direction: column; align-items: flex-start; padding: 14px 6px 6px; }
+  .proj-meta h3 { font-size: 21px; }
+}
+
+/* ================================================================ v9 */
+/* Gallery: one tile per project, tap to open that project's photos (as on the bathroom page) */
+.ptiles { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; }
+.ptile {
+  position: relative; display: block; border: 0; padding: 0; cursor: pointer; text-align: left;
+  aspect-ratio: 4 / 5; border-radius: 22px; overflow: hidden; background: var(--stone);
+  box-shadow: 0 30px 60px -40px rgba(28, 43, 38, 0.55);
+}
+.ptile picture { position: absolute; inset: 0; background-size: cover; background-position: center; }
+.ptile img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform .7s cubic-bezier(.2, .7, .2, 1); }
+.ptile:hover img, .ptile:focus-visible img { transform: scale(1.045); }
+.ptile::after {
+  content: ''; position: absolute; inset: 0; pointer-events: none;
+  background: linear-gradient(180deg, rgba(15, 30, 24, 0) 45%, rgba(15, 30, 24, 0.82) 100%);
+}
+.ptile-count {
+  position: absolute; z-index: 2; top: 14px; right: 14px; padding: 6px 11px; border-radius: 999px;
+  font-size: 13px; font-weight: 600; color: var(--ink); background: rgba(255, 255, 255, 0.92);
+}
+.ptile-meta { position: absolute; z-index: 2; left: 20px; right: 20px; bottom: 18px; display: grid; gap: 4px; color: var(--white); }
+.ptile-title { font-size: 22px; font-weight: 600; letter-spacing: -0.015em; line-height: 1.2; text-shadow: 0 2px 12px rgba(0, 0, 0, 0.35); }
+.ptile-sub { font-size: 15px; line-height: 1.45; color: rgba(255, 255, 255, 0.85); }
+.ptile-view {
+  justify-self: start; margin-top: 8px; padding: 8px 14px; border-radius: 999px; font-size: 14px; font-weight: 600;
+  background: rgba(255, 255, 255, 0.16); border: 1px solid rgba(255, 255, 255, 0.4);
+  -webkit-backdrop-filter: blur(6px); backdrop-filter: blur(6px); transition: background-color .2s ease;
+}
+.ptile:hover .ptile-view { background: rgba(255, 255, 255, 0.28); }
+.ptile:focus-visible { outline: 3px solid var(--forest); outline-offset: 3px; }
+@media (max-width: 860px) {
+  .ptiles {
+    display: flex; overflow-x: auto; gap: 12px; scroll-snap-type: x mandatory; -webkit-overflow-scrolling: touch;
+    margin: 0 -24px; padding: 0 24px 8px; scroll-padding-left: 24px;
+  }
+  .ptile { flex: 0 0 82%; scroll-snap-align: start; border-radius: 18px; }
+  .ptile-title { font-size: 20px; }
+}
+
+/* ================================================================ v11 */
+/* On-site photo inside the Installation step */
+.jphoto { position: relative; display: block; width: 100%; margin-top: 14px; padding: 0; border: 0; cursor: pointer; border-radius: 14px; overflow: hidden; background: var(--stone); }
+.jphoto picture { display: block; aspect-ratio: 16 / 11; background-size: cover; background-position: center; }
+.jphoto img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 62%; display: block; transition: transform .6s ease; }
+.jphoto:hover img { transform: scale(1.03); }
+.jphoto-tag { position: absolute; top: 10px; left: 10px; padding: 5px 10px; border-radius: 999px; font-size: 12.5px; font-weight: 700; background: rgba(255, 255, 255, 0.92); color: var(--forest-deep); }
+.jphoto-cap { margin-top: 8px !important; font-size: 14px !important; color: var(--muted) !important; }

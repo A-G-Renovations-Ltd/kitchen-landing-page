@@ -8,3 +8,6 @@ Desktop.ini
 .DS_Store
 .vscode/
 .idea/
+
+# Working file written by optimize_kitchen_photos.py
+project-*.html
