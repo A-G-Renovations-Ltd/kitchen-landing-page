@@ -5,7 +5,7 @@
 :root {
   --tex-plan: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 800 520%22 fill=%22none%22 stroke=%22%232d6a4f%22 stroke-width=%221.3%22 stroke-linecap=%22round%22%3E%3Crect x=%2240%22 y=%2240%22 width=%22720%22 height=%22440%22/%3E%3Crect x=%2252%22 y=%2252%22 width=%22696%22 height=%22416%22/%3E%3Cpath d=%22M300 40v12M460 40v12M300 46h160%22/%3E%3Cpath d=%22M748 300v80M748 380h-80M668 380a80 80 0 0 1 80-80%22 /%3E%3Crect x=%2252%22 y=%2252%22 width=%22560%22 height=%2262%22/%3E%3Cpath d=%22M122 52v62M192 52v62M262 52v62M332 52v62M402 52v62M472 52v62M542 52v62%22/%3E%3Crect x=%22340%22 y=%2262%22 width=%2256%22 height=%2240%22 rx=%228%22/%3E%3Ccircle cx=%22368%22 cy=%2282%22 r=%223%22/%3E%3Ccircle cx=%22490%22 cy=%2272%22 r=%229%22/%3E%3Ccircle cx=%22526%22 cy=%2272%22 r=%229%22/%3E%3Ccircle cx=%22490%22 cy=%2298%22 r=%229%22/%3E%3Ccircle cx=%22526%22 cy=%2298%22 r=%229%22/%3E%3Crect x=%2252%22 y=%22114%22 width=%2262%22 height=%22250%22/%3E%3Cpath d=%22M52 184h62M52 254h62M52 324h62%22/%3E%3Crect x=%22300%22 y=%22230%22 width=%22240%22 height=%22110%22 rx=%224%22/%3E%3Ccircle cx=%22340%22 cy=%22372%22 r=%2214%22/%3E%3Ccircle cx=%22400%22 cy=%22372%22 r=%2214%22/%3E%3Ccircle cx=%22460%22 cy=%22372%22 r=%2214%22/%3E%3Ccircle cx=%22520%22 cy=%22372%22 r=%2214%22/%3E%3Cpath d=%22M40 20h720M40 14v12M760 14v12M785 40v440M779 40h12M779 480h12M300 214h240M300 208v12M540 208v12%22 stroke-dasharray=%220%22/%3E%3Cpath d=%22M368 114c0 40 0 80 30 116M508 114c0 30 10 70 2 116%22 stroke-dasharray=%224 6%22/%3E%3C/svg%3E");
   --tex-plan-light: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 800 520%22 fill=%22none%22 stroke=%22%2395d5b2%22 stroke-width=%221.3%22 stroke-linecap=%22round%22%3E%3Crect x=%2240%22 y=%2240%22 width=%22720%22 height=%22440%22/%3E%3Crect x=%2252%22 y=%2252%22 width=%22696%22 height=%22416%22/%3E%3Cpath d=%22M300 40v12M460 40v12M300 46h160%22/%3E%3Cpath d=%22M748 300v80M748 380h-80M668 380a80 80 0 0 1 80-80%22 /%3E%3Crect x=%2252%22 y=%2252%22 width=%22560%22 height=%2262%22/%3E%3Cpath d=%22M122 52v62M192 52v62M262 52v62M332 52v62M402 52v62M472 52v62M542 52v62%22/%3E%3Crect x=%22340%22 y=%2262%22 width=%2256%22 height=%2240%22 rx=%228%22/%3E%3Ccircle cx=%22368%22 cy=%2282%22 r=%223%22/%3E%3Ccircle cx=%22490%22 cy=%2272%22 r=%229%22/%3E%3Ccircle cx=%22526%22 cy=%2272%22 r=%229%22/%3E%3Ccircle cx=%22490%22 cy=%2298%22 r=%229%22/%3E%3Ccircle cx=%22526%22 cy=%2298%22 r=%229%22/%3E%3Crect x=%2252%22 y=%22114%22 width=%2262%22 height=%22250%22/%3E%3Cpath d=%22M52 184h62M52 254h62M52 324h62%22/%3E%3Crect x=%22300%22 y=%22230%22 width=%22240%22 height=%22110%22 rx=%224%22/%3E%3Ccircle cx=%22340%22 cy=%22372%22 r=%2214%22/%3E%3Ccircle cx=%22400%22 cy=%22372%22 r=%2214%22/%3E%3Ccircle cx=%22460%22 cy=%22372%22 r=%2214%22/%3E%3Ccircle cx=%22520%22 cy=%22372%22 r=%2214%22/%3E%3Cpath d=%22M40 20h720M40 14v12M760 14v12M785 40v440M779 40h12M779 480h12M300 214h240M300 208v12M540 208v12%22 stroke-dasharray=%220%22/%3E%3Cpath d=%22M368 114c0 40 0 80 30 116M508 114c0 30 10 70 2 116%22 stroke-dasharray=%224 6%22/%3E%3C/svg%3E");
-  --tex-grain: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22220%22 height=%22220%22%3E%3Cfilter id=%22n%22%3E%3CfeTurbulence type=%22fractalNoise%22 baseFrequency=%22.85%22 numOctaves=%223%22 stitchTiles=%22stitch%22/%3E%3CfeColorMatrix type=%22saturate%22 values=%220%22/%3E%3C/filter%3E%3Crect width=%22100%25%22 height=%22100%25%22 filter=%22url(%23n)%22 opacity=%22.055%22/%3E%3C/svg%3E");
+  --tex-grain: url("../images/texture/grain.webp");
   --forest: #2d6a4f;
   --forest-hover: #245a42;
   --forest-deep: #24483a;
@@ -1340,3 +1340,29 @@ body.cc-open .sticky-book { visibility: hidden; }
 @media (prefers-reduced-motion: reduce) { .cc-switch, .cc-switch::after { transition: none; } }
 /* keep the banner clear of the hero form on desktop */
 @media (min-width: 561px) { .cc { left: auto; right: 20px; } }
+
+/* ================================================================ v20 */
+/* Scroll performance: nothing below changes how the page looks */
+/* the page-long drawing line gets its own GPU layer, so drawing it repaints only the line, not the page under it */
+.thread { will-change: transform; transform: translateZ(0); }
+/* frosted-glass blur re-blurs the page behind it on every frame; a near-solid fill looks the same */
+.site-header { -webkit-backdrop-filter: none; backdrop-filter: none; background: rgba(250, 248, 244, 0.97); }
+.ptile-view { -webkit-backdrop-filter: none; backdrop-filter: none; background: rgba(15, 30, 24, 0.36); }
+.ptile:hover .ptile-view { background: rgba(15, 30, 24, 0.5); }
+/* process line grows by scale (GPU only) instead of height (forces layout) */
+.journey .rail i { height: 100%; transform-origin: top center; transform: scaleY(0); will-change: transform; }
+/* no animation work while the tour is off screen */
+.kd.is-offscreen .hs circle.pulse { animation-play-state: paused; }
+
+
+/* ================================================================ v21 */
+/* The line is now small pieces: no page-sized layer needed */
+.thread { will-change: auto; transform: none; height: 0; overflow: visible; }
+.thread-piece, .thread-bloom { position: absolute; overflow: visible; pointer-events: none; }
+.thread-piece path { fill: none; stroke-width: 1.6; stroke-linecap: round; }
+.thread-pen {
+  position: absolute; left: 0; top: 0; width: 7px; height: 7px; margin: -3.5px 0 0 -3.5px; border-radius: 50%;
+  background: var(--brass-light); box-shadow: 0 0 0 1.5px rgba(255, 255, 255, 0.8);
+  opacity: 0; will-change: transform; transition: opacity .3s ease;
+}
+@media (max-width: 760px) { .thread-pen { width: 5px; height: 5px; margin: -2.5px 0 0 -2.5px; } }

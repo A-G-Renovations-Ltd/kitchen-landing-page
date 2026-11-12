@@ -53,7 +53,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700;9..40,800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/kitchen.css?v=19">
+  <link rel="stylesheet" href="css/kitchen.css?v=22">
 
   <!-- TRACKING:START Microsoft Clarity (loads only after analytics consent; marketing@ account) -->
   <script type="text/javascript">
@@ -204,7 +204,7 @@
 </head>
 
 <body>
-  <svg class="thread" aria-hidden="true"><defs><linearGradient id="thread-grad" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="0" y2="1000"></linearGradient></defs><path class="thread-path"/><g class="blooms"></g><circle class="thread-pen" r="3.5"/></svg>
+  <div class="thread" aria-hidden="true"><div class="thread-pieces"></div><span class="thread-pen"></span></div>
   <a class="skip" href="#main">Skip to content</a>
 
   <header class="site-header">
@@ -1049,9 +1049,17 @@
     /* ---------------- header ---------------- */
     (function () {
       const header = document.querySelector('.site-header');
-      const onScroll = () => header.classList.toggle('is-scrolled', window.scrollY > 8);
-      onScroll();
-      window.addEventListener('scroll', onScroll, { passive: true });
+      /* a 9px marker at the top of the page: the border appears once it scrolls out of view. No scroll listener needed. */
+      const mark = document.createElement('div');
+      mark.setAttribute('aria-hidden', 'true');
+      mark.style.cssText = 'position:absolute;top:0;left:0;width:1px;height:9px;pointer-events:none;';
+      document.body.prepend(mark);
+      if ('IntersectionObserver' in window) {
+        new IntersectionObserver((es) => header.classList.toggle('is-scrolled', !es[0].isIntersecting)).observe(mark);
+      } else {
+        const onScroll = () => header.classList.toggle('is-scrolled', window.scrollY > 8);
+        onScroll(); window.addEventListener('scroll', onScroll, { passive: true });
+      }
     })();
 
     /* ---------------- multi-step enquiry ---------------- */
@@ -1324,21 +1332,33 @@
       } else { inView = true; state(); }
     })();
 
+    /* ---------------- tour: pause the hotspot pulse while off screen ---------------- */
+    (function () {
+      const kd = document.querySelector('.kd');
+      if (!kd || !('IntersectionObserver' in window)) return;
+      new IntersectionObserver((es) => kd.classList.toggle('is-offscreen', !es[0].isIntersecting)).observe(kd);
+    })();
+
     /* ---------------- process: scroll-linked journey ---------------- */
     (function () {
       const list = document.querySelector('.journey');
       const fill = list.querySelector('.rail i');
       const steps = Array.from(list.querySelectorAll('.jstep'));
       let ticking = false;
+      let near = true;
+      if ('IntersectionObserver' in window) {
+        new IntersectionObserver((es) => { near = es[0].isIntersecting; if (near) update(); }, { rootMargin: '300px 0px' }).observe(list);
+      }
       function update() {
         ticking = false;
+        if (!near) return;
+        /* read every position first, then write: avoids forcing a layout mid-frame */
         const line = window.innerHeight * 0.62;
-        const first = steps[0].querySelector('.jnum').getBoundingClientRect();
-        const last = steps[steps.length - 1].querySelector('.jnum').getBoundingClientRect();
-        const span = (last.top + last.height / 2) - (first.top + first.height / 2);
-        const p = Math.max(0, Math.min(1, (line - (first.top + first.height / 2)) / span));
-        fill.style.height = (p * 100) + '%';
-        steps.forEach(s => { const r = s.querySelector('.jnum').getBoundingClientRect(); s.classList.toggle('is-on', r.top + r.height / 2 < line); });
+        const centres = steps.map((s) => { const r = s.querySelector('.jnum').getBoundingClientRect(); return r.top + r.height / 2; });
+        const span = centres[centres.length - 1] - centres[0];
+        const p = Math.max(0, Math.min(1, (line - centres[0]) / span));
+        fill.style.transform = 'scaleY(' + p.toFixed(4) + ')';
+        steps.forEach((s, i) => s.classList.toggle('is-on', centres[i] < line));
       }
       window.addEventListener('scroll', () => { if (!ticking) { ticking = true; requestAnimationFrame(update); } }, { passive: true });
       window.addEventListener('resize', update);
@@ -1369,11 +1389,13 @@
 
     /* ---------------- the drawing thread: one line through the whole page ---------------- */
     (function () {
-      const svg = document.querySelector('.thread');
-      const path = svg.querySelector('.thread-path');
-      const pen = svg.querySelector('.thread-pen');
-      const grad = svg.querySelector('#thread-grad');
-      const blooms = svg.querySelector('.blooms');
+      /* The line is built from small pieces (one per section, one per sweep between sections), so scrolling only
+         repaints the piece being drawn, and the pen dot moves on the GPU. */
+      const root = document.querySelector('.thread');
+      if (!root) return;
+      const box = root.querySelector('.thread-pieces');
+      const pen = root.querySelector('.thread-pen');
+      const NS = 'http://www.w3.org/2000/svg';
       const SKETCH = {
         dimension: '<path d="M4 30H56M4 22V38M56 22V38M11 25 4 30l7 5M49 25l7 5-7 5"/>',
         pendant: '<path d="M30 0V30"/><path d="M12 50C12 34 48 34 48 50Z"/><path d="M25 50C25 57 35 57 35 50"/>',
@@ -1384,12 +1406,41 @@
       };
       const PLAN = [['contract', 'dimension', 0.32], ['included', 'pendant', 0.12], ['extras', 'handle', 0.3],
                     ['kitchens', 'pencil', 0.35], ['process', 'key', 0.8], ['reviews', 'star', 0.25]];
-      let L = 0, lens = [], ys = [], xs = [], marks = [], raf = 0;
+      const LIGHT = ['#2d6a4f', '.42'], DARK = ['#dcb878', '.75'];
+      let pieces = [], marks = [], raf = 0, uid = 0;
+
+      function piece(d, darkA, darkB, splitY) {
+        const sv = document.createElementNS(NS, 'svg');
+        sv.setAttribute('class', 'thread-piece');
+        const path = document.createElementNS(NS, 'path');
+        path.setAttribute('d', d);
+        if (darkA === darkB) {
+          const c = darkA ? DARK : LIGHT;
+          path.setAttribute('stroke', c[0]); path.setAttribute('stroke-opacity', c[1]);
+        } else {
+          const id = 'tg' + (++uid), A = darkA ? DARK : LIGHT, B = darkB ? DARK : LIGHT;
+          sv.innerHTML = '<defs><linearGradient id="' + id + '" gradientUnits="userSpaceOnUse" x1="0" y1="' + (splitY - 1) + '" x2="0" y2="' + (splitY + 1) + '">' +
+            '<stop offset="0" stop-color="' + A[0] + '" stop-opacity="' + A[1] + '"/><stop offset="1" stop-color="' + B[0] + '" stop-opacity="' + B[1] + '"/></linearGradient></defs>';
+          path.setAttribute('stroke', 'url(#' + id + ')');
+        }
+        sv.appendChild(path); box.appendChild(sv);
+        const bb = path.getBBox(), pad = 6;
+        const left = Math.floor(bb.x - pad), top = Math.floor(bb.y - pad);
+        const w = Math.ceil(bb.width + pad * 2), h = Math.ceil(bb.height + pad * 2);
+        sv.setAttribute('viewBox', left + ' ' + top + ' ' + w + ' ' + h);
+        sv.setAttribute('width', w); sv.setAttribute('height', h);
+        sv.style.left = left + 'px'; sv.style.top = top + 'px';
+        const len = path.getTotalLength(), stepL = Math.max(6, len / 400);
+        const lens = [], ys = [], xs = [];
+        for (let l = 0; l < len; l += stepL) { const pt = path.getPointAtLength(l); lens.push(l); ys.push(pt.y); xs.push(pt.x); }
+        const last = path.getPointAtLength(len); lens.push(len); ys.push(last.y); xs.push(last.x);
+        path.style.strokeDasharray = len; path.style.strokeDashoffset = len;
+        pieces.push({ path, len, lens, ys, xs, yStart: ys[0], yEnd: last.y, state: -1, off: len });
+      }
 
       function build() {
         const W = document.documentElement.clientWidth;
-        const H = document.documentElement.scrollHeight;
-        svg.setAttribute('width', W); svg.setAttribute('height', H); svg.style.height = H + 'px';
+        box.textContent = ''; pieces = []; marks = [];
         const gutter = (W - Math.min(1200, W)) / 2;
         const wide = gutter >= 70;
         const xL = wide ? gutter / 2 : 11, xR = wide ? W - gutter / 2 : W - 11;
@@ -1398,15 +1449,19 @@
         const sidesNarrow = { contract: 'L', included: 'R', extras: 'L', kitchens: 'R', process: 'L', reviews: 'R', enquiry: 'L', faq: 'R' };
         const sides = wide ? sidesWide : sidesNarrow;
         const inset = wide ? 60 : 28, pull = wide ? 70 : 34;
-        let d = '', prevX = null, prevY = null, stops = '';
+        let prevX = null, prevY = null, prevDark = false;
         secs.forEach((sec, i) => {
           const top = sec.offsetTop, bot = top + sec.offsetHeight;
           const x = (sides[sec.id] || 'L') === 'L' ? xL : xR;
           const y1 = top + (i === 0 ? 40 : inset), y2 = bot - inset;
-          if (prevX === null) d += 'M' + x + ' ' + y1;
-          else if (prevX === x) d += 'L' + x + ' ' + y1;
-          else d += 'C' + prevX + ' ' + (prevY + pull) + ' ' + x + ' ' + (y1 - pull) + ' ' + x + ' ' + y1;
+          const dark = sec.classList.contains('on-dark');
+          if (prevX !== null) {
+            const cd = prevX === x ? 'M' + x + ' ' + prevY + 'L' + x + ' ' + y1
+              : 'M' + prevX + ' ' + prevY + 'C' + prevX + ' ' + (prevY + pull) + ' ' + x + ' ' + (y1 - pull) + ' ' + x + ' ' + y1;
+            piece(cd, prevDark, dark, top);
+          }
           // gentle curves on the way down, so it reads as drawn rather than ruled
+          let d = 'M' + x + ' ' + y1;
           const span = y2 - y1;
           if (wide) {
             const amp = Math.min(14, gutter / 8);
@@ -1423,47 +1478,57 @@
               d += 'C' + (x + amp * dir * 1.6) + ' ' + (ya + step * 0.3) + ' ' + (x + amp * dir * 1.6) + ' ' + (yb - step * 0.3) + ' ' + x + ' ' + yb;
             }
           }
-          prevX = x; prevY = y2;
-          const dark = sec.classList.contains('on-dark');
-          const col = dark ? 'stop-color="#dcb878" stop-opacity=".75"' : 'stop-color="#2d6a4f" stop-opacity=".42"';
-          stops += '<stop offset="' + (top / H) + '" ' + col + '/><stop offset="' + (bot / H) + '" ' + col + '/>';
+          piece(d, dark, dark, 0);
+          prevX = x; prevY = y2; prevDark = dark;
           sec.dataset.threadX = x;
         });
-        grad.setAttribute('y2', H); grad.innerHTML = stops;
-        path.setAttribute('d', d);
-        L = path.getTotalLength();
-        lens = []; ys = []; xs = [];
-        for (let l = 0; l <= L; l += 12) { const pt = path.getPointAtLength(l); lens.push(l); ys.push(pt.y); xs.push(pt.x); }
-        path.style.strokeDasharray = L;
         // sketches that bloom from the line, only where the margin has room
-        blooms.innerHTML = ''; marks = [];
         if (gutter >= 100) {
           const scale = Math.min(1, (gutter - 30) / 60);
           PLAN.forEach(([id, kind, at]) => {
             const sec = document.getElementById(id); if (!sec) return;
             const y = sec.offsetTop + sec.offsetHeight * at, x = Number(sec.dataset.threadX);
-            const g = document.createElementNS('http://www.w3.org/2000/svg', 'g');
+            const sv = document.createElementNS(NS, 'svg');
+            sv.setAttribute('class', 'thread-bloom'); sv.setAttribute('width', '1'); sv.setAttribute('height', '1');
+            sv.style.left = (x - 30 * scale) + 'px'; sv.style.top = y + 'px';
+            const g = document.createElementNS(NS, 'g');
             g.setAttribute('class', 'bloom ' + (sec.classList.contains('on-dark') ? 'dark' : 'light'));
-            g.setAttribute('transform', 'translate(' + (x - 30 * scale) + ' ' + y + ') scale(' + scale + ')');
+            g.setAttribute('transform', 'scale(' + scale + ')');
             g.innerHTML = SKETCH[kind];
             g.querySelectorAll('*').forEach(el => el.setAttribute('pathLength', '1'));
-            blooms.appendChild(g); marks.push([y, g]);
+            sv.appendChild(g); box.appendChild(sv); marks.push([y, g]);
           });
         }
         update();
       }
+
       function update() {
         raf = 0;
-        if (!L) return;
+        if (!pieces.length) return;
         const target = reduceMotion ? Infinity : window.scrollY + window.innerHeight * 0.72;
-        let lo = 0, hi = ys.length - 1;
-        while (lo < hi) { const mid = (lo + hi) >> 1; if (ys[mid] < target) lo = mid + 1; else hi = mid; }
-        const len = target === Infinity ? L : lens[lo];
-        path.style.strokeDashoffset = Math.max(0, L - len);
-        pen.setAttribute('cx', xs[lo]); pen.setAttribute('cy', ys[lo]);
-        pen.style.opacity = (reduceMotion || lo >= ys.length - 1) ? 0 : 1;
+        let at = null;
+        for (const pc of pieces) {
+          const st = target >= pc.yEnd ? 2 : (target <= pc.yStart ? 0 : 1);
+          if (st === 1) {
+            let lo = 0, hi = pc.ys.length - 1;
+            while (lo < hi) { const mid = (lo + hi) >> 1; if (pc.ys[mid] < target) lo = mid + 1; else hi = mid; }
+            const off = pc.len - pc.lens[lo];
+            if (off !== pc.off) { pc.path.style.strokeDashoffset = off; pc.off = off; }
+            at = [pc.xs[lo], pc.ys[lo]];
+          } else if (st !== pc.state) {
+            const off = st === 2 ? 0 : pc.len;
+            pc.path.style.strokeDashoffset = off; pc.off = off;
+          }
+          pc.state = st;
+        }
+        if (!at && target < pieces[0].yStart) at = [pieces[0].xs[0], pieces[0].ys[0]];
+        if (at && !reduceMotion) {
+          pen.style.transform = 'translate3d(' + at[0] + 'px,' + at[1] + 'px,0)';
+          pen.style.opacity = '1';
+        } else pen.style.opacity = '0';
         marks.forEach(([y, g]) => g.classList.toggle('on', target >= y + 30));
       }
+
       let t = 0;
       const rebuild = () => { clearTimeout(t); t = setTimeout(build, 120); };
       window.addEventListener('scroll', () => { if (!raf) raf = requestAnimationFrame(update); }, { passive: true });
